@@ -16,9 +16,13 @@ conda create --name hallucination-framework --file requirements.txt python=3.13.
 
 The repo is divided into three main subfolders, each of which has a similar internal structure.
 
-`LLMs` contains the code (`src`) and data (`data`, including gold annotations, copied here from `Logic` and `Trivago` folders) used to perform annotation with LLMs in both domains, and the resulting annotations and code to analyze them (`results`).  
-`Logic` contains the data (`data`) used to perform annotation with humans in the logic domain, and the resulting annotations (crowdsourced in `evaluation/annotations` and gold in `evaluation/gold_label`) and code to analyze them (`evaluation`). For the logic domain, we leveraged a subset of data deriving from the [Grade Grinder Corpus](https://www.semanticscholar.org/paper/Student-Translations-of-Natural-Language-into-The-Barker-Plummer-Cox/28e805aae41255b8515173669ea19faa61e7cb87), preprocessed using the file in `evaluation/utils`.  
+`LLMs` contains the code (`src`) and data (`data`, including gold annotations, copied here from `Logic` and `Trivago` folders) used to perform annotation with LLMs in both domains, and the resulting annotations and code to analyze them (`results`).
+
+`Logic` contains the data (`data`) used to perform annotation with humans in the logic domain, and the resulting annotations (crowdsourced in `evaluation/annotations` and gold in `evaluation/gold_label`) and code to analyze them (`evaluation`). For the logic domain, we leveraged a subset of data deriving from the [Grade Grinder Corpus](https://www.semanticscholar.org/paper/Student-Translations-of-Natural-Language-into-The-Barker-Plummer-Cox/28e805aae41255b8515173669ea19faa61e7cb87), preprocessed using the file in `evaluation/utils`.
+
 `Trivago` contains the data (`data`) used to perform annotation with humans in the hotel domain, and the resulting annotations (crowdsourced in `experiment/crowdsourcing` (Prolific crowdworkers) and `experiment/trivago annotations` (trivago employees), and gold in `experiment/gold_label`), and code to analyze them (`experiment/analysis`). For the hotel domain, we leveraged data from the internal trivago database.
+
+---
 
 Note that:
 - We cannot share the original Grade Grinder Corpus.
