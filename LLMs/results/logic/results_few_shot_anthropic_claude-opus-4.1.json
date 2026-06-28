@@ -1,0 +1,452 @@
+[
+  {
+    "input": "∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )",
+    "output": "There is a cube and a cube and a dodecahedron and a dodecahedron such that for all cubes, they are either the first cube or the second cube, and for all dodecahedrons, they are either the first dodecahedron or the second dodecahedron, and the first cube is not the second cube, and the first dodecahedron is not the second dodecahedron, and the first cube is not the first dodecahedron, and the first cube is not the second dodecahedron, and the second cube is not the first dodecahedron, and the second cube is not the second dodecahedron, and the first cube is not behind the first dodecahedron, and the first cube is not behind the second dodecahedron, and the second cube is not behind the first dodecahedron, and the second cube is not behind the second dodecahedron.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )",
+    "output": "There exist four objects, two cubes and two dodecahedrons, such that the two cubes are not the same object, the two dodecahedrons are not the same object, and none of the cubes is the same object as any of the dodecahedrons. Furthermore, neither cube is behind either dodecahedron.",
+    "predicted_category": "B",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )",
+    "output": "There exists an x, y, z, and u such that x is a cube, y is a cube, z is a dodecahedron, u is a dodecahedron, for all v, if v is a cube, then v is either x or y, for all w, if w is a dodecahedron, then w is either z or u, x is not equal to y, z is not equal to u, x is not equal to z, x is not equal to u, y is not equal to z, y is not equal to u, x is not behind z, x is not behind u, y is not behind z, and y is not behind u.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )",
+    "output": "There are two cubes and two dodecahedrons, where each cube is not the same as the other cube, each dodecahedron is not the same as the other dodecahedron, and no cube is behind a dodecahedron.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )",
+    "output": "There exists a cube x and a cube y, and a dodecahedron z and a dodecahedron u such that for all cubes v, v is either x or y, and for all dodecahedrons w, w is either z or u. Additionally, x is not equal to y, z is not equal to u, x is not equal to z, x is not equal to u, y is not equal to z, and y is not equal to u. Furthermore, x is not behind z and x is not behind u, and y is not behind z and y is not behind u.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "( Larger ( c , e ) → Larger ( b , c ) ) ∧ ( ¬ Larger ( b , c ) → ¬ Larger ( c , e ) )",
+    "output": "If c is larger than e, then b is larger than c. If b is not larger than c, then c is not larger than e.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "( Larger ( c , e ) → Larger ( b , c ) ) ∧ ( ¬ Larger ( b , c ) → ¬ Larger ( c , e ) )",
+    "output": "If c is larger than e, then b is larger than c. Otherwise, c is not larger than e.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "( Larger ( c , e ) → Larger ( b , c ) ) ∧ ( ¬ Larger ( b , c ) → ¬ Larger ( c , e ) )",
+    "output": "If c is larger than e, then b is larger than c. If b is not larger than c, then c is not larger than e.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "( Larger ( c , e ) → Larger ( b , c ) ) ∧ ( ¬ Larger ( b , c ) → ¬ Larger ( c , e ) )",
+    "output": "If c is larger than e, then b is larger than c. And if b is not larger than c, then c is not larger than e.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "( Larger ( c , e ) → Larger ( b , c ) ) ∧ ( ¬ Larger ( b , c ) → ¬ Larger ( c , e ) )",
+    "output": "If cube c is larger than cube e, then cube b is larger than cube c, and if cube b is not larger than cube c, then cube c is not larger than cube e.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Large ( x ) ) → ( x = c ∨ x = b ) )",
+    "output": "For all x, for all y, for all z, if x is a cube and x is large, then x is equal to c or x is equal to b.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Large ( x ) ) → ( x = c ∨ x = b ) )",
+    "output": "If x is a large cube, then x is either c or b.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Large ( x ) ) → ( x = c ∨ x = b ) )",
+    "output": "For all x, for all y, for all z, if x is a cube and x is large, then x is either c or x is b.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Large ( x ) ) → ( x = c ∨ x = b ) )",
+    "output": "For all x, for all y, for all z, if x is a large cube, then x is either c or b.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Large ( x ) ) → ( x = c ∨ x = b ) )",
+    "output": "For every cube x, if x is large, then x is either c or b.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ¬ ( Adjoins ( a , x ) ∨ Adjoins ( x , a ) )",
+    "output": "a is not adjoined to any other block.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ¬ ( Adjoins ( a , x ) ∨ Adjoins ( x , a ) )",
+    "output": "Nothing adjoins a or a adjoins nothing.",
+    "predicted_category": "B",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ¬ ( Adjoins ( a , x ) ∨ Adjoins ( x , a ) )",
+    "output": "For all x, it is not the case that a adjoins x or x adjoins a.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ¬ ( Adjoins ( a , x ) ∨ Adjoins ( x , a ) )",
+    "output": "For all x, x is not adjacent to a.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ¬ ( Adjoins ( a , x ) ∨ Adjoins ( x , a ) )",
+    "output": "For all x, it is not the case that x adjoins a or x adjoins a.",
+    "predicted_category": "B",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ¬ ∀ y Larger ( x , y )",
+    "output": "For all x and for all y, it is not true that for all y, x is larger than y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ¬ ∀ y Larger ( x , y )",
+    "output": "There is no largest object.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ¬ ∀ y Larger ( x , y )",
+    "output": "For all x, for all y, it is not the case that for all y, x is larger than y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ¬ ∀ y Larger ( x , y )",
+    "output": "For all x and for all y, x is not larger than y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ¬ ∀ y Larger ( x , y )",
+    "output": "For all x and for all y, it is not the case that x is larger than every y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Larger ( a , x ) ∧ Tet ( z ) ) → Smaller ( a , z ) )",
+    "output": "For all x, y, and z, if x is a cube and a is larger than x and z is a tetrahedron, then a is smaller than z.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Larger ( a , x ) ∧ Tet ( z ) ) → Smaller ( a , z ) )",
+    "output": "For all x, for all y, for all z, if x is a cube, a is larger than x, and z is a tetrahedron, then a is smaller than z.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Larger ( a , x ) ∧ Tet ( z ) ) → Smaller ( a , z ) )",
+    "output": "For all x, for all y, for all z, if x is a cube and a is larger than x and z is a tetrahedron, then a is smaller than z.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Larger ( a , x ) ∧ Tet ( z ) ) → Smaller ( a , z ) )",
+    "output": "For all x, y, and z, if x is a cube and a is larger than x and z is a tetrahedron, then a is smaller than z.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Larger ( a , x ) ∧ Tet ( z ) ) → Smaller ( a , z ) )",
+    "output": "For all x, for all y, and for all z, if x is a cube and a is larger than x and z is a tetrahedron, then a is smaller than z.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ( ( Cube ( x ) ∧ Cube ( y ) ∧ Large ( x ) ∧ Large ( y ) ) → ( x = b ∨ x = c ) )",
+    "output": "For all x and for all y, if x is a cube and y is a cube and x is large and y is large, then x is b or x is c.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ( ( Cube ( x ) ∧ Cube ( y ) ∧ Large ( x ) ∧ Large ( y ) ) → ( x = b ∨ x = c ) )",
+    "output": "For all x and all y, if x and y are both cubes, and both large, then x is either b or c.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ( ( Cube ( x ) ∧ Cube ( y ) ∧ Large ( x ) ∧ Large ( y ) ) → ( x = b ∨ x = c ) )",
+    "output": "For all x and y, if x and y are both cubes and both large, then x is either b or c.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ( ( Cube ( x ) ∧ Cube ( y ) ∧ Large ( x ) ∧ Large ( y ) ) → ( x = b ∨ x = c ) )",
+    "output": "For all cubes x and y that are large, either x is b or x is c.",
+    "predicted_category": "B",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ( ( Cube ( x ) ∧ Cube ( y ) ∧ Large ( x ) ∧ Large ( y ) ) → ( x = b ∨ x = c ) )",
+    "output": "For all x and for all y, if x is a large cube and y is a large cube, then x is either b or c.",
+    "predicted_category": "B",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ( ¬ ( Dodec ( x ) → Large ( x ) ) ∧ ¬ ( Dodec ( x ) → Small ( x ) ) )",
+    "output": "There is a figure x such that it is not the case that if x is a dodecahedron then x is large, and it is not the case that if x is a dodecahedron then x is small.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ( ¬ ( Dodec ( x ) → Large ( x ) ) ∧ ¬ ( Dodec ( x ) → Small ( x ) ) )",
+    "output": "There exists an x such that it is not the case that if x is a dodecahedron then x is large and it is not the case that if x is a dodecahedron then x is small.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ( ¬ ( Dodec ( x ) → Large ( x ) ) ∧ ¬ ( Dodec ( x ) → Small ( x ) ) )",
+    "output": "There exists an x such that it is not the case that if x is a dodecahedron then x is large and it is not the case that if x is a dodecahedron then x is small.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ( ¬ ( Dodec ( x ) → Large ( x ) ) ∧ ¬ ( Dodec ( x ) → Small ( x ) ) )",
+    "output": "There exists an object that is not a dodecahedron and is not large, and is not a dodecahedron and is not small.",
+    "predicted_category": "F",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ( ¬ ( Dodec ( x ) → Large ( x ) ) ∧ ¬ ( Dodec ( x ) → Small ( x ) ) )",
+    "output": "There exists an x such that it is not the case that if x is a dodecahedron then x is large, and it is not the case that if x is a dodecahedron then x is small.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ¬ ∃ y FrontOf ( y , x ) → Small ( x ) ) ∧ ∀ x ( ¬ ∃ y BackOf ( y , x ) → Large ( x ) ) ∧ ∀ x ( ∃ y ∃ z ( FrontOf ( y , x ) ∧ BackOf ( z , x ) ∧ ¬ y = z ) → Medium ( x ) )",
+    "output": "For all x, if there does not exist a y such that y is in front of x, then x is small. And for all x, if there does not exist a y such that y is behind x, then x is large. And for all x, if there exist a y and a z such that y is in front of x and z is behind x and y is not equal to z, then x is medium.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ¬ ∃ y FrontOf ( y , x ) → Small ( x ) ) ∧ ∀ x ( ¬ ∃ y BackOf ( y , x ) → Large ( x ) ) ∧ ∀ x ( ∃ y ∃ z ( FrontOf ( y , x ) ∧ BackOf ( z , x ) ∧ ¬ y = z ) → Medium ( x ) )",
+    "output": "For all x, if there does not exist a y such that y is in front of x, then x is small. And for all x, if there does not exist a y such that y is behind x, then x is large. And for all x, if there exist a y and a z such that y is in front of x and z is behind x and y is not equal to z, then x is medium.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ¬ ∃ y FrontOf ( y , x ) → Small ( x ) ) ∧ ∀ x ( ¬ ∃ y BackOf ( y , x ) → Large ( x ) ) ∧ ∀ x ( ∃ y ∃ z ( FrontOf ( y , x ) ∧ BackOf ( z , x ) ∧ ¬ y = z ) → Medium ( x ) )",
+    "output": "For all x, if there is no y in front of x, then x is small. For all x, if there is no y behind x, then x is large. For all x, if there is a y and a z such that y is in front of x and z is behind x and y is not equal to z, then x is medium.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ¬ ∃ y FrontOf ( y , x ) → Small ( x ) ) ∧ ∀ x ( ¬ ∃ y BackOf ( y , x ) → Large ( x ) ) ∧ ∀ x ( ∃ y ∃ z ( FrontOf ( y , x ) ∧ BackOf ( z , x ) ∧ ¬ y = z ) → Medium ( x ) )",
+    "output": "For all x, if there is no y in front of x, then x is small. For all x, if there is no y behind x, then x is large. For all x, if there exists y and z such that y is in front of x, z is behind x, and y is not equal to z, then x is medium.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ¬ ∃ y FrontOf ( y , x ) → Small ( x ) ) ∧ ∀ x ( ¬ ∃ y BackOf ( y , x ) → Large ( x ) ) ∧ ∀ x ( ∃ y ∃ z ( FrontOf ( y , x ) ∧ BackOf ( z , x ) ∧ ¬ y = z ) → Medium ( x ) )",
+    "output": "For every x, it is not the case that if there exists a y such that y is in front of x, then x is small. For every x, it is not the case that if there exists a y such that y is behind x, then x is large. For every x, if there exist y and z such that y is in front of x and z is behind x, and y is not equal to z, then x is medium.",
+    "predicted_category": "F",
+    "reasoning": null
+  },
+  {
+    "input": "∀ z ∀ y ( BackOf ( z , y ) → Larger ( z , y ) )",
+    "output": "For all z and for all y, if z is behind y, then z is larger than y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ z ∀ y ( BackOf ( z , y ) → Larger ( z , y ) )",
+    "output": "For all z and y, if z is behind y, then z is larger than y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ z ∀ y ( BackOf ( z , y ) → Larger ( z , y ) )",
+    "output": "For all z, for all y, if z is behind y, then z is larger than y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ z ∀ y ( BackOf ( z , y ) → Larger ( z , y ) )",
+    "output": "For all z and y, if z is behind y, then z is larger than y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ z ∀ y ( BackOf ( z , y ) → Larger ( z , y ) )",
+    "output": "For all z and for all y, if z is behind y, then z is larger than y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ∀ y ∀ z ( Cube ( x ) ∧ Large ( x ) ∧ ( ( Cube ( y ) ∧ Large ( y ) ∧ Dodec ( z ) ) → ( x = y ∧ ¬ BackOf ( z , y ) ) ) )",
+    "output": "There is a large cube x such that for all large cubes y and all dodecahedra z, if x equals y and z is not behind y, then x equals y and z is not behind y.",
+    "predicted_category": "B",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ∀ y ∀ z ( Cube ( x ) ∧ Large ( x ) ∧ ( ( Cube ( y ) ∧ Large ( y ) ∧ Dodec ( z ) ) → ( x = y ∧ ¬ BackOf ( z , y ) ) ) )",
+    "output": "There is a large cube x such that for all y and all z, if y is a large cube and z is a dodecahedron, then x is y and z is not behind y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ∀ y ∀ z ( Cube ( x ) ∧ Large ( x ) ∧ ( ( Cube ( y ) ∧ Large ( y ) ∧ Dodec ( z ) ) → ( x = y ∧ ¬ BackOf ( z , y ) ) ) )",
+    "output": "There exists an x such that for all y and z, if x is a large cube and y is a large cube and z is a dodecahedron, then x is identical to y and z is not behind y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ∀ y ∀ z ( Cube ( x ) ∧ Large ( x ) ∧ ( ( Cube ( y ) ∧ Large ( y ) ∧ Dodec ( z ) ) → ( x = y ∧ ¬ BackOf ( z , y ) ) ) )",
+    "output": "There exists a cube that is large, and if there is another cube that is large and a dodecahedron, then the first cube is the same as the second cube and is not behind the dodecahedron.",
+    "predicted_category": "B",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ∀ y ∀ z ( Cube ( x ) ∧ Large ( x ) ∧ ( ( Cube ( y ) ∧ Large ( y ) ∧ Dodec ( z ) ) → ( x = y ∧ ¬ BackOf ( z , y ) ) ) )",
+    "output": "There exists a large cube such that for all y and z, if y is a large cube and z is a dodecahedron, then y is equal to this large cube and z is not behind y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ( ( Tet ( x ) ∧ Small ( x ) ∧ Tet ( y ) ∧ ¬ Small ( y ) ) → ( FrontOf ( x , y ) ∧ ¬ RightOf ( x , y ) ∧ ¬ LeftOf ( x , y ) ) )",
+    "output": "For all x and for all y, if x is a tetrahedron and x is small and y is a tetrahedron and y is not small, then x is in front of y and x is not to the right of y and x is not to the left of y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ( ( Tet ( x ) ∧ Small ( x ) ∧ Tet ( y ) ∧ ¬ Small ( y ) ) → ( FrontOf ( x , y ) ∧ ¬ RightOf ( x , y ) ∧ ¬ LeftOf ( x , y ) ) )",
+    "output": "For all x and y, if x is a small tetrahedron and y is a non-small tetrahedron, then x is in front of y and x is not to the right of y and x is not to the left of y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ( ( Tet ( x ) ∧ Small ( x ) ∧ Tet ( y ) ∧ ¬ Small ( y ) ) → ( FrontOf ( x , y ) ∧ ¬ RightOf ( x , y ) ∧ ¬ LeftOf ( x , y ) ) )",
+    "output": "For all x and y, if x is a small tetrahedron and y is a non-small tetrahedron, then x is in front of y and not to the right or left of y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ( ( Tet ( x ) ∧ Small ( x ) ∧ Tet ( y ) ∧ ¬ Small ( y ) ) → ( FrontOf ( x , y ) ∧ ¬ RightOf ( x , y ) ∧ ¬ LeftOf ( x , y ) ) )",
+    "output": "For all tetrahedrons x and y, if x is small and y is not small, then x is in front of y and not to the right or left of y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ∀ y ( ( Tet ( x ) ∧ Small ( x ) ∧ Tet ( y ) ∧ ¬ Small ( y ) ) → ( FrontOf ( x , y ) ∧ ¬ RightOf ( x , y ) ∧ ¬ LeftOf ( x , y ) ) )",
+    "output": "For all x and for all y, if x is a tetrahedron and x is small and y is a tetrahedron and y is not small, then x is in front of y and x is not to the right of y and x is not to the left of y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ( Large ( x ) ∧ Cube ( x ) ) → ( x = b ∨ x = c ) ) ∧ ∀ y ( ( Large ( y ) ∧ Cube ( y ) ) → ( y = b ∨ y = c ) )",
+    "output": "For all x, if x is large and a cube, then x is either b or c. For all y, if y is large and a cube, then y is either b or c.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ( Large ( x ) ∧ Cube ( x ) ) → ( x = b ∨ x = c ) ) ∧ ∀ y ( ( Large ( y ) ∧ Cube ( y ) ) → ( y = b ∨ y = c ) )",
+    "output": "If something is a large cube, then it is either b or c. If something is a large cube, then it is either b or c.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ( Large ( x ) ∧ Cube ( x ) ) → ( x = b ∨ x = c ) ) ∧ ∀ y ( ( Large ( y ) ∧ Cube ( y ) ) → ( y = b ∨ y = c ) )",
+    "output": "For all x, if x is large and a cube, then x is either b or c. And for all y, if y is large and a cube, then y is either b or c.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ( Large ( x ) ∧ Cube ( x ) ) → ( x = b ∨ x = c ) ) ∧ ∀ y ( ( Large ( y ) ∧ Cube ( y ) ) → ( y = b ∨ y = c ) )",
+    "output": "For all objects x, if x is a large cube, then x is either b or c. And for all objects y, if y is a large cube, then y is either b or c.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ( Large ( x ) ∧ Cube ( x ) ) → ( x = b ∨ x = c ) ) ∧ ∀ y ( ( Large ( y ) ∧ Cube ( y ) ) → ( y = b ∨ y = c ) )",
+    "output": "For all x, if x is large and a cube, then x is either b or c. And for all y, if y is large and a cube, then y is either b or c.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ( Dodec ( x ) ∧ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) ∧ Large ( x ) ) ∨ ¬ Dodec ( x ) ∨ ¬ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) )",
+    "output": "For all x, if x is a dodecahedron and there exists a y such that y is to the right of x and y is a cube and x is large, or if x is not a dodecahedron, or if there does not exist a y such that y is to the right of x and y is a cube, then...",
+    "predicted_category": "F",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ( Dodec ( x ) ∧ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) ∧ Large ( x ) ) ∨ ¬ Dodec ( x ) ∨ ¬ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) )",
+    "output": "For all x, if x is a dodecahedron and there exists a y such that y is to the right of x and y is a cube and x is large, or if x is not a dodecahedron or there does not exist a y such that y is to the right of x and y is a cube, then...",
+    "predicted_category": "B",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ( Dodec ( x ) ∧ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) ∧ Large ( x ) ) ∨ ¬ Dodec ( x ) ∨ ¬ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) )",
+    "output": "For all x, if x is a dodecahedron and there exists a y such that y is to the right of x and y is a cube, and x is large, then x is not a dodecahedron or there does not exist a y such that y is to the right of x and y is a cube.",
+    "predicted_category": "F",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ( Dodec ( x ) ∧ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) ∧ Large ( x ) ) ∨ ¬ Dodec ( x ) ∨ ¬ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) )",
+    "output": "For all dodecahedrons x, if there exists a cube y to the right of x, then x is large. Otherwise, x is not a dodecahedron or there does not exist a cube y to the right of x.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∀ x ( ( Dodec ( x ) ∧ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) ∧ Large ( x ) ) ∨ ¬ Dodec ( x ) ∨ ¬ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) )",
+    "output": "For every x, x is a dodecahedron and there exists a y such that y is to the right of x and y is a cube, and x is large, or x is not a dodecahedron or there does not exist a y such that y is to the right of x and y is a cube.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ¬ ( Cube ( x ) → ∀ y ( Tet ( y ) → Smaller ( x , y ) ) )",
+    "output": "There is a figure that is not a cube and is not smaller than every tetrahedron.",
+    "predicted_category": "F",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ¬ ( Cube ( x ) → ∀ y ( Tet ( y ) → Smaller ( x , y ) ) )",
+    "output": "There is a cube that is not smaller than every tetrahedron.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ¬ ( Cube ( x ) → ∀ y ( Tet ( y ) → Smaller ( x , y ) ) )",
+    "output": "There exists an x such that it is not the case that if x is a cube, then for all y, if y is a tetrahedron, then x is smaller than y.",
+    "predicted_category": "A",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ¬ ( Cube ( x ) → ∀ y ( Tet ( y ) → Smaller ( x , y ) ) )",
+    "output": "There exists an object that is not a cube and is not smaller than all tetrahedrons.",
+    "predicted_category": "F",
+    "reasoning": null
+  },
+  {
+    "input": "∃ x ¬ ( Cube ( x ) → ∀ y ( Tet ( y ) → Smaller ( x , y ) ) )",
+    "output": "There exists an x such that it is not the case that if x is a cube, then for all y, if y is a tetrahedron, x is smaller than y.",
+    "predicted_category": "A",
+    "reasoning": null
+  }
+]

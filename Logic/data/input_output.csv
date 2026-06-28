@@ -1,0 +1,671 @@
+input,output,model,block,name,indented
+∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ) ∧ ∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ) → ( x = z ∨ x = y ∨ y = z ) ),"There exists a cube x, a cube y, and a cube z, such that x, y, and z are not the same cube, and for all cubes x, y, and z, if x, y, and z are cubes, then x, y, and z are the same cube or x and y are the same cube or y and z are the same cube.",codellama/CodeLlama-34b-Instruct-hf,,,
+∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ) ∧ ∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ) → ( x = z ∨ x = y ∨ y = z ) ),"There exist three cubes such that no two of them are the same cube. For any three cubes, if they are cubes, then they are all the same cube.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ) ∧ ∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ) → ( x = z ∨ x = y ∨ y = z ) ),"There exist three cubes, no two of which are the same.",gemini-1.0-pro,,,
+∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ) ∧ ∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ) → ( x = z ∨ x = y ∨ y = z ) ),"There exist three cubes that are all different, and for any three cubes, at least two of them are the same.",gpt-3.5-turbo,,,
+∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ) ∧ ∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ) → ( x = z ∨ x = y ∨ y = z ) ),"There exists a cube x and a cube y such that x is not equal to y, and for all cubes x, y, and z, if x, y, and z are cubes, then either x is equal to z, or x is equal to y, or y is equal to z.",microsoft/Phi-3.5-mini-instruct,,,
+"∃ x ( Small ( x ) ∧ Tet ( x ) ∧ ∀ y ( ( Tet ( y ) ∧ Small ( y ) ) → y = x ) ∧ ∀ z ( ( Tet ( z ) ∧ ¬ Small ( z ) ∧ ¬ x = z ) → ( FrontOf ( x , z ) ∧ ¬ Adjoins ( x , z ) ) ) )","There is a small tetrahedron x such that every small tetrahedron y is x, and every tetrahedron z that is not small and not x is in front of x and does not adjoin x.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∃ x ( Small ( x ) ∧ Tet ( x ) ∧ ∀ y ( ( Tet ( y ) ∧ Small ( y ) ) → y = x ) ∧ ∀ z ( ( Tet ( z ) ∧ ¬ Small ( z ) ∧ ¬ x = z ) → ( FrontOf ( x , z ) ∧ ¬ Adjoins ( x , z ) ) ) )",There is a small tetrahedron such that it is the only small tetrahedron and every other large tetrahedron is in front of it and does not adjoin it.,mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∃ x ( Small ( x ) ∧ Tet ( x ) ∧ ∀ y ( ( Tet ( y ) ∧ Small ( y ) ) → y = x ) ∧ ∀ z ( ( Tet ( z ) ∧ ¬ Small ( z ) ∧ ¬ x = z ) → ( FrontOf ( x , z ) ∧ ¬ Adjoins ( x , z ) ) ) )",There exists a small tetrahedron such that all other small tetrahedrons are identical to it and all other tetrahedrons that are not small and not identical to it are in front of it and do not adjoin it.,gemini-1.0-pro,,,
+"∃ x ( Small ( x ) ∧ Tet ( x ) ∧ ∀ y ( ( Tet ( y ) ∧ Small ( y ) ) → y = x ) ∧ ∀ z ( ( Tet ( z ) ∧ ¬ Small ( z ) ∧ ¬ x = z ) → ( FrontOf ( x , z ) ∧ ¬ Adjoins ( x , z ) ) ) )","There exists a small tetrahedron that is the only small tetrahedron, and is in front of any other non-small tetrahedron that is not adjacent to it.",gpt-3.5-turbo,,,
+"∃ x ( Small ( x ) ∧ Tet ( x ) ∧ ∀ y ( ( Tet ( y ) ∧ Small ( y ) ) → y = x ) ∧ ∀ z ( ( Tet ( z ) ∧ ¬ Small ( z ) ∧ ¬ x = z ) → ( FrontOf ( x , z ) ∧ ¬ Adjoins ( x , z ) ) ) )","There exists a small tetrahedron x such that for all y, if y is a small tetrahedron, then y is equal to x, and for all z, if z is a tetrahedron that is not small and not equal to x, then x is in front of z and does not adjoin z.",microsoft/Phi-3.5-mini-instruct,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ∧ ∀ z ( Dodec ( z ) → ( z = x ∨ z = y ) ) ∧ ∀ u ( Dodec ( u ) → ¬ ( Small ( x ) ∨ Small ( y ) ) ) ),There is a dodecahedron x and a dodecahedron y and x is not equal to y and for all z if z is a dodecahedron then z is equal to x or z is equal to y and for all u if u is a dodecahedron then u is not small or u is not small.,codellama/CodeLlama-34b-Instruct-hf,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ∧ ∀ z ( Dodec ( z ) → ( z = x ∨ z = y ) ) ∧ ∀ u ( Dodec ( u ) → ¬ ( Small ( x ) ∨ Small ( y ) ) ) ),There are exactly two dodecahedrons. No other dodecahedron exists. Neither of the two dodecahedrons is small.,mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ∧ ∀ z ( Dodec ( z ) → ( z = x ∨ z = y ) ) ∧ ∀ u ( Dodec ( u ) → ¬ ( Small ( x ) ∨ Small ( y ) ) ) ),"There exist two dodecahedrons that are not the same and all other dodecahedrons are either the same as the first or the same as the second, and neither of the two dodecahedrons is small.",gemini-1.0-pro,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ∧ ∀ z ( Dodec ( z ) → ( z = x ∨ z = y ) ) ∧ ∀ u ( Dodec ( u ) → ¬ ( Small ( x ) ∨ Small ( y ) ) ) ),There exist two dodecahedrons that are not the same and are not small.,gpt-3.5-turbo,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ∧ ∀ z ( Dodec ( z ) → ( z = x ∨ z = y ) ) ∧ ∀ u ( Dodec ( u ) → ¬ ( Small ( x ) ∨ Small ( y ) ) ) ),"There exists a dodecahedron x and a dodecahedron y such that x is not equal to y, and for all z that are dodecahedrons, z must be either x or y, and for all u that are dodecahedrons, u is not small.",microsoft/Phi-3.5-mini-instruct,,,
+"∃ y ( Cube ( y ) ∧ ¬ ∀ x ( Tet ( x ) → Larger ( x , y ) ) )",There is a cube that is not larger than every tetrahedron.,codellama/CodeLlama-34b-Instruct-hf,Pilot 1,,
+"∃ y ( Cube ( y ) ∧ ¬ ∀ x ( Tet ( x ) → Larger ( x , y ) ) )",There is a cube that is not larger than every tetrahedron.,mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∃ y ( Cube ( y ) ∧ ¬ ∀ x ( Tet ( x ) → Larger ( x , y ) ) )","There exists a y such that y is a cube and it is not the case that for all x, if x is a tetrahedron, then x is larger than y.",gemini-1.0-pro,,,
+"∃ y ( Cube ( y ) ∧ ¬ ∀ x ( Tet ( x ) → Larger ( x , y ) ) )",There exists a cube that is not larger than all tetrahedrons.,gpt-3.5-turbo,,,
+"∃ y ( Cube ( y ) ∧ ¬ ∀ x ( Tet ( x ) → Larger ( x , y ) ) )","∃ y such that y is a cube and not the case that for all x, if x is a tetrahedron then x is larger than y.",microsoft/Phi-3.5-mini-instruct,,,
+∃ x ∃ y ( ¬ x = y ∧ Cube ( x ) ∧ Cube ( y ) ∧ ∀ z ∀ u ( ( ¬ z = u ∧ Cube ( z ) ∧ Cube ( u ) ) → ( ( z = x ∧ y = u ) ∨ ( z = y ∧ x = u ) ) ) ),"There is a cube x and a cube y such that x is not equal to y and for all cubes z and u, if z is not equal to u and z and u are cubes, then either x and y are z and u or y and x are z and u.",codellama/CodeLlama-34b-Instruct-hf,,,
+∃ x ∃ y ( ¬ x = y ∧ Cube ( x ) ∧ Cube ( y ) ∧ ∀ z ∀ u ( ( ¬ z = u ∧ Cube ( z ) ∧ Cube ( u ) ) → ( ( z = x ∧ y = u ) ∨ ( z = y ∧ x = u ) ) ) ),There are two cubes such that any two cubes are either the same cube or not the same cube and are in front of or behind each other.,mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+∃ x ∃ y ( ¬ x = y ∧ Cube ( x ) ∧ Cube ( y ) ∧ ∀ z ∀ u ( ( ¬ z = u ∧ Cube ( z ) ∧ Cube ( u ) ) → ( ( z = x ∧ y = u ) ∨ ( z = y ∧ x = u ) ) ) ),There exist two cubes such that any other two cubes are either the same as these two or are the same as each other.,gemini-1.0-pro,,,
+∃ x ∃ y ( ¬ x = y ∧ Cube ( x ) ∧ Cube ( y ) ∧ ∀ z ∀ u ( ( ¬ z = u ∧ Cube ( z ) ∧ Cube ( u ) ) → ( ( z = x ∧ y = u ) ∨ ( z = y ∧ x = u ) ) ) ),There exist two cubes that are not the same cube.,gpt-3.5-turbo,,,
+∃ x ∃ y ( ¬ x = y ∧ Cube ( x ) ∧ Cube ( y ) ∧ ∀ z ∀ u ( ( ¬ z = u ∧ Cube ( z ) ∧ Cube ( u ) ) → ( ( z = x ∧ y = u ) ∨ ( z = y ∧ x = u ) ) ) ),"There exists a cube x and a cube y such that x is not equal to y, and for all cubes z and w, if z is not equal to w and both are cubes, then either z is equal to x and y is equal to u, or z is equal to y and x is equal to u.",microsoft/Phi-3.5-mini-instruct,,,
+"∀ x ( ( Cube ( x ) ∧ ( Medium ( x ) ∨ ∃ y ( BackOf ( x , y ) ∧ Medium ( y ) ∧ ¬ x = y ) ) ) → ¬ ∃ z ( RightOf ( z , x ) ∧ ¬ Tet ( z ) ) )","For every x, if x is a cube and either x is medium or there is a y such that x is behind y and y is medium and x is not equal to y, then there is no z such that z is to the right of x and z is not a tetrahedron.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∀ x ( ( Cube ( x ) ∧ ( Medium ( x ) ∨ ∃ y ( BackOf ( x , y ) ∧ Medium ( y ) ∧ ¬ x = y ) ) ) → ¬ ∃ z ( RightOf ( z , x ) ∧ ¬ Tet ( z ) ) )","For all x, if x is a cube and is either medium or there exists a y such that x is behind y, y is medium, and x is not equal to y, then it is not the case that there exists a z such that z is to the right of x and z is not a tetrahedron.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∀ x ( ( Cube ( x ) ∧ ( Medium ( x ) ∨ ∃ y ( BackOf ( x , y ) ∧ Medium ( y ) ∧ ¬ x = y ) ) ) → ¬ ∃ z ( RightOf ( z , x ) ∧ ¬ Tet ( z ) ) )","For all x, if x is a cube and (x is medium or there exists a y such that y is behind x and y is medium and x is not equal to y), then there does not exist a z such that z is to the right of x and z is not a tetrahedron.",gemini-1.0-pro,,,
+"∀ x ( ( Cube ( x ) ∧ ( Medium ( x ) ∨ ∃ y ( BackOf ( x , y ) ∧ Medium ( y ) ∧ ¬ x = y ) ) ) → ¬ ∃ z ( RightOf ( z , x ) ∧ ¬ Tet ( z ) ) )","For all cubes that are either medium or have a medium cube behind them, there does not exist a non-tetrahedron to the right of them.",gpt-3.5-turbo,Pilot 8,,
+"∀ x ( ( Cube ( x ) ∧ ( Medium ( x ) ∨ ∃ y ( BackOf ( x , y ) ∧ Medium ( y ) ∧ ¬ x = y ) ) ) → ¬ ∃ z ( RightOf ( z , x ) ∧ ¬ Tet ( z ) ) )","For every cube x, if x is medium or there exists a y such that y is behind x and medium but not equal to x, then there does not exist a z such that z is to the right of x and not a tetrahedron.",microsoft/Phi-3.5-mini-instruct,,,
+"∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )","There is a cube and a cube and a dodecahedron and a dodecahedron such that for all cubes, they are either the first cube or the second cube, and for all dodecahedrons, they are either the first dodecahedron or the second dodecahedron, and the first cube is not the second cube, and the first dodecahedron is not the second dodecahedron, and the first cube is not the first dodecahedron, and the first cube is not the second dodecahedron, and the second cube is not the first dodecahedron, and the second cube is not the second dodecahedron, and the first cube is not behind the first dodecahedron, and the first cube is not behind the second dodecahedron, and the second cube is not behind the first dodecahedron, and the second cube is not behind the second dodecahedron.",codellama/CodeLlama-34b-Instruct-hf,Block 1,codellama/f1,"∃ x ∃ y ∃ z ∃ u (
+    Cube(x) ∧
+    Cube(y) ∧
+    Dodec(z) ∧
+    Dodec(u) ∧
+    ∀ v (Cube(v) → (x = v ∨ y = v)) ∧
+    ∀ w (Dodec(w) → (z = w ∨ u = w)) ∧
+    ¬x = y ∧
+    ¬z = u ∧
+    ¬x = z ∧
+    ¬x = u ∧
+    ¬y = z ∧
+    ¬y = u ∧
+    ¬BackOf(x, z) ∧
+    ¬BackOf(x, u) ∧
+    ¬BackOf(y, z) ∧
+    ¬BackOf(y, u)
+)
+"
+"∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )","There exist four objects, two cubes and two dodecahedrons, such that the two cubes are not the same object, the two dodecahedrons are not the same object, and none of the cubes is the same object as any of the dodecahedrons. Furthermore, neither cube is behind either dodecahedron.",mistralai/Mixtral-8x7B-Instruct-v0.1,Block 2,mixtral/f1,"∃ x ∃ y ∃ z ∃ u (
+    Cube(x) ∧
+    Cube(y) ∧
+    Dodec(z) ∧
+    Dodec(u) ∧
+    ∀ v (Cube(v) → (x = v ∨ y = v)) ∧
+    ∀ w (Dodec(w) → (z = w ∨ u = w)) ∧
+    ¬x = y ∧
+    ¬z = u ∧
+    ¬x = z ∧
+    ¬x = u ∧
+    ¬y = z ∧
+    ¬y = u ∧
+    ¬BackOf(x, z) ∧
+    ¬BackOf(x, u) ∧
+    ¬BackOf(y, z) ∧
+    ¬BackOf(y, u)
+)
+"
+"∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )","There exists an x, y, z, and u such that x is a cube, y is a cube, z is a dodecahedron, u is a dodecahedron, for all v, if v is a cube, then v is either x or y, for all w, if w is a dodecahedron, then w is either z or u, x is not equal to y, z is not equal to u, x is not equal to z, x is not equal to u, y is not equal to z, y is not equal to u, x is not behind z, x is not behind u, y is not behind z, and y is not behind u.",gemini-1.0-pro,Block 3,gemini/f1,"∃ x ∃ y ∃ z ∃ u (
+    Cube(x) ∧
+    Cube(y) ∧
+    Dodec(z) ∧
+    Dodec(u) ∧
+    ∀ v (Cube(v) → (x = v ∨ y = v)) ∧
+    ∀ w (Dodec(w) → (z = w ∨ u = w)) ∧
+    ¬x = y ∧
+    ¬z = u ∧
+    ¬x = z ∧
+    ¬x = u ∧
+    ¬y = z ∧
+    ¬y = u ∧
+    ¬BackOf(x, z) ∧
+    ¬BackOf(x, u) ∧
+    ¬BackOf(y, z) ∧
+    ¬BackOf(y, u)
+)
+"
+"∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )","There are two cubes and two dodecahedrons, where each cube is not the same as the other cube, each dodecahedron is not the same as the other dodecahedron, and no cube is behind a dodecahedron.",gpt-3.5-turbo,Block 4,gpt/f1,"∃ x ∃ y ∃ z ∃ u (
+    Cube(x) ∧
+    Cube(y) ∧
+    Dodec(z) ∧
+    Dodec(u) ∧
+    ∀ v (Cube(v) → (x = v ∨ y = v)) ∧
+    ∀ w (Dodec(w) → (z = w ∨ u = w)) ∧
+    ¬x = y ∧
+    ¬z = u ∧
+    ¬x = z ∧
+    ¬x = u ∧
+    ¬y = z ∧
+    ¬y = u ∧
+    ¬BackOf(x, z) ∧
+    ¬BackOf(x, u) ∧
+    ¬BackOf(y, z) ∧
+    ¬BackOf(y, u)
+)
+"
+"∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )","There exists a cube x and a cube y, and a dodecahedron z and a dodecahedron u such that for all cubes v, v is either x or y, and for all dodecahedrons w, w is either z or u. Additionally, x is not equal to y, z is not equal to u, x is not equal to z, x is not equal to u, y is not equal to z, and y is not equal to u. Furthermore, x is not behind z and x is not behind u, and y is not behind z and y is not behind u.",microsoft/Phi-3.5-mini-instruct,Block 5,phi/f1,"∃ x ∃ y ∃ z ∃ u (
+    Cube(x) ∧
+    Cube(y) ∧
+    Dodec(z) ∧
+    Dodec(u) ∧
+    ∀ v (Cube(v) → (x = v ∨ y = v)) ∧
+    ∀ w (Dodec(w) → (z = w ∨ u = w)) ∧
+    ¬x = y ∧
+    ¬z = u ∧
+    ¬x = z ∧
+    ¬x = u ∧
+    ¬y = z ∧
+    ¬y = u ∧
+    ¬BackOf(x, z) ∧
+    ¬BackOf(x, u) ∧
+    ¬BackOf(y, z) ∧
+    ¬BackOf(y, u)
+)
+"
+"( Larger ( c , e ) → Larger ( b , c ) ) ∧ ( ¬ Larger ( b , c ) → ¬ Larger ( c , e ) )","If c is larger than e, then b is larger than c. If b is not larger than c, then c is not larger than e.",codellama/CodeLlama-34b-Instruct-hf,Block 6,codellama/f2,"(
+    Larger(c, e) → Larger(b, c)
+) ∧
+(
+    ¬Larger(b, c) → ¬Larger(c, e)
+)
+"
+"( Larger ( c , e ) → Larger ( b , c ) ) ∧ ( ¬ Larger ( b , c ) → ¬ Larger ( c , e ) )","If c is larger than e, then b is larger than c. Otherwise, c is not larger than e.",mistralai/Mixtral-8x7B-Instruct-v0.1,Block 7,mixtral/f2,"(
+    Larger(c, e) → Larger(b, c)
+) ∧
+(
+    ¬Larger(b, c) → ¬Larger(c, e)
+)
+"
+"( Larger ( c , e ) → Larger ( b , c ) ) ∧ ( ¬ Larger ( b , c ) → ¬ Larger ( c , e ) )","If c is larger than e, then b is larger than c. If b is not larger than c, then c is not larger than e.",gemini-1.0-pro,Block 8,gemini/f2,"(
+    Larger(c, e) → Larger(b, c)
+) ∧
+(
+    ¬Larger(b, c) → ¬Larger(c, e)
+)
+"
+"( Larger ( c , e ) → Larger ( b , c ) ) ∧ ( ¬ Larger ( b , c ) → ¬ Larger ( c , e ) )","If c is larger than e, then b is larger than c. And if b is not larger than c, then c is not larger than e.",gpt-3.5-turbo,Block 9,gpt/f2,"(
+    Larger(c, e) → Larger(b, c)
+) ∧
+(
+    ¬Larger(b, c) → ¬Larger(c, e)
+)
+"
+"( Larger ( c , e ) → Larger ( b , c ) ) ∧ ( ¬ Larger ( b , c ) → ¬ Larger ( c , e ) )","If cube c is larger than cube e, then cube b is larger than cube c, and if cube b is not larger than cube c, then cube c is not larger than cube e.",microsoft/Phi-3.5-mini-instruct,Block 10,phi/f2,"(
+    Larger(c, e) → Larger(b, c)
+) ∧
+(
+    ¬Larger(b, c) → ¬Larger(c, e)
+)
+"
+¬ ∃ u ( Tet ( u ) ∧ Large ( u ) ),There is no tetrahedron that is large.,codellama/CodeLlama-34b-Instruct-hf,,,
+¬ ∃ u ( Tet ( u ) ∧ Large ( u ) ),There does not exist a u such that u is a tetrahedron and u is large.,mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+¬ ∃ u ( Tet ( u ) ∧ Large ( u ) ),There is no large tetrahedron.,gemini-1.0-pro,,,
+¬ ∃ u ( Tet ( u ) ∧ Large ( u ) ),There does not exist a large tetrahedron.,gpt-3.5-turbo,,,
+¬ ∃ u ( Tet ( u ) ∧ Large ( u ) ),There does not exist a tetrahedron that is large.,microsoft/Phi-3.5-mini-instruct,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ Dodec ( y ) ∧ ¬ x = y ),There is a dodecahedron x and a dodecahedron y and a dodecahedron y and x is not equal to y.,codellama/CodeLlama-34b-Instruct-hf,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ Dodec ( y ) ∧ ¬ x = y ),∃ x ∃ y ( x is a dodecahedron and y is a dodecahedron and x is not y ),mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ Dodec ( y ) ∧ ¬ x = y ),There exist two distinct dodecahedrons.,gemini-1.0-pro,Pilot 2,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ Dodec ( y ) ∧ ¬ x = y ),There exist two dodecahedrons that are different from each other.,gpt-3.5-turbo,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ Dodec ( y ) ∧ ¬ x = y ),There exists a dodecahedron x and a dodecahedron y such that y is not equal to x.,microsoft/Phi-3.5-mini-instruct,,,
+"¬ ( Larger ( e , c ) ∧ Larger ( d , c ) ) ∧ ¬ ( Larger ( e , c ) ∨ Larger ( d , c ) )",¬ ( e is larger than c and d is larger than c ) and ¬ ( e is larger than c or d is larger than c ),codellama/CodeLlama-34b-Instruct-hf,,,
+"¬ ( Larger ( e , c ) ∧ Larger ( d , c ) ) ∧ ¬ ( Larger ( e , c ) ∨ Larger ( d , c ) )","e and d are not both larger than c, and e and d are not both smaller than c.",mistralai/Mixtral-8x7B-Instruct-v0.1,Pilot 3,,
+"¬ ( Larger ( e , c ) ∧ Larger ( d , c ) ) ∧ ¬ ( Larger ( e , c ) ∨ Larger ( d , c ) )",e and d are not both larger than c.,gemini-1.0-pro,,,
+"¬ ( Larger ( e , c ) ∧ Larger ( d , c ) ) ∧ ¬ ( Larger ( e , c ) ∨ Larger ( d , c ) )","Neither e is larger than c and d is larger than c, nor is it the case that either e is larger than c or d is larger than c.",gpt-3.5-turbo,,,
+"¬ ( Larger ( e , c ) ∧ Larger ( d , c ) ) ∧ ¬ ( Larger ( e , c ) ∨ Larger ( d , c ) )","It is not the case that e is larger than c and d is larger than c, and it is not the case that either e is larger than c or d is larger than c.",microsoft/Phi-3.5-mini-instruct,,,
+"∃ y ∃ x ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ) ∧ ¬ ∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ) ∧ ∃ x Tet ( x ) ∧ ¬ ∃ x ∃ y ( Tet ( x ) ∧ Tet ( y ) ∧ ¬ x = y ) ∧ ∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ Tet ( z ) ∧ FrontOf ( y , z ) ∧ FrontOf ( x , z ) )",There is a cube that is not the same as another cube.  There is no cube that is not the same as two other cubes.  There is a tetrahedron.  There is no tetrahedron that is not the same as another tetrahedron.  There is a cube that is in front of a tetrahedron.,codellama/CodeLlama-34b-Instruct-hf,Pilot 7,,
+"∃ y ∃ x ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ) ∧ ¬ ∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ) ∧ ∃ x Tet ( x ) ∧ ¬ ∃ x ∃ y ( Tet ( x ) ∧ Tet ( y ) ∧ ¬ x = y ) ∧ ∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ Tet ( z ) ∧ FrontOf ( y , z ) ∧ FrontOf ( x , z ) )","There are two cubes, but no three cubes are such that none of them are the same cube. There is a tetrahedron, but there are not two tetrahedrons. There is a cube, a tetrahedron, and the cube is in front of the tetrahedron, and the other cube is also in front of the tetrahedron.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∃ y ∃ x ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ) ∧ ¬ ∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ) ∧ ∃ x Tet ( x ) ∧ ¬ ∃ x ∃ y ( Tet ( x ) ∧ Tet ( y ) ∧ ¬ x = y ) ∧ ∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ Tet ( z ) ∧ FrontOf ( y , z ) ∧ FrontOf ( x , z ) )","There are two cubes that are not the same, there is only one tetrahedron, and there is a cube in front of a tetrahedron and another cube in front of the same tetrahedron.",gemini-1.0-pro,,,
+"∃ y ∃ x ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ) ∧ ¬ ∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ) ∧ ∃ x Tet ( x ) ∧ ¬ ∃ x ∃ y ( Tet ( x ) ∧ Tet ( y ) ∧ ¬ x = y ) ∧ ∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ Tet ( z ) ∧ FrontOf ( y , z ) ∧ FrontOf ( x , z ) )","There are two cubes that are not the same, there is a tetrahedron that is not the same as any other tetrahedron, and there are two cubes that are in front of the same tetrahedron.",gpt-3.5-turbo,,,
+"∃ y ∃ x ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ) ∧ ¬ ∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ) ∧ ∃ x Tet ( x ) ∧ ¬ ∃ x ∃ y ( Tet ( x ) ∧ Tet ( y ) ∧ ¬ x = y ) ∧ ∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ Tet ( z ) ∧ FrontOf ( y , z ) ∧ FrontOf ( x , z ) )","There exists a cube x and a cube y such that x is not equal to y, and there does not exist three cubes x, y, and z such that none of them are equal to each other, and there exists a tetrahedron x such that there does not exist two tetrahedra x and y that are not equal to each other, and there exists a cube x, a cube y, and a tetrahedron z such that y is in front of z and x is in front of z.",microsoft/Phi-3.5-mini-instruct,,,
+∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Large ( x ) ) → ( x = c ∨ x = b ) ),"For all x, for all y, for all z, if x is a cube and x is large, then x is equal to c or x is equal to b.",codellama/CodeLlama-34b-Instruct-hf,Block 11,codellama/f3,"∀ x ∀ y ∀ z (
+    (Cube(x) ∧ Large(x)) → (x = c ∨ x = b)
+)
+"
+∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Large ( x ) ) → ( x = c ∨ x = b ) ),"If x is a large cube, then x is either c or b.",mistralai/Mixtral-8x7B-Instruct-v0.1,Block 12,mixtral/f3,"∀ x ∀ y ∀ z (
+    (Cube(x) ∧ Large(x)) → (x = c ∨ x = b)
+)
+"
+∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Large ( x ) ) → ( x = c ∨ x = b ) ),"For all x, for all y, for all z, if x is a cube and x is large, then x is either c or x is b.",gemini-1.0-pro,Block 13,gemini/f3,"∀ x ∀ y ∀ z (
+    (Cube(x) ∧ Large(x)) → (x = c ∨ x = b)
+)
+"
+∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Large ( x ) ) → ( x = c ∨ x = b ) ),"For all x, for all y, for all z, if x is a large cube, then x is either c or b.",gpt-3.5-turbo,Block 14,gpt/f3,"∀ x ∀ y ∀ z (
+    (Cube(x) ∧ Large(x)) → (x = c ∨ x = b)
+)
+"
+∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Large ( x ) ) → ( x = c ∨ x = b ) ),"For every cube x, if x is large, then x is either c or b.",microsoft/Phi-3.5-mini-instruct,Block 15,phi/f3,"∀ x ∀ y ∀ z (
+    (Cube(x) ∧ Large(x)) → (x = c ∨ x = b)
+)
+"
+"∃ x ( Large ( x ) ∧ Cube ( x ) ∧ ∀ y ( Dodec ( y ) → BackOf ( x , y ) ) ∧ ¬ ∃ z ( Large ( z ) ∧ Cube ( z ) ∧ ¬ z = x ) )",There is a large cube that is behind every dodecahedron and there is no other large cube that is not the same as the first one.,codellama/CodeLlama-34b-Instruct-hf,,,
+"∃ x ( Large ( x ) ∧ Cube ( x ) ∧ ∀ y ( Dodec ( y ) → BackOf ( x , y ) ) ∧ ¬ ∃ z ( Large ( z ) ∧ Cube ( z ) ∧ ¬ z = x ) )",There is a large cube such that every dodecahedron is behind it and there is no other large cube.,mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∃ x ( Large ( x ) ∧ Cube ( x ) ∧ ∀ y ( Dodec ( y ) → BackOf ( x , y ) ) ∧ ¬ ∃ z ( Large ( z ) ∧ Cube ( z ) ∧ ¬ z = x ) )","There exists a large cube such that every dodecahedron is behind it, and there is no other large cube.",gemini-1.0-pro,,,
+"∃ x ( Large ( x ) ∧ Cube ( x ) ∧ ∀ y ( Dodec ( y ) → BackOf ( x , y ) ) ∧ ¬ ∃ z ( Large ( z ) ∧ Cube ( z ) ∧ ¬ z = x ) )",There is a large cube that is behind all dodecahedrons and there is no other large cube.,gpt-3.5-turbo,,,
+"∃ x ( Large ( x ) ∧ Cube ( x ) ∧ ∀ y ( Dodec ( y ) → BackOf ( x , y ) ) ∧ ¬ ∃ z ( Large ( z ) ∧ Cube ( z ) ∧ ¬ z = x ) )","There exists a large cube such that for all dodecahedrons, the cube is behind them, and there does not exist a large cube that is not equal to this cube.",microsoft/Phi-3.5-mini-instruct,,,
+"∀ x ¬ ( x = x → ∀ y ( y = y → Larger ( x , y ) ) )","For every x, it is not the case that if x is equal to x, then for every y, if y is equal to y, then x is larger than y.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∀ x ¬ ( x = x → ∀ y ( y = y → Larger ( x , y ) ) )","For all x, if x is equal to x, then for all y, if y is equal to y, then x is larger than y.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∀ x ¬ ( x = x → ∀ y ( y = y → Larger ( x , y ) ) )","For all x, it is not the case that if x equals x, then for all y, if y equals y, then x is larger than y.",gemini-1.0-pro,,,
+"∀ x ¬ ( x = x → ∀ y ( y = y → Larger ( x , y ) ) )","For all x, it is not the case that if x is equal to x, then for all y, if y is equal to y, then x is larger than y.",gpt-3.5-turbo,,,
+"∀ x ¬ ( x = x → ∀ y ( y = y → Larger ( x , y ) ) )","For all x, it is not the case that if x is equal to itself, then for all y, if y is equal to itself, x is larger than y.",microsoft/Phi-3.5-mini-instruct,,,
+"∀ x ∀ y ( ( BackOf ( y , x ) ∧ Cube ( x ) ) → Small ( x ) )","For all x and for all y, if y is behind x and x is a cube, then x is small.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∀ x ∀ y ( ( BackOf ( y , x ) ∧ Cube ( x ) ) → Small ( x ) )","For all x and y, if y is behind x and x is a cube, then x is small.",mistralai/Mixtral-8x7B-Instruct-v0.1,Pilot 9,,
+"∀ x ∀ y ( ( BackOf ( y , x ) ∧ Cube ( x ) ) → Small ( x ) )","For all x and y, if y is behind x and x is a cube, then x is small.",gemini-1.0-pro,,,
+"∀ x ∀ y ( ( BackOf ( y , x ) ∧ Cube ( x ) ) → Small ( x ) )","For all x and y, if y is behind x and x is a cube, then x is small.",gpt-3.5-turbo,,,
+"∀ x ∀ y ( ( BackOf ( y , x ) ∧ Cube ( x ) ) → Small ( x ) )","For all x and for all y, if y is behind x and x is a cube, then x is small.",microsoft/Phi-3.5-mini-instruct,,,
+"∀ x ¬ ( ¬ Cube ( x ) ∧ Between ( x , a , b ) )","For all x, it is not the case that x is not a cube and x is between a and b.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∀ x ¬ ( ¬ Cube ( x ) ∧ Between ( x , a , b ) )","For all x, x is not a cube and not between a and b.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∀ x ¬ ( ¬ Cube ( x ) ∧ Between ( x , a , b ) )","For all x, it is not the case that x is not a cube and x is between a and b.",gemini-1.0-pro,,,
+"∀ x ¬ ( ¬ Cube ( x ) ∧ Between ( x , a , b ) )","For all x, it is not the case that x is not a cube and x is between a and b.",gpt-3.5-turbo,,,
+"∀ x ¬ ( ¬ Cube ( x ) ∧ Between ( x , a , b ) )","For all x, it is not the case that x is not a cube and x is between a and b.",microsoft/Phi-3.5-mini-instruct,,,
+¬ ¬ Large ( d ),¬ ¬ Large ( d ),codellama/CodeLlama-34b-Instruct-hf,,,
+¬ ¬ Large ( d ),1. d is large.  Formula: ¬ ¬ ¬ Small ( e ) Translation: 1. e is small.  Formula: ¬ ¬ ¬ ¬ Medium ( f ) Translation: 1. f is medium.  Formula: ¬ ¬ ¬ ¬ ¬ Small ( g ) Translation: 1. g is small.  Formula: ¬ ¬ ¬ ¬ ¬ ¬ Medium ( h ) Translation: 1. h is medium.  Formula: ¬ ¬ ¬ ¬ ¬ ¬ ¬ Large ( i ) Translation: 1. i is large.  Formula: ¬ ¬ ¬ ¬ ¬ ¬ ¬ ¬ Small ( j ) Translation: 1. j is small.  Formula: ¬ ¬ ¬ ¬ ¬ ¬ ¬ ¬ ¬ Medium ( k ) Translation: 1. k is medium.  Formula: ¬ ¬ ¬ ¬ ¬ ¬ ¬ ¬ ¬,mistralai/Mixtral-8x7B-Instruct-v0.1,Pilot 4,,
+¬ ¬ Large ( d ),It is not the case that it is not the case that d is large.,gemini-1.0-pro,,,
+¬ ¬ Large ( d ),It is not the case that d is not large.,gpt-3.5-turbo,,,
+¬ ¬ Large ( d ),¬ ( not large d ),microsoft/Phi-3.5-mini-instruct,,,
+"∀ x ¬ ( Adjoins ( a , x ) ∨ Adjoins ( x , a ) )",a is not adjoined to any other block.,codellama/CodeLlama-34b-Instruct-hf,Block 16,codellama/f4,"∀ x ¬(
+    Adjoins(a, x) ∨ Adjoins(x, a)
+)
+"
+"∀ x ¬ ( Adjoins ( a , x ) ∨ Adjoins ( x , a ) )",Nothing adjoins a or a adjoins nothing.,mistralai/Mixtral-8x7B-Instruct-v0.1,Block 17,mixtral/f4,"∀ x ¬(
+    Adjoins(a, x) ∨ Adjoins(x, a)
+)
+"
+"∀ x ¬ ( Adjoins ( a , x ) ∨ Adjoins ( x , a ) )","For all x, it is not the case that a adjoins x or x adjoins a.",gemini-1.0-pro,Block 18,gemini/f4,"∀ x ¬(
+    Adjoins(a, x) ∨ Adjoins(x, a)
+)
+"
+"∀ x ¬ ( Adjoins ( a , x ) ∨ Adjoins ( x , a ) )","For all x, x is not adjacent to a.",gpt-3.5-turbo,Block 19,gpt/f4,"∀ x ¬(
+    Adjoins(a, x) ∨ Adjoins(x, a)
+)
+"
+"∀ x ¬ ( Adjoins ( a , x ) ∨ Adjoins ( x , a ) )","For all x, it is not the case that x adjoins a or x adjoins a.",microsoft/Phi-3.5-mini-instruct,Block 20,phi/f4,"∀ x ¬(
+    Adjoins(a, x) ∨ Adjoins(x, a)
+)
+"
+Large ( b ) ∨ Large ( d ) ∨ Cube ( e ),b is large or d is large or e is a cube.,codellama/CodeLlama-34b-Instruct-hf,,,
+Large ( b ) ∨ Large ( d ) ∨ Cube ( e ),b is large or d is large or e is a cube.,mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+Large ( b ) ∨ Large ( d ) ∨ Cube ( e ),b is large or d is large or e is a cube,gemini-1.0-pro,,,
+Large ( b ) ∨ Large ( d ) ∨ Cube ( e ),b is large or d is large or e is a cube.,gpt-3.5-turbo,,,
+Large ( b ) ∨ Large ( d ) ∨ Cube ( e ),b is large or d is large or e is a cube.,microsoft/Phi-3.5-mini-instruct,,,
+∃ x ∃ y ∃ z ( ¬ Small ( x ) ∧ ¬ Small ( y ) ∧ ¬ Small ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ∧ ∀ w ( ¬ Small ( w ) → ( x = y ∨ x = z ∨ x = w ∨ y = z ∨ y = w ∨ y = w ∨ z = w ) ) ),"There is a cube, a dodecahedron, and a tetrahedron, and they are all different sizes and shapes, and they are all in the same row, and they are all in the same column, and they are all in the same size, and they are all in the same shape, and they are all in the same row, and they are all in the same column, and they are all in the same size, and they are all in the same shape, and they are all in the same row, and they are all in the same column, and they are all in the same size, and they are all in the same shape, and they are all in the same row, and they are all in the same column, and they are all in the same size, and they are all in the same shape, and they are all in the same row, and they are all in the same column, and they are all in the same size, and they are all in the same shape, and they are all in the same row, and they are all in the same column, and they are all in the same size, and they are all in the same shape, and they are all in",codellama/CodeLlama-34b-Instruct-hf,,,
+∃ x ∃ y ∃ z ( ¬ Small ( x ) ∧ ¬ Small ( y ) ∧ ¬ Small ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ∧ ∀ w ( ¬ Small ( w ) → ( x = y ∨ x = z ∨ x = w ∨ y = z ∨ y = w ∨ y = w ∨ z = w ) ) ),"There exist three objects, x, y, and z, that are not small and are not the same object, and for any object w that is not small, w is the same as x or y or z or z is the same as y or z is the same as w or y is the same as w or x is the same as w or x is the same as y.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+∃ x ∃ y ∃ z ( ¬ Small ( x ) ∧ ¬ Small ( y ) ∧ ¬ Small ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ∧ ∀ w ( ¬ Small ( w ) → ( x = y ∨ x = z ∨ x = w ∨ y = z ∨ y = w ∨ y = w ∨ z = w ) ) ),"There exist three non-small objects x, y, and z such that for any other non-small object w, w must be identical to one of x, y, or z.",gemini-1.0-pro,,,
+∃ x ∃ y ∃ z ( ¬ Small ( x ) ∧ ¬ Small ( y ) ∧ ¬ Small ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ∧ ∀ w ( ¬ Small ( w ) → ( x = y ∨ x = z ∨ x = w ∨ y = z ∨ y = w ∨ y = w ∨ z = w ) ) ),There exist three objects that are not small and are all different from each other.,gpt-3.5-turbo,,,
+∃ x ∃ y ∃ z ( ¬ Small ( x ) ∧ ¬ Small ( y ) ∧ ¬ Small ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ∧ ∀ w ( ¬ Small ( w ) → ( x = y ∨ x = z ∨ x = w ∨ y = z ∨ y = w ∨ y = w ∨ z = w ) ) ),"There exist three objects x, y, and z such that none of them are small, and none of them are equal to each other, and for every object w that is not small, it is the case that w is equal to either x, y, z, or itself.",microsoft/Phi-3.5-mini-instruct,,,
+∃ x ( Dodec ( x ) ∧ ¬ Large ( x ) ) ∧ ¬ ∀ x ( Dodec ( x ) ∧ ¬ Large ( x ) ),"There is a dodecahedron that is not large, and not all dodecahedrons are not large.",codellama/CodeLlama-34b-Instruct-hf,,,
+∃ x ( Dodec ( x ) ∧ ¬ Large ( x ) ) ∧ ¬ ∀ x ( Dodec ( x ) ∧ ¬ Large ( x ) ),"There is a dodecahedron that is not large, and it is not the case that all dodecahedrons are not large.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+∃ x ( Dodec ( x ) ∧ ¬ Large ( x ) ) ∧ ¬ ∀ x ( Dodec ( x ) ∧ ¬ Large ( x ) ),"There exists a dodecahedron that is not large, and not all dodecahedrons are not large.",gemini-1.0-pro,,,
+∃ x ( Dodec ( x ) ∧ ¬ Large ( x ) ) ∧ ¬ ∀ x ( Dodec ( x ) ∧ ¬ Large ( x ) ),"There exists a dodecahedron that is not large, and not all dodecahedrons are not large.",gpt-3.5-turbo,,,
+∃ x ( Dodec ( x ) ∧ ¬ Large ( x ) ) ∧ ¬ ∀ x ( Dodec ( x ) ∧ ¬ Large ( x ) ),"There exists a dodecahedron that is not large, and it is not the case that everything that is a dodecahedron is not large.",microsoft/Phi-3.5-mini-instruct,,,
+"∀ x ∀ y ¬ ∀ y Larger ( x , y )","For all x and for all y, it is not true that for all y, x is larger than y.",codellama/CodeLlama-34b-Instruct-hf,Block 21,codellama/f5,"∀ x ∀ y ¬∀ y Larger(x, y)
+"
+"∀ x ∀ y ¬ ∀ y Larger ( x , y )",There is no largest object.,mistralai/Mixtral-8x7B-Instruct-v0.1,Block 22,mixtral/f5,"∀ x ∀ y ¬∀ y Larger(x, y)
+"
+"∀ x ∀ y ¬ ∀ y Larger ( x , y )","For all x, for all y, it is not the case that for all y, x is larger than y.",gemini-1.0-pro,Block 23,gemini/f5,"∀ x ∀ y ¬∀ y Larger(x, y)
+"
+"∀ x ∀ y ¬ ∀ y Larger ( x , y )","For all x and for all y, x is not larger than y.",gpt-3.5-turbo,Block 24,gpt/f5,"∀ x ∀ y ¬∀ y Larger(x, y)
+"
+"∀ x ∀ y ¬ ∀ y Larger ( x , y )","For all x and for all y, it is not the case that x is larger than every y.",microsoft/Phi-3.5-mini-instruct,Block 25,phi/f5,"∀ x ∀ y ¬∀ y Larger(x, y)
+"
+"∀ x ∀ y ¬ ( Tet ( x ) ∧ Cube ( y ) ∧ SameSize ( y , x ) )","For all x and for all y, it is not the case that x is a tetrahedron and y is a cube and x and y are the same size.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∀ x ∀ y ¬ ( Tet ( x ) ∧ Cube ( y ) ∧ SameSize ( y , x ) )",No tetrahedron and cube are the same size.,mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∀ x ∀ y ¬ ( Tet ( x ) ∧ Cube ( y ) ∧ SameSize ( y , x ) )","For all x, for all y, it is not the case that x is a tetrahedron and y is a cube and y is the same size as x.",gemini-1.0-pro,,,
+"∀ x ∀ y ¬ ( Tet ( x ) ∧ Cube ( y ) ∧ SameSize ( y , x ) )","For all x and y, x is not a tetrahedron and y is not a cube and they are not the same size.",gpt-3.5-turbo,,,
+"∀ x ∀ y ¬ ( Tet ( x ) ∧ Cube ( y ) ∧ SameSize ( y , x ) )","For all x and for all y, it is not the case that x is a tetrahedron and y is a cube and y is the same size as x.",microsoft/Phi-3.5-mini-instruct,,,
+∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ) ∧ ∀ x ∀ y ∀ z ∀ u ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ∧ Cube ( u ) ) → ( x = y ∨ x = z ∨ y = z ∨ x = u ∨ y = u ∨ z = u ) ),"There exists a cube x, a cube y, and a cube z, such that x, y, and z are all different cubes, and for all cubes x, y, z, and u, if x, y, and z are all different cubes and u is a cube, then either x = y or x = z or y = z or x = u or y = u or z = u.",codellama/CodeLlama-34b-Instruct-hf,,,
+∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ) ∧ ∀ x ∀ y ∀ z ∀ u ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ∧ Cube ( u ) ) → ( x = y ∨ x = z ∨ y = z ∨ x = u ∨ y = u ∨ z = u ) ),"There are three cubes, and no two of them are the same cube. For any four cubes, if they are all different cubes, then one of them is the same as one of the other three.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ) ∧ ∀ x ∀ y ∀ z ∀ u ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ∧ Cube ( u ) ) → ( x = y ∨ x = z ∨ y = z ∨ x = u ∨ y = u ∨ z = u ) ),There exist three cubes that are all different and any four cubes are not all different.,gemini-1.0-pro,,,
+∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ) ∧ ∀ x ∀ y ∀ z ∀ u ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ∧ Cube ( u ) ) → ( x = y ∨ x = z ∨ y = z ∨ x = u ∨ y = u ∨ z = u ) ),"There exist three cubes that are all different from each other, and for any four cubes, at least two of them are the same.",gpt-3.5-turbo,,,
+∃ x ∃ y ∃ z ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ) ∧ ∀ x ∀ y ∀ z ∀ u ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( z ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ y = z ∧ Cube ( u ) ) → ( x = y ∨ x = z ∨ y = z ∨ x = u ∨ y = u ∨ z = u ) ),"There exists some cubes x, y, and z such that x, y, and z are all cubes and none of them are equal to each other. For all cubes x, y, z, and u, if x, y, and z are all cubes and none of them are equal to each other, then either x equals y, x equals z, y equals z, x equals u, y equals u, or z equals u.",microsoft/Phi-3.5-mini-instruct,,,
+"¬ ( ( Larger ( a , c ) ∧ Larger ( e , c ) ) → ( ¬ Large ( a ) → Large ( e ) ) )",¬ ( ( a is larger than c and e is larger than c ) → ( ¬ a is large → e is large ) ),codellama/CodeLlama-34b-Instruct-hf,,,
+"¬ ( ( Larger ( a , c ) ∧ Larger ( e , c ) ) → ( ¬ Large ( a ) → Large ( e ) ) )","It is not the case that if a is larger than c and e is larger than c, then if a is not large, e is large.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"¬ ( ( Larger ( a , c ) ∧ Larger ( e , c ) ) → ( ¬ Large ( a ) → Large ( e ) ) )","It is not the case that if a is larger than c and e is larger than c, then if a is not large, e is large.",gemini-1.0-pro,,,
+"¬ ( ( Larger ( a , c ) ∧ Larger ( e , c ) ) → ( ¬ Large ( a ) → Large ( e ) ) )","If a and e are both larger than c, then if a is not large, then e is large.",gpt-3.5-turbo,Pilot 5,,
+"¬ ( ( Larger ( a , c ) ∧ Larger ( e , c ) ) → ( ¬ Large ( a ) → Large ( e ) ) )","It is not the case that if a is larger than c and e is larger than c, then if a is not large, e must be large.",microsoft/Phi-3.5-mini-instruct,,,
+"∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Larger ( a , x ) ∧ Tet ( z ) ) → Smaller ( a , z ) )","For all x, y, and z, if x is a cube and a is larger than x and z is a tetrahedron, then a is smaller than z.",codellama/CodeLlama-34b-Instruct-hf,Block 26,codellama/f6,"∀ x ∀ y ∀ z (
+    (Cube(x) ∧ Larger(a, x) ∧ Tet(z)) → Smaller(a, z)
+)
+"
+"∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Larger ( a , x ) ∧ Tet ( z ) ) → Smaller ( a , z ) )","For all x, for all y, for all z, if x is a cube, a is larger than x, and z is a tetrahedron, then a is smaller than z.",mistralai/Mixtral-8x7B-Instruct-v0.1,Block 27,mixtral/f6,"∀ x ∀ y ∀ z (
+    (Cube(x) ∧ Larger(a, x) ∧ Tet(z)) → Smaller(a, z)
+)
+"
+"∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Larger ( a , x ) ∧ Tet ( z ) ) → Smaller ( a , z ) )","For all x, for all y, for all z, if x is a cube and a is larger than x and z is a tetrahedron, then a is smaller than z.",gemini-1.0-pro,Block 28,gemini/f6,"∀ x ∀ y ∀ z (
+    (Cube(x) ∧ Larger(a, x) ∧ Tet(z)) → Smaller(a, z)
+)
+"
+"∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Larger ( a , x ) ∧ Tet ( z ) ) → Smaller ( a , z ) )","For all x, y, and z, if x is a cube and a is larger than x and z is a tetrahedron, then a is smaller than z.",gpt-3.5-turbo,Block 29,gpt/f6,"∀ x ∀ y ∀ z (
+    (Cube(x) ∧ Larger(a, x) ∧ Tet(z)) → Smaller(a, z)
+)
+"
+"∀ x ∀ y ∀ z ( ( Cube ( x ) ∧ Larger ( a , x ) ∧ Tet ( z ) ) → Smaller ( a , z ) )","For all x, for all y, and for all z, if x is a cube and a is larger than x and z is a tetrahedron, then a is smaller than z.",microsoft/Phi-3.5-mini-instruct,Block 30,phi/f6,"∀ x ∀ y ∀ z (
+    (Cube(x) ∧ Larger(a, x) ∧ Tet(z)) → Smaller(a, z)
+)
+"
+"∃ x ∃ y ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ ∀ z ∃ u ∃ v ( Dodec ( u ) ∧ Dodec ( v ) ∧ ¬ u = v ∧ ∀ w ( Dodec ( w ) → ( ( w = u ∨ w = v ) ∧ ¬ BackOf ( z , w ) ) ) ) )","There is a cube and a cube and they are not the same and for every dodecahedron there is a dodecahedron and a dodecahedron and they are not the same and for every dodecahedron that is not behind the dodecahedron, the dodecahedron is the dodecahedron or the dodecahedron.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∃ x ∃ y ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ ∀ z ∃ u ∃ v ( Dodec ( u ) ∧ Dodec ( v ) ∧ ¬ u = v ∧ ∀ w ( Dodec ( w ) → ( ( w = u ∨ w = v ) ∧ ¬ BackOf ( z , w ) ) ) ) )","There are two cubes, x and y, such that x is not the same as y, and for every object z, there are two dodecahedra, u and v, such that u is not the same as v, and for every dodecahedron w, if w is a dodecahedron, then w is either u or v, and z is not behind w.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∃ x ∃ y ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ ∀ z ∃ u ∃ v ( Dodec ( u ) ∧ Dodec ( v ) ∧ ¬ u = v ∧ ∀ w ( Dodec ( w ) → ( ( w = u ∨ w = v ) ∧ ¬ BackOf ( z , w ) ) ) ) )",There exists an x and a y such that x is a cube and y is a cube and x is not equal to y and for all z there exists a u and a v such that u is a dodecahedron and v is a dodecahedron and u is not equal to v and for all w if w is a dodecahedron then either w is equal to u or w is equal to v and z is not behind w.,gemini-1.0-pro,,,
+"∃ x ∃ y ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ ∀ z ∃ u ∃ v ( Dodec ( u ) ∧ Dodec ( v ) ∧ ¬ u = v ∧ ∀ w ( Dodec ( w ) → ( ( w = u ∨ w = v ) ∧ ¬ BackOf ( z , w ) ) ) ) )","There are two cubes that are not the same, and for any dodecahedron, there are two different dodecahedrons that are not the same and are not behind it.",gpt-3.5-turbo,,,
+"∃ x ∃ y ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ ∀ z ∃ u ∃ v ( Dodec ( u ) ∧ Dodec ( v ) ∧ ¬ u = v ∧ ∀ w ( Dodec ( w ) → ( ( w = u ∨ w = v ) ∧ ¬ BackOf ( z , w ) ) ) ) )","There exists a cube x and there exists a cube y such that x is not equal to y, and for all objects z, there exists objects u and v which are dodecahedrons, not equal to each other, and for all objects w which are dodecahedrons, w is either u or v, and w is not behind z.",microsoft/Phi-3.5-mini-instruct,,,
+∀ x ∀ y ( ( Cube ( x ) ∧ Cube ( y ) ∧ Large ( x ) ∧ Large ( y ) ) → ( x = b ∨ x = c ) ),"For all x and for all y, if x is a cube and y is a cube and x is large and y is large, then x is b or x is c.",codellama/CodeLlama-34b-Instruct-hf,Block 31,codellama/f7,"∀ x ∀ y (
+    (Cube(x) ∧ Cube(y) ∧ Large(x) ∧ Large(y)) → (x = b ∨ x = c)
+)
+"
+∀ x ∀ y ( ( Cube ( x ) ∧ Cube ( y ) ∧ Large ( x ) ∧ Large ( y ) ) → ( x = b ∨ x = c ) ),"For all x and all y, if x and y are both cubes, and both large, then x is either b or c.",mistralai/Mixtral-8x7B-Instruct-v0.1,Block 32,mixtral/f7,"∀ x ∀ y (
+    (Cube(x) ∧ Cube(y) ∧ Large(x) ∧ Large(y)) → (x = b ∨ x = c)
+)
+"
+∀ x ∀ y ( ( Cube ( x ) ∧ Cube ( y ) ∧ Large ( x ) ∧ Large ( y ) ) → ( x = b ∨ x = c ) ),"For all x and y, if x and y are both cubes and both large, then x is either b or c.",gemini-1.0-pro,Block 33,gemini/f7,"∀ x ∀ y (
+    (Cube(x) ∧ Cube(y) ∧ Large(x) ∧ Large(y)) → (x = b ∨ x = c)
+)
+"
+∀ x ∀ y ( ( Cube ( x ) ∧ Cube ( y ) ∧ Large ( x ) ∧ Large ( y ) ) → ( x = b ∨ x = c ) ),"For all cubes x and y that are large, either x is b or x is c.",gpt-3.5-turbo,Block 34,gpt/f7,"∀ x ∀ y (
+    (Cube(x) ∧ Cube(y) ∧ Large(x) ∧ Large(y)) → (x = b ∨ x = c)
+)
+"
+∀ x ∀ y ( ( Cube ( x ) ∧ Cube ( y ) ∧ Large ( x ) ∧ Large ( y ) ) → ( x = b ∨ x = c ) ),"For all x and for all y, if x is a large cube and y is a large cube, then x is either b or c.",microsoft/Phi-3.5-mini-instruct,Block 35,phi/f7,"∀ x ∀ y (
+    (Cube(x) ∧ Cube(y) ∧ Large(x) ∧ Large(y)) → (x = b ∨ x = c)
+)
+"
+"∀ y ( ( Dodec ( y ) ∧ LeftOf ( e , y ) ) → ¬ e = y )","For all y, if y is a dodecahedron and e is to the left of y, then e is not y.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∀ y ( ( Dodec ( y ) ∧ LeftOf ( e , y ) ) → ¬ e = y )","For every dodecahedron y to the left of e, e is not y.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∀ y ( ( Dodec ( y ) ∧ LeftOf ( e , y ) ) → ¬ e = y )","For all y, if y is a dodecahedron and e is to the left of y, then e is not equal to y.",gemini-1.0-pro,,,
+"∀ y ( ( Dodec ( y ) ∧ LeftOf ( e , y ) ) → ¬ e = y )","For all y, if y is a dodecahedron and y is to the left of e, then e is not equal to y.",gpt-3.5-turbo,Pilot 10,,
+"∀ y ( ( Dodec ( y ) ∧ LeftOf ( e , y ) ) → ¬ e = y )","For every dodecahedron y, if e is to the left of y, then e is not equal to y.",microsoft/Phi-3.5-mini-instruct,,,
+"∃ x ∃ y ∃ v ( ¬ x = y ∧ Cube ( x ) ∧ ∀ z ( Cube ( z ) → ( FrontOf ( z , v ) ∧ ( z = x ∨ z = y ) ) ) ∧ Cube ( y ) ∧ ∀ u ( Cube ( u ) → ( FrontOf ( u , v ) ∧ ( u = y ∨ u = x ) ) ) ∧ Tet ( v ) ∧ ∀ w ( Tet ( w ) → v = w ) )","There is a cube x and a cube y and a tetrahedron v such that x is not equal to y and for all cubes z, if z is in front of v and z is either x or y, then for all cubes u, if u is in front of v and u is either y or x, then v is a tetrahedron and for all tetrahedrons w, v is equal to w.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∃ x ∃ y ∃ v ( ¬ x = y ∧ Cube ( x ) ∧ ∀ z ( Cube ( z ) → ( FrontOf ( z , v ) ∧ ( z = x ∨ z = y ) ) ) ∧ Cube ( y ) ∧ ∀ u ( Cube ( u ) → ( FrontOf ( u , v ) ∧ ( u = y ∨ u = x ) ) ) ∧ Tet ( v ) ∧ ∀ w ( Tet ( w ) → v = w ) )","There are two cubes, x and y, and a tetrahedron, v, such that x and y are in front of v, and v is the only tetrahedron.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∃ x ∃ y ∃ v ( ¬ x = y ∧ Cube ( x ) ∧ ∀ z ( Cube ( z ) → ( FrontOf ( z , v ) ∧ ( z = x ∨ z = y ) ) ) ∧ Cube ( y ) ∧ ∀ u ( Cube ( u ) → ( FrontOf ( u , v ) ∧ ( u = y ∨ u = x ) ) ) ∧ Tet ( v ) ∧ ∀ w ( Tet ( w ) → v = w ) )","There exist x, y, and v such that x is not equal to y, x is a cube, for all z, if z is a cube, then z is in front of v and either z is x or z is y, y is a cube, for all u, if u is a cube, then u is in front of v and either u is y or u is x, v is a tetrahedron, and for all w, if w is a tetrahedron, then v is w.",gemini-1.0-pro,,,
+"∃ x ∃ y ∃ v ( ¬ x = y ∧ Cube ( x ) ∧ ∀ z ( Cube ( z ) → ( FrontOf ( z , v ) ∧ ( z = x ∨ z = y ) ) ) ∧ Cube ( y ) ∧ ∀ u ( Cube ( u ) → ( FrontOf ( u , v ) ∧ ( u = y ∨ u = x ) ) ) ∧ Tet ( v ) ∧ ∀ w ( Tet ( w ) → v = w ) )","There are two cubes, one in front of a tetrahedron and the other behind it.",gpt-3.5-turbo,,,
+"∃ x ∃ y ∃ v ( ¬ x = y ∧ Cube ( x ) ∧ ∀ z ( Cube ( z ) → ( FrontOf ( z , v ) ∧ ( z = x ∨ z = y ) ) ) ∧ Cube ( y ) ∧ ∀ u ( Cube ( u ) → ( FrontOf ( u , v ) ∧ ( u = y ∨ u = x ) ) ) ∧ Tet ( v ) ∧ ∀ w ( Tet ( w ) → v = w ) )","There exists a cube x and a cube y such that x is not equal to y, x is in front of a tetrahedron v, and for all cubes z, z is either in front of v or equal to x or y; y is in front of v, and for all cubes u, u is either in front of v or equal to y or x; and v is a tetrahedron, and for all tetrahedrons w, w is equal to v.",microsoft/Phi-3.5-mini-instruct,,,
+∃ x ( ¬ ( Dodec ( x ) → Large ( x ) ) ∧ ¬ ( Dodec ( x ) → Small ( x ) ) ),"There is a figure x such that it is not the case that if x is a dodecahedron then x is large, and it is not the case that if x is a dodecahedron then x is small.",codellama/CodeLlama-34b-Instruct-hf,Block 36,codellama/f8,"∃ x (
+    ¬(Dodec(x) → Large(x)) ∧
+    ¬(Dodec(x) → Small(x))
+)
+"
+∃ x ( ¬ ( Dodec ( x ) → Large ( x ) ) ∧ ¬ ( Dodec ( x ) → Small ( x ) ) ),There exists an x such that it is not the case that if x is a dodecahedron then x is large and it is not the case that if x is a dodecahedron then x is small.,mistralai/Mixtral-8x7B-Instruct-v0.1,Block 37,mixtral/f8,"∃ x (
+    ¬(Dodec(x) → Large(x)) ∧
+    ¬(Dodec(x) → Small(x))
+)
+"
+∃ x ( ¬ ( Dodec ( x ) → Large ( x ) ) ∧ ¬ ( Dodec ( x ) → Small ( x ) ) ),There exists an x such that it is not the case that if x is a dodecahedron then x is large and it is not the case that if x is a dodecahedron then x is small.,gemini-1.0-pro,Block 38,gemini/f8,"∃ x (
+    ¬(Dodec(x) → Large(x)) ∧
+    ¬(Dodec(x) → Small(x))
+)
+"
+∃ x ( ¬ ( Dodec ( x ) → Large ( x ) ) ∧ ¬ ( Dodec ( x ) → Small ( x ) ) ),"There exists an object that is not a dodecahedron and is not large, and is not a dodecahedron and is not small.",gpt-3.5-turbo,Block 39,gpt/f8,"∃ x (
+    ¬(Dodec(x) → Large(x)) ∧
+    ¬(Dodec(x) → Small(x))
+)
+"
+∃ x ( ¬ ( Dodec ( x ) → Large ( x ) ) ∧ ¬ ( Dodec ( x ) → Small ( x ) ) ),"There exists an x such that it is not the case that if x is a dodecahedron then x is large, and it is not the case that if x is a dodecahedron then x is small.",microsoft/Phi-3.5-mini-instruct,Block 40,phi/f8,"∃ x (
+    ¬(Dodec(x) → Large(x)) ∧
+    ¬(Dodec(x) → Small(x))
+)
+"
+"¬ ¬ ( SameCol ( b , e ) ∧ SameRow ( e , d ) ∧ SameCol ( a , d ) )",¬ ¬ ( b and e are in the same column and e and d are in the same row and a and d are in the same column ),codellama/CodeLlama-34b-Instruct-hf,,,
+"¬ ¬ ( SameCol ( b , e ) ∧ SameRow ( e , d ) ∧ SameCol ( a , d ) )",It is not the case that b and e are in the same column and e and d are in the same row and a and d are in the same column.,mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"¬ ¬ ( SameCol ( b , e ) ∧ SameRow ( e , d ) ∧ SameCol ( a , d ) )",It is not the case that both b and e are in the same column and e and d are in the same row and a and d are in the same column.,gemini-1.0-pro,Pilot 6,,
+"¬ ¬ ( SameCol ( b , e ) ∧ SameRow ( e , d ) ∧ SameCol ( a , d ) )","It is not the case that b and e are in the same column, e and d are in the same row, and a and d are in the same column.",gpt-3.5-turbo,,,
+"¬ ¬ ( SameCol ( b , e ) ∧ SameRow ( e , d ) ∧ SameCol ( a , d ) )","It is not the case that b is in the same column as e, e is in the same row as d, and a is in the same column as d.",microsoft/Phi-3.5-mini-instruct,,,
+"∀ x ( ¬ ∃ y FrontOf ( y , x ) → Small ( x ) ) ∧ ∀ x ( ¬ ∃ y BackOf ( y , x ) → Large ( x ) ) ∧ ∀ x ( ∃ y ∃ z ( FrontOf ( y , x ) ∧ BackOf ( z , x ) ∧ ¬ y = z ) → Medium ( x ) )","For all x, if there does not exist a y such that y is in front of x, then x is small. And for all x, if there does not exist a y such that y is behind x, then x is large. And for all x, if there exist a y and a z such that y is in front of x and z is behind x and y is not equal to z, then x is medium.",codellama/CodeLlama-34b-Instruct-hf,Block 41,codellama/f9,"∀ x (
+    ¬∃ y FrontOf(y, x) → Small(x)
+) ∧
+∀ x (
+    ¬∃ y BackOf(y, x) → Large(x)
+) ∧
+∀ x (
+    ∃ y ∃ z (
+        FrontOf(y, x) ∧ BackOf(z, x) ∧ ¬y = z
+    ) → Medium(x)
+)
+"
+"∀ x ( ¬ ∃ y FrontOf ( y , x ) → Small ( x ) ) ∧ ∀ x ( ¬ ∃ y BackOf ( y , x ) → Large ( x ) ) ∧ ∀ x ( ∃ y ∃ z ( FrontOf ( y , x ) ∧ BackOf ( z , x ) ∧ ¬ y = z ) → Medium ( x ) )","For all x, if there does not exist a y such that y is in front of x, then x is small. And for all x, if there does not exist a y such that y is behind x, then x is large. And for all x, if there exist a y and a z such that y is in front of x and z is behind x and y is not equal to z, then x is medium.",mistralai/Mixtral-8x7B-Instruct-v0.1,Block 42,mixtral/f9,"∀ x (
+    ¬∃ y FrontOf(y, x) → Small(x)
+) ∧
+∀ x (
+    ¬∃ y BackOf(y, x) → Large(x)
+) ∧
+∀ x (
+    ∃ y ∃ z (
+        FrontOf(y, x) ∧ BackOf(z, x) ∧ ¬y = z
+    ) → Medium(x)
+)
+"
+"∀ x ( ¬ ∃ y FrontOf ( y , x ) → Small ( x ) ) ∧ ∀ x ( ¬ ∃ y BackOf ( y , x ) → Large ( x ) ) ∧ ∀ x ( ∃ y ∃ z ( FrontOf ( y , x ) ∧ BackOf ( z , x ) ∧ ¬ y = z ) → Medium ( x ) )","For all x, if there is no y in front of x, then x is small. For all x, if there is no y behind x, then x is large. For all x, if there is a y and a z such that y is in front of x and z is behind x and y is not equal to z, then x is medium.",gemini-1.0-pro,Block 43,gemini/f9,"∀ x (
+    ¬∃ y FrontOf(y, x) → Small(x)
+) ∧
+∀ x (
+    ¬∃ y BackOf(y, x) → Large(x)
+) ∧
+∀ x (
+    ∃ y ∃ z (
+        FrontOf(y, x) ∧ BackOf(z, x) ∧ ¬y = z
+    ) → Medium(x)
+)
+"
+"∀ x ( ¬ ∃ y FrontOf ( y , x ) → Small ( x ) ) ∧ ∀ x ( ¬ ∃ y BackOf ( y , x ) → Large ( x ) ) ∧ ∀ x ( ∃ y ∃ z ( FrontOf ( y , x ) ∧ BackOf ( z , x ) ∧ ¬ y = z ) → Medium ( x ) )","For all x, if there is no y in front of x, then x is small. For all x, if there is no y behind x, then x is large. For all x, if there exists y and z such that y is in front of x, z is behind x, and y is not equal to z, then x is medium.",gpt-3.5-turbo,Block 44,gpt/f9,"∀ x (
+    ¬∃ y FrontOf(y, x) → Small(x)
+) ∧
+∀ x (
+    ¬∃ y BackOf(y, x) → Large(x)
+) ∧
+∀ x (
+    ∃ y ∃ z (
+        FrontOf(y, x) ∧ BackOf(z, x) ∧ ¬y = z
+    ) → Medium(x)
+)
+"
+"∀ x ( ¬ ∃ y FrontOf ( y , x ) → Small ( x ) ) ∧ ∀ x ( ¬ ∃ y BackOf ( y , x ) → Large ( x ) ) ∧ ∀ x ( ∃ y ∃ z ( FrontOf ( y , x ) ∧ BackOf ( z , x ) ∧ ¬ y = z ) → Medium ( x ) )","For every x, it is not the case that if there exists a y such that y is in front of x, then x is small. For every x, it is not the case that if there exists a y such that y is behind x, then x is large. For every x, if there exist y and z such that y is in front of x and z is behind x, and y is not equal to z, then x is medium.",microsoft/Phi-3.5-mini-instruct,Block 45,phi/f9,"∀ x (
+    ¬∃ y FrontOf(y, x) → Small(x)
+) ∧
+∀ x (
+    ¬∃ y BackOf(y, x) → Large(x)
+) ∧
+∀ x (
+    ∃ y ∃ z (
+        FrontOf(y, x) ∧ BackOf(z, x) ∧ ¬y = z
+    ) → Medium(x)
+)
+"
+"∀ z ∀ y ( BackOf ( z , y ) → Larger ( z , y ) )","For all z and for all y, if z is behind y, then z is larger than y.",codellama/CodeLlama-34b-Instruct-hf,Block 46,codellama/f10,"∀ z ∀ y (
+    BackOf(z, y) → Larger(z, y)
+)
+"
+"∀ z ∀ y ( BackOf ( z , y ) → Larger ( z , y ) )","For all z and y, if z is behind y, then z is larger than y.",mistralai/Mixtral-8x7B-Instruct-v0.1,Block 47,mixtral/f10,"∀ z ∀ y (
+    BackOf(z, y) → Larger(z, y)
+)
+"
+"∀ z ∀ y ( BackOf ( z , y ) → Larger ( z , y ) )","For all z, for all y, if z is behind y, then z is larger than y.",gemini-1.0-pro,Block 48,gemini/f10,"∀ z ∀ y (
+    BackOf(z, y) → Larger(z, y)
+)
+"
+"∀ z ∀ y ( BackOf ( z , y ) → Larger ( z , y ) )","For all z and y, if z is behind y, then z is larger than y.",gpt-3.5-turbo,Block 49,gpt/f10,"∀ z ∀ y (
+    BackOf(z, y) → Larger(z, y)
+)
+"
+"∀ z ∀ y ( BackOf ( z , y ) → Larger ( z , y ) )","For all z and for all y, if z is behind y, then z is larger than y.",microsoft/Phi-3.5-mini-instruct,Block 50,phi/f10,"∀ z ∀ y (
+    BackOf(z, y) → Larger(z, y)
+)
+"
+"∃ x ∀ y ∀ z ( Cube ( x ) ∧ Large ( x ) ∧ ( ( Cube ( y ) ∧ Large ( y ) ∧ Dodec ( z ) ) → ( x = y ∧ ¬ BackOf ( z , y ) ) ) )","There is a large cube x such that for all large cubes y and all dodecahedra z, if x equals y and z is not behind y, then x equals y and z is not behind y.",codellama/CodeLlama-34b-Instruct-hf,Block 51,codellama/f11,"∃ x ∀ y ∀ z (
+    Cube(x) ∧ Large(x) ∧ 
+    (
+        (Cube(y) ∧ Large(y) ∧ Dodec(z)) → 
+        (x = y ∧ ¬BackOf(z, y))
+    )
+)
+"
+"∃ x ∀ y ∀ z ( Cube ( x ) ∧ Large ( x ) ∧ ( ( Cube ( y ) ∧ Large ( y ) ∧ Dodec ( z ) ) → ( x = y ∧ ¬ BackOf ( z , y ) ) ) )","There is a large cube x such that for all y and all z, if y is a large cube and z is a dodecahedron, then x is y and z is not behind y.",mistralai/Mixtral-8x7B-Instruct-v0.1,Block 52,mixtral/f11,"∃ x ∀ y ∀ z (
+    Cube(x) ∧ Large(x) ∧ 
+    (
+        (Cube(y) ∧ Large(y) ∧ Dodec(z)) → 
+        (x = y ∧ ¬BackOf(z, y))
+    )
+)
+"
+"∃ x ∀ y ∀ z ( Cube ( x ) ∧ Large ( x ) ∧ ( ( Cube ( y ) ∧ Large ( y ) ∧ Dodec ( z ) ) → ( x = y ∧ ¬ BackOf ( z , y ) ) ) )","There exists an x such that for all y and z, if x is a large cube and y is a large cube and z is a dodecahedron, then x is identical to y and z is not behind y.",gemini-1.0-pro,Block 53,gemini/f11,"∃ x ∀ y ∀ z (
+    Cube(x) ∧ Large(x) ∧ 
+    (
+        (Cube(y) ∧ Large(y) ∧ Dodec(z)) → 
+        (x = y ∧ ¬BackOf(z, y))
+    )
+)
+"
+"∃ x ∀ y ∀ z ( Cube ( x ) ∧ Large ( x ) ∧ ( ( Cube ( y ) ∧ Large ( y ) ∧ Dodec ( z ) ) → ( x = y ∧ ¬ BackOf ( z , y ) ) ) )","There exists a cube that is large, and if there is another cube that is large and a dodecahedron, then the first cube is the same as the second cube and is not behind the dodecahedron.",gpt-3.5-turbo,Block 54,gpt/f11,"∃ x ∀ y ∀ z (
+    Cube(x) ∧ Large(x) ∧ 
+    (
+        (Cube(y) ∧ Large(y) ∧ Dodec(z)) → 
+        (x = y ∧ ¬BackOf(z, y))
+    )
+)
+"
+"∃ x ∀ y ∀ z ( Cube ( x ) ∧ Large ( x ) ∧ ( ( Cube ( y ) ∧ Large ( y ) ∧ Dodec ( z ) ) → ( x = y ∧ ¬ BackOf ( z , y ) ) ) )","There exists a large cube such that for all y and z, if y is a large cube and z is a dodecahedron, then y is equal to this large cube and z is not behind y.",microsoft/Phi-3.5-mini-instruct,Block 55,phi/f11,"∃ x ∀ y ∀ z (
+    Cube(x) ∧ Large(x) ∧ 
+    (
+        (Cube(y) ∧ Large(y) ∧ Dodec(z)) → 
+        (x = y ∧ ¬BackOf(z, y))
+    )
+)
+"
+"∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ z = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) ∧ ∀ x ∀ y ∀ v ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( v ) ) → ( x = y ∨ x = v ∨ y = v ) ) ∧ ∀ z ∀ u ∀ w ( ( Dodec ( z ) ∧ Dodec ( u ) ∧ Dodec ( w ) ) → ( z = u ∨ z = w ∨ u = w ) ) )","There exist four objects, x, y, z, and u, such that x and y are cubes, z and u are dodecahedrons, and x, y, z, and u are not the same object. x is not behind z and u, y is not behind z and u, and for all objects x, y, and v, if x and y are cubes and v is a cube, then either x and y are the same object or x and v are the same object or y and v are the same object. For all objects z, u, and w, if z and u are dodecahedrons and w is a dodecahedron, then either z and u are the same object or z and w are the same object or u and w are the same object.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ z = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) ∧ ∀ x ∀ y ∀ v ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( v ) ) → ( x = y ∨ x = v ∨ y = v ) ) ∧ ∀ z ∀ u ∀ w ( ( Dodec ( z ) ∧ Dodec ( u ) ∧ Dodec ( w ) ) → ( z = u ∨ z = w ∨ u = w ) ) )","There exist four objects, two of which are cubes and the other two are dodecahedrons, such that no two of them are the same object, and no cube is behind any dodecahedron. Furthermore, no two cubes are the same size, and no two dodecahedrons are the same size.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ z = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) ∧ ∀ x ∀ y ∀ v ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( v ) ) → ( x = y ∨ x = v ∨ y = v ) ) ∧ ∀ z ∀ u ∀ w ( ( Dodec ( z ) ∧ Dodec ( u ) ∧ Dodec ( w ) ) → ( z = u ∨ z = w ∨ u = w ) ) )","There exists an x, y, z, and u such that x is a cube, y is a cube, z is a dodecahedron, u is a dodecahedron, x is not equal to y, x is not equal to z, x is not equal to u, y is not equal to z, y is not equal to u, z is not equal to u, x is not behind z, x is not behind u, y is not behind z, y is not behind u, for all x, y, and v, if x is a cube, y is a cube, and v is a cube, then x is equal to y, x is equal to v, or y is equal to v, and for all z, u, and w, if z is a dodecahedron, u is a dodecahedron, and w is a dodecahedron, then z is equal to u, z is equal to w, or u is equal to w.",gemini-1.0-pro,,,
+"∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ z = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) ∧ ∀ x ∀ y ∀ v ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( v ) ) → ( x = y ∨ x = v ∨ y = v ) ) ∧ ∀ z ∀ u ∀ w ( ( Dodec ( z ) ∧ Dodec ( u ) ∧ Dodec ( w ) ) → ( z = u ∨ z = w ∨ u = w ) ) )","There exist four objects, two cubes and two dodecahedrons, such that they are all different from each other, not behind each other, and any two cubes are the same or any two dodecahedrons are the same.",gpt-3.5-turbo,,,
+"∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ¬ x = y ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ z = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) ∧ ∀ x ∀ y ∀ v ( ( Cube ( x ) ∧ Cube ( y ) ∧ Cube ( v ) ) → ( x = y ∨ x = v ∨ y = v ) ) ∧ ∀ z ∀ u ∀ w ( ( Dodec ( z ) ∧ Dodec ( u ) ∧ Dodec ( w ) ) → ( z = u ∨ z = w ∨ u = w ) ) )","There exists a cube x and a dodecahedron z and a dodecahedron u such that x is not equal to y, x is not equal to z, x is not equal to u, y is not equal to z, y is not equal to u, and z is not behind x and u, and for all cubes x and y and any cube v, either x equals y, x equals v, or y equals v, and for all dodecahedrons z, u, and w, either z equals u, z equals w, or u equals w.",microsoft/Phi-3.5-mini-instruct,,,
+"∀ x ∀ y ( ( Tet ( x ) ∧ Small ( x ) ∧ Tet ( y ) ∧ ¬ Small ( y ) ) → ( FrontOf ( x , y ) ∧ ¬ RightOf ( x , y ) ∧ ¬ LeftOf ( x , y ) ) )","For all x and for all y, if x is a tetrahedron and x is small and y is a tetrahedron and y is not small, then x is in front of y and x is not to the right of y and x is not to the left of y.",codellama/CodeLlama-34b-Instruct-hf,Block 56,codellama/f12,"∀ x ∀ y (
+    (Tet(x) ∧ Small(x) ∧ Tet(y) ∧ ¬Small(y)) → 
+    (FrontOf(x, y) ∧ ¬RightOf(x, y) ∧ ¬LeftOf(x, y))
+)
+"
+"∀ x ∀ y ( ( Tet ( x ) ∧ Small ( x ) ∧ Tet ( y ) ∧ ¬ Small ( y ) ) → ( FrontOf ( x , y ) ∧ ¬ RightOf ( x , y ) ∧ ¬ LeftOf ( x , y ) ) )","For all x and y, if x is a small tetrahedron and y is a non-small tetrahedron, then x is in front of y and x is not to the right of y and x is not to the left of y.",mistralai/Mixtral-8x7B-Instruct-v0.1,Block 57,mixtral/f12,"∀ x ∀ y (
+    (Tet(x) ∧ Small(x) ∧ Tet(y) ∧ ¬Small(y)) → 
+    (FrontOf(x, y) ∧ ¬RightOf(x, y) ∧ ¬LeftOf(x, y))
+)
+"
+"∀ x ∀ y ( ( Tet ( x ) ∧ Small ( x ) ∧ Tet ( y ) ∧ ¬ Small ( y ) ) → ( FrontOf ( x , y ) ∧ ¬ RightOf ( x , y ) ∧ ¬ LeftOf ( x , y ) ) )","For all x and y, if x is a small tetrahedron and y is a non-small tetrahedron, then x is in front of y and not to the right or left of y.",gemini-1.0-pro,Block 58,gemini/f12,"∀ x ∀ y (
+    (Tet(x) ∧ Small(x) ∧ Tet(y) ∧ ¬Small(y)) → 
+    (FrontOf(x, y) ∧ ¬RightOf(x, y) ∧ ¬LeftOf(x, y))
+)
+"
+"∀ x ∀ y ( ( Tet ( x ) ∧ Small ( x ) ∧ Tet ( y ) ∧ ¬ Small ( y ) ) → ( FrontOf ( x , y ) ∧ ¬ RightOf ( x , y ) ∧ ¬ LeftOf ( x , y ) ) )","For all tetrahedrons x and y, if x is small and y is not small, then x is in front of y and not to the right or left of y.",gpt-3.5-turbo,Block 59,gpt/f12,"∀ x ∀ y (
+    (Tet(x) ∧ Small(x) ∧ Tet(y) ∧ ¬Small(y)) → 
+    (FrontOf(x, y) ∧ ¬RightOf(x, y) ∧ ¬LeftOf(x, y))
+)
+"
+"∀ x ∀ y ( ( Tet ( x ) ∧ Small ( x ) ∧ Tet ( y ) ∧ ¬ Small ( y ) ) → ( FrontOf ( x , y ) ∧ ¬ RightOf ( x , y ) ∧ ¬ LeftOf ( x , y ) ) )","For all x and for all y, if x is a tetrahedron and x is small and y is a tetrahedron and y is not small, then x is in front of y and x is not to the right of y and x is not to the left of y.",microsoft/Phi-3.5-mini-instruct,Block 60,phi/f12,"∀ x ∀ y (
+    (Tet(x) ∧ Small(x) ∧ Tet(y) ∧ ¬Small(y)) → 
+    (FrontOf(x, y) ∧ ¬RightOf(x, y) ∧ ¬LeftOf(x, y))
+)
+"
+∀ x ( ( Large ( x ) ∧ Cube ( x ) ) → ( x = b ∨ x = c ) ) ∧ ∀ y ( ( Large ( y ) ∧ Cube ( y ) ) → ( y = b ∨ y = c ) ),"For all x, if x is large and a cube, then x is either b or c. For all y, if y is large and a cube, then y is either b or c.",codellama/CodeLlama-34b-Instruct-hf,Block 61,codellama/f13,"∀ x (
+    (Large(x) ∧ Cube(x)) → (x = b ∨ x = c)
+) ∧
+∀ y (
+    (Large(y) ∧ Cube(y)) → (y = b ∨ y = c)
+)
+"
+∀ x ( ( Large ( x ) ∧ Cube ( x ) ) → ( x = b ∨ x = c ) ) ∧ ∀ y ( ( Large ( y ) ∧ Cube ( y ) ) → ( y = b ∨ y = c ) ),"If something is a large cube, then it is either b or c. If something is a large cube, then it is either b or c.",mistralai/Mixtral-8x7B-Instruct-v0.1,Block 62,mixtral/f13,"∀ x (
+    (Large(x) ∧ Cube(x)) → (x = b ∨ x = c)
+) ∧
+∀ y (
+    (Large(y) ∧ Cube(y)) → (y = b ∨ y = c)
+)
+"
+∀ x ( ( Large ( x ) ∧ Cube ( x ) ) → ( x = b ∨ x = c ) ) ∧ ∀ y ( ( Large ( y ) ∧ Cube ( y ) ) → ( y = b ∨ y = c ) ),"For all x, if x is large and a cube, then x is either b or c. And for all y, if y is large and a cube, then y is either b or c.",gemini-1.0-pro,Block 63,gemini/f13,"∀ x (
+    (Large(x) ∧ Cube(x)) → (x = b ∨ x = c)
+) ∧
+∀ y (
+    (Large(y) ∧ Cube(y)) → (y = b ∨ y = c)
+)
+"
+∀ x ( ( Large ( x ) ∧ Cube ( x ) ) → ( x = b ∨ x = c ) ) ∧ ∀ y ( ( Large ( y ) ∧ Cube ( y ) ) → ( y = b ∨ y = c ) ),"For all objects x, if x is a large cube, then x is either b or c. And for all objects y, if y is a large cube, then y is either b or c.",gpt-3.5-turbo,Block 64,gpt/f13,"∀ x (
+    (Large(x) ∧ Cube(x)) → (x = b ∨ x = c)
+) ∧
+∀ y (
+    (Large(y) ∧ Cube(y)) → (y = b ∨ y = c)
+)
+"
+∀ x ( ( Large ( x ) ∧ Cube ( x ) ) → ( x = b ∨ x = c ) ) ∧ ∀ y ( ( Large ( y ) ∧ Cube ( y ) ) → ( y = b ∨ y = c ) ),"For all x, if x is large and a cube, then x is either b or c. And for all y, if y is large and a cube, then y is either b or c.",microsoft/Phi-3.5-mini-instruct,Block 65,phi/f13,"∀ x (
+    (Large(x) ∧ Cube(x)) → (x = b ∨ x = c)
+) ∧
+∀ y (
+    (Large(y) ∧ Cube(y)) → (y = b ∨ y = c)
+)
+"
+"∀ x ∀ y ( ( Cube ( x ) ∧ RightOf ( x , y ) ) → ¬ Cube ( y ) )","For all x and for all y, if x is a cube and x is to the right of y, then y is not a cube.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∀ x ∀ y ( ( Cube ( x ) ∧ RightOf ( x , y ) ) → ¬ Cube ( y ) )","For all x and y, if x is a cube and x is to the right of y, then y is not a cube.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∀ x ∀ y ( ( Cube ( x ) ∧ RightOf ( x , y ) ) → ¬ Cube ( y ) )","For all x and y, if x is a cube and x is to the right of y, then y is not a cube.",gemini-1.0-pro,,,
+"∀ x ∀ y ( ( Cube ( x ) ∧ RightOf ( x , y ) ) → ¬ Cube ( y ) )","For all cubes x that are to the right of y, y is not a cube.",gpt-3.5-turbo,,,
+"∀ x ∀ y ( ( Cube ( x ) ∧ RightOf ( x , y ) ) → ¬ Cube ( y ) )","For all x and for all y, if x is a cube and x is to the right of y, then y is not a cube.",microsoft/Phi-3.5-mini-instruct,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ) ∧ ∀ x ∀ y ∀ z ( ( Dodec ( x ) ∧ Dodec ( y ) ∧ Dodec ( z ) ) → ( x = y ∨ x = z ∨ y = z ) ) ∧ ∀ x ∀ y ( ( Dodec ( x ) → ¬ Small ( x ) ) ∧ ( Dodec ( y ) → ¬ Small ( y ) ) ),"There is a dodecahedron x and a dodecahedron y and x is not equal to y. For all x, y, and z, if x is a dodecahedron and y is a dodecahedron and z is a dodecahedron, then x is equal to y or x is equal to z or y is equal to z. For all x and y, if x is a dodecahedron, then x is not small. For all x and y, if y is a dodecahedron, then y is not small.",codellama/CodeLlama-34b-Instruct-hf,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ) ∧ ∀ x ∀ y ∀ z ( ( Dodec ( x ) ∧ Dodec ( y ) ∧ Dodec ( z ) ) → ( x = y ∨ x = z ∨ y = z ) ) ∧ ∀ x ∀ y ( ( Dodec ( x ) → ¬ Small ( x ) ) ∧ ( Dodec ( y ) → ¬ Small ( y ) ) ),"There exist two dodecahedrons, and they are not the same dodecahedron. For all dodecahedrons x, y, and z, if x, y, and z are dodecahedrons, then x is the same as y or x is the same as z or y is the same as z. For all dodecahedrons x and y, if x is a dodecahedron, then x is not small, and if y is a dodecahedron, then y is not small.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ) ∧ ∀ x ∀ y ∀ z ( ( Dodec ( x ) ∧ Dodec ( y ) ∧ Dodec ( z ) ) → ( x = y ∨ x = z ∨ y = z ) ) ∧ ∀ x ∀ y ( ( Dodec ( x ) → ¬ Small ( x ) ) ∧ ( Dodec ( y ) → ¬ Small ( y ) ) ),"There exist two distinct dodecahedrons, and any three dodecahedrons are identical. No dodecahedron is small.",gemini-1.0-pro,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ) ∧ ∀ x ∀ y ∀ z ( ( Dodec ( x ) ∧ Dodec ( y ) ∧ Dodec ( z ) ) → ( x = y ∨ x = z ∨ y = z ) ) ∧ ∀ x ∀ y ( ( Dodec ( x ) → ¬ Small ( x ) ) ∧ ( Dodec ( y ) → ¬ Small ( y ) ) ),"There exist two dodecahedrons that are not the same, and for any three dodecahedrons, at least two of them are the same. Additionally, dodecahedrons are not small.",gpt-3.5-turbo,,,
+∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ) ∧ ∀ x ∀ y ∀ z ( ( Dodec ( x ) ∧ Dodec ( y ) ∧ Dodec ( z ) ) → ( x = y ∨ x = z ∨ y = z ) ) ∧ ∀ x ∀ y ( ( Dodec ( x ) → ¬ Small ( x ) ) ∧ ( Dodec ( y ) → ¬ Small ( y ) ) ),"There exists a dodecahedron x and a dodecahedron y such that x is not equal to y. For all x, y, and z, if x, y, and z are all dodecahedrons, then either x equals y, or x equals z, or y equals z. For all x and y, if x is a dodecahedron, then x is not small, and if y is a dodecahedron, then y is not small.",microsoft/Phi-3.5-mini-instruct,,,
+∀ w ( ( Cube ( w ) ∧ Large ( w ) ) → ( w = b ∨ w = c ) ),"For all w, if w is a cube and w is large, then w is equal to b or w is equal to c.",codellama/CodeLlama-34b-Instruct-hf,,,
+∀ w ( ( Cube ( w ) ∧ Large ( w ) ) → ( w = b ∨ w = c ) ),"For all w, if w is a large cube, then w is either b or c.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+∀ w ( ( Cube ( w ) ∧ Large ( w ) ) → ( w = b ∨ w = c ) ),"For all w, if w is a cube and w is large, then w is either b or w is c.",gemini-1.0-pro,,,
+∀ w ( ( Cube ( w ) ∧ Large ( w ) ) → ( w = b ∨ w = c ) ),"For all objects w, if w is a large cube, then w is either b or c.",gpt-3.5-turbo,,,
+∀ w ( ( Cube ( w ) ∧ Large ( w ) ) → ( w = b ∨ w = c ) ),"For every cube that is large, it is either b or c.",microsoft/Phi-3.5-mini-instruct,,,
+"∀ x ∃ y ( ( Dodec ( x ) ∧ ¬ RightOf ( y , x ) ) → ∃ z Small ( x ) )","For every x, there exists a y such that if x is a dodecahedron and y is not to the right of x, then there exists a z that is small.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∀ x ∃ y ( ( Dodec ( x ) ∧ ¬ RightOf ( y , x ) ) → ∃ z Small ( x ) )","For every dodecahedron x, there exists a y such that if y is not to the right of x, then there exists a small z.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∀ x ∃ y ( ( Dodec ( x ) ∧ ¬ RightOf ( y , x ) ) → ∃ z Small ( x ) )","For all x there exists a y such that if x is a dodecahedron and y is not to the right of x, then there exists a z such that x is small.",gemini-1.0-pro,,,
+"∀ x ∃ y ( ( Dodec ( x ) ∧ ¬ RightOf ( y , x ) ) → ∃ z Small ( x ) )","For every dodecahedron, there exists a small object that is not to the right of the dodecahedron.",gpt-3.5-turbo,,,
+"∀ x ∃ y ( ( Dodec ( x ) ∧ ¬ RightOf ( y , x ) ) → ∃ z Small ( x ) )","For every dodecahedron x, there exists a small object y such that y is not to the right of x implies there exists a small object z.",microsoft/Phi-3.5-mini-instruct,,,
+∀ x ¬ Dodec ( x ),"For all x, x is not a dodecahedron.",codellama/CodeLlama-34b-Instruct-hf,,,
+∀ x ¬ Dodec ( x ),No dodecahedrons exist.,mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+∀ x ¬ Dodec ( x ),"For all x, x is not a dodecahedron.",gemini-1.0-pro,,,
+∀ x ¬ Dodec ( x ),"For all x, x is not a dodecahedron.",gpt-3.5-turbo,,,
+∀ x ¬ Dodec ( x ),"For all x, it is not the case that x is a dodecahedron.",microsoft/Phi-3.5-mini-instruct,,,
+"∃ x ( ( Cube ( x ) ∧ Larger ( a , x ) ) → ¬ ∃ y ( Tet ( y ) ∧ ¬ Smaller ( x , y ) ) )","There is a cube x such that if a is larger than x, then there is no tetrahedron y that is not smaller than x.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∃ x ( ( Cube ( x ) ∧ Larger ( a , x ) ) → ¬ ∃ y ( Tet ( y ) ∧ ¬ Smaller ( x , y ) ) )","There is a cube x such that if a is larger than x, then there does not exist a tetrahedron y that is not smaller than x.",mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∃ x ( ( Cube ( x ) ∧ Larger ( a , x ) ) → ¬ ∃ y ( Tet ( y ) ∧ ¬ Smaller ( x , y ) ) )","There exists an x such that if x is a cube and a is larger than x, then there does not exist a y such that y is a tetrahedron and x is not smaller than y.",gemini-1.0-pro,,,
+"∃ x ( ( Cube ( x ) ∧ Larger ( a , x ) ) → ¬ ∃ y ( Tet ( y ) ∧ ¬ Smaller ( x , y ) ) )","There exists a cube that is larger than a, such that there does not exist a tetrahedron that is not smaller than it.",gpt-3.5-turbo,,,
+"∃ x ( ( Cube ( x ) ∧ Larger ( a , x ) ) → ¬ ∃ y ( Tet ( y ) ∧ ¬ Smaller ( x , y ) ) )","There exists an x such that if x is a cube and larger than a, then there does not exist a y such that y is a tetrahedron and not smaller than x.",microsoft/Phi-3.5-mini-instruct,,,
+"∀ x ( ( Dodec ( x ) ∧ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) ∧ Large ( x ) ) ∨ ¬ Dodec ( x ) ∨ ¬ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) )","For all x, if x is a dodecahedron and there exists a y such that y is to the right of x and y is a cube and x is large, or if x is not a dodecahedron, or if there does not exist a y such that y is to the right of x and y is a cube, then...",codellama/CodeLlama-34b-Instruct-hf,Block 66,codellama/f14,"∀ x (
+    (
+        Dodec(x) ∧ 
+        ∃ y (RightOf(y, x) ∧ Cube(y)) ∧ 
+        Large(x)
+    ) ∨ 
+    ¬Dodec(x) ∨ 
+    ¬∃ y (RightOf(y, x) ∧ Cube(y))
+)
+"
+"∀ x ( ( Dodec ( x ) ∧ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) ∧ Large ( x ) ) ∨ ¬ Dodec ( x ) ∨ ¬ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) )","For all x, if x is a dodecahedron and there exists a y such that y is to the right of x and y is a cube and x is large, or if x is not a dodecahedron or there does not exist a y such that y is to the right of x and y is a cube, then...",mistralai/Mixtral-8x7B-Instruct-v0.1,Block 67,mixtral/f14,"∀ x (
+    (
+        Dodec(x) ∧ 
+        ∃ y (RightOf(y, x) ∧ Cube(y)) ∧ 
+        Large(x)
+    ) ∨ 
+    ¬Dodec(x) ∨ 
+    ¬∃ y (RightOf(y, x) ∧ Cube(y))
+)
+"
+"∀ x ( ( Dodec ( x ) ∧ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) ∧ Large ( x ) ) ∨ ¬ Dodec ( x ) ∨ ¬ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) )","For all x, if x is a dodecahedron and there exists a y such that y is to the right of x and y is a cube, and x is large, then x is not a dodecahedron or there does not exist a y such that y is to the right of x and y is a cube.",gemini-1.0-pro,Block 68,gemini/f14,"∀ x (
+    (
+        Dodec(x) ∧ 
+        ∃ y (RightOf(y, x) ∧ Cube(y)) ∧ 
+        Large(x)
+    ) ∨ 
+    ¬Dodec(x) ∨ 
+    ¬∃ y (RightOf(y, x) ∧ Cube(y))
+)
+"
+"∀ x ( ( Dodec ( x ) ∧ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) ∧ Large ( x ) ) ∨ ¬ Dodec ( x ) ∨ ¬ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) )","For all dodecahedrons x, if there exists a cube y to the right of x, then x is large. Otherwise, x is not a dodecahedron or there does not exist a cube y to the right of x.",gpt-3.5-turbo,Block 69,gpt/f14,"∀ x (
+    (
+        Dodec(x) ∧ 
+        ∃ y (RightOf(y, x) ∧ Cube(y)) ∧ 
+        Large(x)
+    ) ∨ 
+    ¬Dodec(x) ∨ 
+    ¬∃ y (RightOf(y, x) ∧ Cube(y))
+)
+"
+"∀ x ( ( Dodec ( x ) ∧ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) ∧ Large ( x ) ) ∨ ¬ Dodec ( x ) ∨ ¬ ∃ y ( RightOf ( y , x ) ∧ Cube ( y ) ) )","For every x, x is a dodecahedron and there exists a y such that y is to the right of x and y is a cube, and x is large, or x is not a dodecahedron or there does not exist a y such that y is to the right of x and y is a cube.",microsoft/Phi-3.5-mini-instruct,Block 70,phi/f14,"∀ x (
+    (
+        Dodec(x) ∧ 
+        ∃ y (RightOf(y, x) ∧ Cube(y)) ∧ 
+        Large(x)
+    ) ∨ 
+    ¬Dodec(x) ∨ 
+    ¬∃ y (RightOf(y, x) ∧ Cube(y))
+)
+"
+"∃ x ¬ ( Cube ( x ) → ∀ y ( Tet ( y ) → Smaller ( x , y ) ) )",There is a figure that is not a cube and is not smaller than every tetrahedron.,codellama/CodeLlama-34b-Instruct-hf,Block 71,codellama/f15,"∃ x ¬(
+    Cube(x) → ∀ y (Tet(y) → Smaller(x, y))
+)
+"
+"∃ x ¬ ( Cube ( x ) → ∀ y ( Tet ( y ) → Smaller ( x , y ) ) )",There is a cube that is not smaller than every tetrahedron.,mistralai/Mixtral-8x7B-Instruct-v0.1,Block 72,mixtral/f15,"∃ x ¬(
+    Cube(x) → ∀ y (Tet(y) → Smaller(x, y))
+)
+"
+"∃ x ¬ ( Cube ( x ) → ∀ y ( Tet ( y ) → Smaller ( x , y ) ) )","There exists an x such that it is not the case that if x is a cube, then for all y, if y is a tetrahedron, then x is smaller than y.",gemini-1.0-pro,Block 73,gemini/f15,"∃ x ¬(
+    Cube(x) → ∀ y (Tet(y) → Smaller(x, y))
+)
+"
+"∃ x ¬ ( Cube ( x ) → ∀ y ( Tet ( y ) → Smaller ( x , y ) ) )",There exists an object that is not a cube and is not smaller than all tetrahedrons.,gpt-3.5-turbo,Block 74,gpt/f15,"∃ x ¬(
+    Cube(x) → ∀ y (Tet(y) → Smaller(x, y))
+)
+"
+"∃ x ¬ ( Cube ( x ) → ∀ y ( Tet ( y ) → Smaller ( x , y ) ) )","There exists an x such that it is not the case that if x is a cube, then for all y, if y is a tetrahedron, x is smaller than y.",microsoft/Phi-3.5-mini-instruct,Block 75,phi/f15,"∃ x ¬(
+    Cube(x) → ∀ y (Tet(y) → Smaller(x, y))
+)
+"
+"¬ ∃ x ( Cube ( x ) ∧ Small ( x ) ∧ ¬ RightOf ( x , a ) )",There is no cube that is small and not to the right of a.,codellama/CodeLlama-34b-Instruct-hf,,,
+"¬ ∃ x ( Cube ( x ) ∧ Small ( x ) ∧ ¬ RightOf ( x , a ) )",There does not exist a small cube that is not to the right of a.,mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"¬ ∃ x ( Cube ( x ) ∧ Small ( x ) ∧ ¬ RightOf ( x , a ) )",There is no small cube that is not to the right of a.,gemini-1.0-pro,,,
+"¬ ∃ x ( Cube ( x ) ∧ Small ( x ) ∧ ¬ RightOf ( x , a ) )",There does not exist a small cube that is not to the right of a.,gpt-3.5-turbo,,,
+"¬ ∃ x ( Cube ( x ) ∧ Small ( x ) ∧ ¬ RightOf ( x , a ) )",There does not exist a cube that is small and is not to the right of 'a'.,microsoft/Phi-3.5-mini-instruct,,,
+"∀ x ¬ ∃ y ( ¬ x = y ∧ BackOf ( x , y ) ∧ Larger ( y , x ) )","For every x, there is no y such that x is not equal to y and y is behind x and y is larger than x.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∀ x ¬ ∃ y ( ¬ x = y ∧ BackOf ( x , y ) ∧ Larger ( y , x ) )",No object is behind a larger object than itself.,mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∀ x ¬ ∃ y ( ¬ x = y ∧ BackOf ( x , y ) ∧ Larger ( y , x ) )","For all x, there does not exist a y such that x is not equal to y and x is behind y and y is larger than x.",gemini-1.0-pro,,,
+"∀ x ¬ ∃ y ( ¬ x = y ∧ BackOf ( x , y ) ∧ Larger ( y , x ) )","For every object x, there does not exist an object y such that y is not x, y is behind x, and y is larger than x.",gpt-3.5-turbo,,,
+"∀ x ¬ ∃ y ( ¬ x = y ∧ BackOf ( x , y ) ∧ Larger ( y , x ) )","For all x, it is not the case that there exists a y such that x is not equal to y and x is behind y and y is larger than x.",microsoft/Phi-3.5-mini-instruct,,,
+"∃ x ∃ y ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ ∀ z ( Cube ( z ) → ( z = x ∨ z = y ) ) ) ∧ ∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ∧ ∀ z ( Dodec ( z ) → ( z = x ∨ z = y ) ) ) ∧ ∀ x ( Cube ( x ) → ∃ y ( Dodec ( y ) ∧ LeftOf ( x , y ) ) )","There is a cube and a cube and they are not the same and for all things, if they are a cube, then they are one of the two cubes. And there is a dodecahedron and a dodecahedron and they are not the same and for all things, if they are a dodecahedron, then they are one of the two dodecahedrons. And for all things, if they are a cube, then there is a dodecahedron that is to the left of it.",codellama/CodeLlama-34b-Instruct-hf,,,
+"∃ x ∃ y ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ ∀ z ( Cube ( z ) → ( z = x ∨ z = y ) ) ) ∧ ∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ∧ ∀ z ( Dodec ( z ) → ( z = x ∨ z = y ) ) ) ∧ ∀ x ( Cube ( x ) → ∃ y ( Dodec ( y ) ∧ LeftOf ( x , y ) ) )",There are exactly two cubes. There are exactly two dodecahedrons. Every cube is to the left of a dodecahedron.,mistralai/Mixtral-8x7B-Instruct-v0.1,,,
+"∃ x ∃ y ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ ∀ z ( Cube ( z ) → ( z = x ∨ z = y ) ) ) ∧ ∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ∧ ∀ z ( Dodec ( z ) → ( z = x ∨ z = y ) ) ) ∧ ∀ x ( Cube ( x ) → ∃ y ( Dodec ( y ) ∧ LeftOf ( x , y ) ) )","There are exactly two cubes and exactly two dodecahedrons, and every cube is to the left of a dodecahedron.",gemini-1.0-pro,,,
+"∃ x ∃ y ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ ∀ z ( Cube ( z ) → ( z = x ∨ z = y ) ) ) ∧ ∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ∧ ∀ z ( Dodec ( z ) → ( z = x ∨ z = y ) ) ) ∧ ∀ x ( Cube ( x ) → ∃ y ( Dodec ( y ) ∧ LeftOf ( x , y ) ) )","There are two cubes that are not the same and all cubes are one of these two cubes. There are two dodecahedrons that are not the same and all dodecahedrons are one of these two dodecahedrons. For every cube, there is a dodecahedron to the left of it.",gpt-3.5-turbo,,,
+"∃ x ∃ y ( Cube ( x ) ∧ Cube ( y ) ∧ ¬ x = y ∧ ∀ z ( Cube ( z ) → ( z = x ∨ z = y ) ) ) ∧ ∃ x ∃ y ( Dodec ( x ) ∧ Dodec ( y ) ∧ ¬ x = y ∧ ∀ z ( Dodec ( z ) → ( z = x ∨ z = y ) ) ) ∧ ∀ x ( Cube ( x ) → ∃ y ( Dodec ( y ) ∧ LeftOf ( x , y ) ) )","There exists a cube x and a cube y such that x is not equal to y, and for all objects z, if z is a cube, then z must be either x or y. There exists a dodecahedron x and a dodecahedron y such that x is not equal to y, and for all objects z, if z is a dodecahedron, then z must be either x or y. For all cubes x, there exists a dodecahedron y such that y is to the left of x.",microsoft/Phi-3.5-mini-instruct,,,

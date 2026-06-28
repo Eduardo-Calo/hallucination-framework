@@ -1,0 +1,413 @@
+input,output,google_gemini-2.5-pro,anthropic_claude-sonnet-4,x-ai_grok-4,moonshotai_kimi-k2,openai_gpt-5,deepseek_deepseek-r1-0528,openai_o3,z-ai_glm-4.5-air,openai_gpt-oss-120b,meta-llama_llama-4-maverick,anthropic_claude-opus-4.1,qwen_qwen3-235b-a22b-2507,0,1,2
+"Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking","The Hotel Fahari Gardens is a 3-star hotel in Nairobi, Kenya.
+It offers a 24-hour reception, a breakfast buffet, a pool table and a playground for children.
+The hotel also provides body treatments and accessible parking.",no,no,no,no,no,no,no,no,no,no,no,no,3a: Input and Output independent,3a: Input and Output independent,1b: Output too weak with harmless information
+"Name: Hotel The St Regis Punta Mita Resort
+Star rating: 5
+City: Bahía de Banderas
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Laundry service
+Room amenities: Free WiFi (rooms)
+Sport: Horse riding, Diving
+Childcare services: Organised activities for kids, Playground
+Wellness: Beauty salon, Massage, Hydrotherapy
+Accessibility: Accessible bathroom, Accessible hotel","Indulge in luxury at the 5-star Hotel The St Regis Punta Mita Resort in Bahía de Banderas, Mexico.
+This hotel offers a serene escape with its accessible accommodations and soothing wellness amenities, including a beauty salon, massage treatments, and hydrotherapy.
+Keep entertained with thrilling sports like horse riding and diving.
+Families can enjoy organized activities and a playground for kids.
+The hotel also provides convenient laundry services and ensures a comfortable stay with free in-room WiFi.",no,no,no,yes,no,no,no,yes,yes,no,no,no,3a: Input and Output independent,1b: Output too weak with harmless information,1b: Output too weak with harmless information
+"Name: Piscina Rei
+Star rating: 4
+City: Muravera
+Country: Italy
+Accommodation type: Resort
+Hotel facilities: Hotel bar
+Room amenities: Balcony (upon inquiry)
+Sport: Volleyball, Surfing, Bike rental
+Childcare services: Kids stay for free, Childcare, Organised activities for kids
+Wellness: Massage, Hot tub, Beauty salon
+Accessibility: Accessible bathroom, Wheelchair accessible, Accessible parking","""Piscina Rei"" is a luxurious 4-star resort located in Muravera, Italy.
+This elegant accommodation offers a range of facilities and amenities for a relaxing stay.
+Guests can enjoy the hotel bar, indulge in massages and beauty treatments at the wellness center, and unwind in the hot tub.
+For active guests, the resort provides opportunities for volleyball, surfing, and bike rental.
+Families are catered to with complimentary stays for kids, childcare services, and organized activities.
+Accessibility features include wheelchair access, accessible parking, and bathrooms.
+Rooms may feature balconies, subject to availability.",no,no,no,no,no,no,no,no,no,yes,no,no,0b: Well-matched with harmless information,1b: Output too weak with harmless information,0b: Well-matched with harmless information
+"Name: Renaissance Sharm El Sheikh Golden View Beach Resort
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Beach bar, WiFi in public areas, Free WiFi
+Room amenities: Cable TV, Shower
+Sport: Diving
+Childcare services: Cot, Kids stay for free, Kids' club
+Wellness: Body treatments, Hot tub
+Accessibility: Accessible parking","The Renaissance Sharm El Sheikh Golden View Beach Resort is a luxurious 5-star hotel located in the sunny city of Sharm el-Sheikh in Egypt.
+This beachfront accommodation boasts a variety of amenities, including a beach bar, free WiFi in public areas, and cable TV in all rooms.
+Guests can enjoy a relaxing shower after a long day of exploring the city or diving in the crystal-clear waters of the Red Sea.
+Families traveling with children can take advantage of the hotel's childcare services, such as cots, kids' club, and kids stay for free.
+The hotel also offers a variety of wellness options, including body treatments and hot tub, perfect for unwinding and rejuvenating.
+The Renaissance Sharm El Sheikh Golden View Beach Resort is committed to accessibility, offering accessible parking for guests with disabilities.",no,no,no,no,no,no,no,no,no,no,no,no,0b: Well-matched with harmless information,2a: Output too strong,0b: Well-matched with harmless information
+"Name: Resort at Squaw Creek a Destination by Hyatt Residence
+Star rating: 4
+City: Tahoe City
+Country: USA
+Accommodation type: Hotel
+Hotel facilities: Cashless payment, Car hire
+Room amenities: Television, Cosmetic mirror, Fireplace
+Sport: Tennis court, Golf course
+Childcare services: Organised activities for kids, Childcare, Kids' club
+Wellness: Sauna, Massage, Hot stone massage
+Accessibility: Wheelchair accessible","The Resort at Squaw Creek a Destination by Hyatt Residence is a 4-star hotel located in the heart of Tahoe City, USA.
+This stunning accommodation offers a range of facilities and amenities to ensure a comfortable and enjoyable stay for all guests.
+As a Destination by Hyatt Residence, the hotel offers cashless payment options and car hire services, making it easy for guests to explore the local area.
+The hotel's accommodation type is a hotel, and it boasts a range of room amenities including a television, cosmetic mirror, and fireplace.
+For sports enthusiasts, the hotel offers a tennis court and golf course, providing plenty of opportunities to stay active during your stay.
+The hotel also offers a range of childcare services, including organised activities for kids, childcare, and a kids' club, making it an ideal choice for families.
+The hotel's wellness facilities are also top-notch, with a sauna, massage, and hot stone massage available to help guests relax and unwind.
+The hotel is also wheelchair accessible, ensuring that all guests can enjoy a comfortable and accessible stay.",no,no,no,no,no,no,yes,,no,no,no,yes,0b: Well-matched with harmless information,0b: Well-matched with harmless information,0b: Well-matched with harmless information
+"Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking","Hotel Fahari Gardens is a charming 3-star hotel located in the heart of Nairobi, Kenya.
+This hotel offers a range of facilities and amenities to ensure a comfortable and enjoyable stay for all guests.
+The hotel's accommodation type is a hotel, and it boasts a variety of room amenities such as a coffee machine and a sitting area, providing guests with a comfortable and relaxing space to unwind after a long day of exploring the city.
+Hotel Fahari Gardens offers a range of hotel facilities, including a 24-hour reception, ensuring that guests have access to assistance and support at all times.
+The hotel also offers a delicious breakfast, providing guests with the energy they need to start their day off right.
+For sports enthusiasts, the hotel offers a golf course and a pool table, providing guests with the opportunity to enjoy some leisurely activities during their stay.
+The hotel also offers childcare services, including a playground and childcare, ensuring that families with young children are well catered for.
+Guests looking to relax and unwind can take advantage of the hotel's wellness facilities, which include body treatments.",no,no,no,no,no,no,no,no,no,no,no,no,1b: Output too weak with harmless information,1b: Output too weak with harmless information,1b: Output too weak with harmless information
+"Name: Hotel The St Regis Punta Mita Resort
+Star rating: 5
+City: Bahía de Banderas
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Laundry service
+Room amenities: Free WiFi (rooms)
+Sport: Horse riding, Diving
+Childcare services: Organised activities for kids, Playground
+Wellness: Beauty salon, Massage, Hydrotherapy
+Accessibility: Accessible bathroom, Accessible hotel","The St Regis Punta Mita Resort is a 5-star hotel in Baha de Banderas, Mexico.
+It offers a beauty salon, massage, hydrotherapy, and a playground for children.
+The hotel has free Wi-Fi and a laundry service.
+The hotel is accessible for the disabled.",no,no,no,no,no,no,no,no,no,no,no,yes,1a: Output too weak,1a: Output too weak,1a: Output too weak
+"Name: Piscina Rei
+Star rating: 4
+City: Muravera
+Country: Italy
+Accommodation type: Resort
+Hotel facilities: Hotel bar
+Room amenities: Balcony (upon inquiry)
+Sport: Volleyball, Surfing, Bike rental
+Childcare services: Kids stay for free, Childcare, Organised activities for kids
+Wellness: Massage, Hot tub, Beauty salon
+Accessibility: Accessible bathroom, Wheelchair accessible, Accessible parking","Indulge in coastal bliss at Piscina Rei Resort, a 4-star retreat in Muravera, Italy.
+This resort offers a tranquil haven with Hotel bar, while rooms may feature balconies (upon request).
+Stay active with Volleyball, Surfing, and Bike rentals.
+Cater to your little ones with Kids stay free, Childcare, and organized activities.
+Rejuvenate in style with Massage, Hot tub, and Beauty salon services.
+The resort prioritizes accessibility, boasting Accessible bathrooms, Wheelchair access, and Accessible parking.",no,no,no,yes,no,no,yes,yes,no,no,no,yes,0b: Well-matched with harmless information,0b: Well-matched with harmless information,0b: Well-matched with harmless information
+"Name: Renaissance Sharm El Sheikh Golden View Beach Resort
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Beach bar, WiFi in public areas, Free WiFi
+Room amenities: Cable TV, Shower
+Sport: Diving
+Childcare services: Cot, Kids stay for free, Kids' club
+Wellness: Body treatments, Hot tub
+Accessibility: Accessible parking","Experience luxury at the Renaissance Sharm El Sheikh Golden View Beach Resort, a 5-star hotel located in Sharm el-Sheikh, Egypt.
+Nestled along the picturesque coastline, this resort offers a range of amenities including a beach bar, free WiFi in public areas, and accessible parking.
+Indulge in comfort with room amenities such as cable TV and a refreshing shower.
+Dive into adventure with diving excursions, while childcare services including cots and a kids' club cater to families.
+Relax and rejuvenate with body treatments and a soothing hot tub, making your stay a memorable blend of leisure and indulgence.",no,no,no,no,no,no,no,no,no,no,no,yes,1b: Output too weak with harmless information,1b: Output too weak with harmless information,1b: Output too weak with harmless information
+"Name: Resort at Squaw Creek a Destination by Hyatt Residence
+Star rating: 4
+City: Tahoe City
+Country: USA
+Accommodation type: Hotel
+Hotel facilities: Cashless payment, Car hire
+Room amenities: Television, Cosmetic mirror, Fireplace
+Sport: Tennis court, Golf course
+Childcare services: Organised activities for kids, Childcare, Kids' club
+Wellness: Sauna, Massage, Hot stone massage
+Accessibility: Wheelchair accessible","The Resort at Squaw Creek, a Destination by Hyatt Residence is a 4-star hotel located in Tahoe City, USA.
+It is a hotel accommodation with cashless payment and car hire facilities.
+The rooms are equipped with amenities such as a television, cosmetic mirror, and fireplace.
+For sports enthusiasts, the hotel has a tennis court and golf course.
+Families traveling with children can benefit from childcare services such as organized activities for kids, childcare, and a kids' club.
+For those seeking relaxation, the hotel also offers wellness facilities such as a sauna, massage, and hot stone massage.
+Furthermore, the hotel is wheelchair accessible, making it suitable for guests with disabilities.",yes,no,yes,yes,no,yes,yes,yes,yes,yes,yes,yes,0a: Well-matched,0b: Well-matched with harmless information,0b: Well-matched with harmless information
+"Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking","The Hotel Fahari Gardens is a 3-star hotel located in Nairobi, Kenya.
+It is an accommodation of the hotel type.
+The hotel offers a 24-hour reception and breakfast.
+Guests can enjoy a golf course, pool table, and a playground for children.
+Childcare services are also available.
+The hotel also offers body treatments as part of its wellness facilities.
+The hotel is accessible and wheelchair accessible with accessible parking.
+The rooms feature a coffee machine and a sitting area.",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,0a: Well-matched,0a: Well-matched,0a: Well-matched
+"Name: Hotel The St Regis Punta Mita Resort
+Star rating: 5
+City: Bahía de Banderas
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Laundry service
+Room amenities: Free WiFi (rooms)
+Sport: Horse riding, Diving
+Childcare services: Organised activities for kids, Playground
+Wellness: Beauty salon, Massage, Hydrotherapy
+Accessibility: Accessible bathroom, Accessible hotel","Hotel The St Regis Punta Mita Resort is a luxurious 5-star accommodation located in the beautiful city of Bahía de Banderas, Mexico.
+This stunning hotel offers a wide range of facilities and amenities to ensure a comfortable and unforgettable stay for all guests.
+The hotel features a laundry service, ensuring that guests can have their clothes cleaned and pressed during their stay.
+The rooms are equipped with free WiFi, allowing guests to stay connected with their loved ones or work remotely.
+For sports enthusiasts, the hotel offers a variety of activities, including horse riding and diving.
+Guests can explore the beautiful surroundings of Bahía de Banderas while enjoying their favorite sports.
+The hotel also offers childcare services, including organized activities for kids and a playground.
+Parents can relax and enjoy their stay while their children are well taken care of and entertained.
+For those seeking relaxation and rejuvenation, the hotel features a beauty salon, massage, and hydrotherapy services.
+Guests can indulge in a variety of treatments and therapies to unwind and recharge.",no,no,no,no,no,no,no,no,no,no,no,no,1b: Output too weak with harmless information,1b: Output too weak with harmless information,3a: Input and Output independent
+"Name: Piscina Rei
+Star rating: 4
+City: Muravera
+Country: Italy
+Accommodation type: Resort
+Hotel facilities: Hotel bar
+Room amenities: Balcony (upon inquiry)
+Sport: Volleyball, Surfing, Bike rental
+Childcare services: Kids stay for free, Childcare, Organised activities for kids
+Wellness: Massage, Hot tub, Beauty salon
+Accessibility: Accessible bathroom, Wheelchair accessible, Accessible parking","The Piscina Rei is a 4-star resort located in Muravera, Italy.
+It offers a variety of sports and wellness facilities, including a hot tub, massage and beauty salon.
+The resort is also family-friendly, with free childcare and organised activities for kids.",no,no,no,no,no,no,no,no,no,no,no,no,3a: Input and Output independent,3a: Input and Output independent,3a: Input and Output independent
+"Name: Renaissance Sharm El Sheikh Golden View Beach Resort
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Beach bar, WiFi in public areas, Free WiFi
+Room amenities: Cable TV, Shower
+Sport: Diving
+Childcare services: Cot, Kids stay for free, Kids' club
+Wellness: Body treatments, Hot tub
+Accessibility: Accessible parking","Escape to paradise at the 5-star Renaissance Sharm El Sheikh Golden View Beach Resort in Egypt.
+Relax on the idyllic beach with a drink from the beach bar.
+The elegant rooms feature cable TV and showers.
+Indulge in a rejuvenating spa with body treatments and unwind in the hot tub.
+Stay connected with free WiFi in public areas.
+Keep active with diving, and younger guests will delight in the kids' club and stay for free.
+The hotel also offers accessible parking for added convenience.",no,no,no,no,no,no,no,,no,no,no,no,1b: Output too weak with harmless information,1b: Output too weak with harmless information,1b: Output too weak with harmless information
+"Name: Resort at Squaw Creek a Destination by Hyatt Residence
+Star rating: 4
+City: Tahoe City
+Country: USA
+Accommodation type: Hotel
+Hotel facilities: Cashless payment, Car hire
+Room amenities: Television, Cosmetic mirror, Fireplace
+Sport: Tennis court, Golf course
+Childcare services: Organised activities for kids, Childcare, Kids' club
+Wellness: Sauna, Massage, Hot stone massage
+Accessibility: Wheelchair accessible","The Resort at Squaw Creek, a Destination by Hyatt Residence, is a 4-star hotel located in Tahoe City, USA.
+This luxurious accommodation offers a variety of amenities and facilities for a comfortable stay.
+Guests can enjoy cashless payment options and car hire services for convenience.
+Rooms are equipped with amenities such as television, cosmetic mirror, and fireplace.
+For sports enthusiasts, the resort features tennis courts and a golf course.
+Families traveling with children can take advantage of organized activities, childcare services, and a kids' club.
+Wellness amenities include a sauna, massage services, and hot stone massages.
+The resort is also wheelchair accessible, ensuring inclusivity for all guests.",no,no,no,yes,no,no,yes,yes,yes,yes,no,yes,2a: Output too strong,2a: Output too strong,2a: Output too strong
+"Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking","Hotel Fahari Gardens is a charming 3-star hotel located in Nairobi, Kenya.
+This hotel offers comfortable accommodations with amenities including a coffee machine and sitting area in each room.
+Guests can enjoy a complimentary breakfast and access to a 24-hour reception for convenience.
+The hotel features recreational facilities such as a golf course and pool table for entertainment.
+Families with children will appreciate the playground and childcare services available.
+Additionally, guests can indulge in relaxing body treatments at the wellness center.
+Hotel Fahari Gardens is accessible for all guests with features like accessible rooms, wheelchair accessibility, and convenient parking options.",no,no,no,no,no,no,no,no,no,no,no,no,3a: Input and Output independent,3a: Input and Output independent,3a: Input and Output independent
+"Name: Hotel The St Regis Punta Mita Resort
+Star rating: 5
+City: Bahía de Banderas
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Laundry service
+Room amenities: Free WiFi (rooms)
+Sport: Horse riding, Diving
+Childcare services: Organised activities for kids, Playground
+Wellness: Beauty salon, Massage, Hydrotherapy
+Accessibility: Accessible bathroom, Accessible hotel","The Hotel The St Regis Punta Mita Resort is a luxurious 5-star hotel located in Bahía de Banderas, Mexico.
+This hotel offers world-class accommodations and amenities, making it the perfect place for a relaxing and comfortable stay.
+The hotel offers a range of facilities including laundry services, free WiFi in rooms, horse riding, diving, organised activities for kids, playground, beauty salon, massage, hydrotherapy, and accessible bathroom and hotel.
+The Hotel The St Regis Punta Mita Resort offers a range of room amenities including free WiFi, which means you can stay connected throughout your stay.
+The hotel also offers a range of sport and wellness activities to keep you active and relaxed during your stay.
+The hotel is located in a beautiful area of Mexico, and offers stunning views of the surrounding countryside.
+The hotel is also accessible, making it an ideal choice for those with mobility issues.
+Overall, the Hotel The St Regis Punta Mita Resort is the perfect choice for anyone looking for a luxurious and comfortable stay in Mexico.",no,no,no,no,no,no,no,no,no,no,no,no,0b: Well-matched with harmless information,2a: Output too strong,2a: Output too strong
+"Name: Piscina Rei
+Star rating: 4
+City: Muravera
+Country: Italy
+Accommodation type: Resort
+Hotel facilities: Hotel bar
+Room amenities: Balcony (upon inquiry)
+Sport: Volleyball, Surfing, Bike rental
+Childcare services: Kids stay for free, Childcare, Organised activities for kids
+Wellness: Massage, Hot tub, Beauty salon
+Accessibility: Accessible bathroom, Wheelchair accessible, Accessible parking","Piscina Rei is a 4-star resort located in the charming city of Muravera, Italy.
+This beautiful accommodation offers a wide range of facilities and services to ensure a comfortable and enjoyable stay for all guests.
+The resort features a hotel bar where guests can enjoy a refreshing drink or a light snack.
+The rooms at Piscina Rei are equipped with a balcony, upon inquiry, offering stunning views of the surrounding area.
+For sports enthusiasts, the resort offers a variety of activities including volleyball, surfing, and bike rental.
+Guests can also take advantage of the childcare services available at the resort, including kids stay for free, childcare, and organized activities for kids.
+In addition to sports and childcare services, Piscina Rei also offers wellness facilities such as massage, hot tub, and a beauty salon.
+The resort is fully accessible, with accessible bathrooms, wheelchair accessibility, and accessible parking available for guests with disabilities.
+Overall, Piscina Rei is an excellent choice for travelers seeking a comfortable and enjoyable stay in Muravera, Italy.",no,no,no,no,no,no,no,,no,no,no,yes,0b: Well-matched with harmless information,0b: Well-matched with harmless information,0b: Well-matched with harmless information
+"Name: Renaissance Sharm El Sheikh Golden View Beach Resort
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Beach bar, WiFi in public areas, Free WiFi
+Room amenities: Cable TV, Shower
+Sport: Diving
+Childcare services: Cot, Kids stay for free, Kids' club
+Wellness: Body treatments, Hot tub
+Accessibility: Accessible parking","Renaissance Sharm El Sheikh Golden View Beach Resort is a 5-star hotel in Sharm el-Sheikh, Egypt.
+It has a beach bar, free WiFi, and a hot tub.
+Rooms have a cable TV and a shower.
+The hotel has a kids' club and cots are available.
+It also has a fitness centre and body treatments.",no,no,no,no,no,no,no,no,no,no,no,no,3a: Input and Output independent,3a: Input and Output independent,3a: Input and Output independent
+"Name: Resort at Squaw Creek a Destination by Hyatt Residence
+Star rating: 4
+City: Tahoe City
+Country: USA
+Accommodation type: Hotel
+Hotel facilities: Cashless payment, Car hire
+Room amenities: Television, Cosmetic mirror, Fireplace
+Sport: Tennis court, Golf course
+Childcare services: Organised activities for kids, Childcare, Kids' club
+Wellness: Sauna, Massage, Hot stone massage
+Accessibility: Wheelchair accessible","Nestled in Tahoe City, Resort at Squaw Creek is a 4-star haven offering tranquility.
+Its well-equipped rooms feature amenities like TVs and fireplaces.
+Indulge in a relaxing sauna session or rejuvenate with a massage.
+Let your kids join organized activities while you enjoy organized activities while you enjoy tennis or golf.
+Accessibility options ensure comfort for all.
+Cashless payment and car hire services add convenience, while the hotel's childcare offerings provide peace of mind for parents.",no,no,no,no,no,no,no,no,no,yes,no,no,3a: Input and Output independent,3a: Input and Output independent,3a: Input and Output independent
+"Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking","Hotel Fahari Gardens, a cozy 3-star hotel in Nairobi, Kenya, welcomes guests with a warm and inviting atmosphere.
+The hotel offers a convenient 24-hour reception for your assistance.
+Enjoy a delicious breakfast to start your day and indulge in body treatments for relaxation and rejuvenation.
+For entertainment, the hotel boasts a golf course and pool table.
+Families will appreciate the playground and childcare services, while guests with disabilities can enjoy the accessible amenities and parking.
+The comfortable rooms feature coffee machines and sitting areas for your comfort.",no,no,no,no,no,no,no,no,no,yes,no,no,1b: Output too weak with harmless information,1b: Output too weak with harmless information,1b: Output too weak with harmless information
+"Name: Hotel The St Regis Punta Mita Resort
+Star rating: 5
+City: Bahía de Banderas
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Laundry service
+Room amenities: Free WiFi (rooms)
+Sport: Horse riding, Diving
+Childcare services: Organised activities for kids, Playground
+Wellness: Beauty salon, Massage, Hydrotherapy
+Accessibility: Accessible bathroom, Accessible hotel","Experience luxury at its finest at the 5-star Hotel The St Regis Punta Mita Resort located in Bahía de Banderas, Mexico.
+This prestigious hotel offers unparalleled hospitality with a range of amenities and services to ensure a memorable stay.
+Enjoy the convenience of laundry service and stay connected with free WiFi in rooms.
+Indulge in exciting activities such as horse riding and diving, or relax at the beauty salon, indulge in a massage, or rejuvenate with hydrotherapy sessions.
+Families will appreciate the organized activities for kids and playground, while accessibility features including accessible bathrooms and hotel facilities cater to all guests' needs.",no,no,no,no,no,no,yes,no,yes,no,no,no,0b: Well-matched with harmless information,0b: Well-matched with harmless information,0b: Well-matched with harmless information
+"Name: Piscina Rei
+Star rating: 4
+City: Muravera
+Country: Italy
+Accommodation type: Resort
+Hotel facilities: Hotel bar
+Room amenities: Balcony (upon inquiry)
+Sport: Volleyball, Surfing, Bike rental
+Childcare services: Kids stay for free, Childcare, Organised activities for kids
+Wellness: Massage, Hot tub, Beauty salon
+Accessibility: Accessible bathroom, Wheelchair accessible, Accessible parking","The Piscina Rei Resort is a stunning four-star accommodation located in the beautiful city of Muravera, Italy.
+It offers guests an exceptional experience with a variety of facilities and amenities.
+The resort is perfect for those who want to enjoy a comfortable and relaxing stay while exploring the city.
+The hotel has a bar where you can enjoy a drink or two with friends or family.
+The room amenities include a balcony, which can be requested upon inquiry, and a flat-screen TV for your entertainment.
+The resort also offers bike rentals, volleyball, surfing, and other sports activities for guests to enjoy.
+For families, the Piscina Rei Resort provides childcare services, including kids' stay for free, childcare, and organized activities for kids.
+The hotel also has a hot tub, beauty salon, and massage services for guests who want to indulge in some pampering during their stay.
+The hotel's accessibility features include an accessible bathroom, wheelchair accessibility, and accessible parking, making it suitable for guests with disabilities.
+Overall, the Piscina Rei Resort is a perfect destination for those seeking a luxurious and relaxing stay in Italy.",no,no,,no,no,no,no,,no,yes,no,no,3b: Input and Output contradictory,2a: Output too strong,2a: Output too strong
+"Name: Renaissance Sharm El Sheikh Golden View Beach Resort
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Beach bar, WiFi in public areas, Free WiFi
+Room amenities: Cable TV, Shower
+Sport: Diving
+Childcare services: Cot, Kids stay for free, Kids' club
+Wellness: Body treatments, Hot tub
+Accessibility: Accessible parking","The Renaissance Sharm El Sheikh Golden View Beach Resort is a luxurious 5-star hotel located in the beautiful city of Sharm el-Sheikh, Egypt.
+This stunning accommodation offers breathtaking views of the Red Sea and provides guests with a wide range of facilities and amenities to ensure a comfortable and enjoyable stay.
+As a guest of the hotel, you can enjoy access to a private beach, where you can soak up the sun and take a refreshing dip in the crystal-clear waters of the Red Sea.
+The hotel also features a beach bar, where you can enjoy a refreshing drink or a light snack while taking in the stunning views.
+The hotel offers free WiFi in public areas, so you can stay connected with your loved ones or work while on the go.
+The rooms are equipped with cable TV and a shower, providing you with all the comforts and conveniences you need for a relaxing stay.
+If you're looking for adventure, the hotel offers a range of sports activities, including diving, so you can explore the underwater world of the Red Sea.
+The hotel also offers childcare services, including a cot and a kids' club.",no,no,no,no,no,no,no,no,no,no,no,no,3a: Input and Output independent,3a: Input and Output independent,3a: Input and Output independent
+"Name: Resort at Squaw Creek a Destination by Hyatt Residence
+Star rating: 4
+City: Tahoe City
+Country: USA
+Accommodation type: Hotel
+Hotel facilities: Cashless payment, Car hire
+Room amenities: Television, Cosmetic mirror, Fireplace
+Sport: Tennis court, Golf course
+Childcare services: Organised activities for kids, Childcare, Kids' club
+Wellness: Sauna, Massage, Hot stone massage
+Accessibility: Wheelchair accessible","The Resort at Squaw Creek a Destination by Hyatt Residence is a 4-star hotel in Tahoe City, USA.
+It has a tennis court and a golf course, and offers a kids' club, a sauna, massage and hot stone massage.
+The rooms have a TV, a cosmetic mirror and a fireplace.",no,no,no,no,no,no,no,no,no,yes,no,yes,1a: Output too weak,1a: Output too weak,1a: Output too weak

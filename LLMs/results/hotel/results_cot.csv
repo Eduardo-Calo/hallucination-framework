@@ -1,0 +1,12 @@
+,anthropic_claude-opus-4.1,anthropic_claude-opus-4.1,anthropic_claude-opus-4.1,anthropic_claude-opus-4.1,anthropic_claude-opus-4.1,anthropic_claude-sonnet-4,anthropic_claude-sonnet-4,anthropic_claude-sonnet-4,anthropic_claude-sonnet-4,anthropic_claude-sonnet-4,deepseek_deepseek-r1-0528,deepseek_deepseek-r1-0528,deepseek_deepseek-r1-0528,deepseek_deepseek-r1-0528,deepseek_deepseek-r1-0528,openai_gpt-5,openai_gpt-5,openai_gpt-5,openai_gpt-5,openai_gpt-5,google_gemini-2.5-pro,google_gemini-2.5-pro,google_gemini-2.5-pro,google_gemini-2.5-pro,google_gemini-2.5-pro,x-ai_grok-4,x-ai_grok-4,x-ai_grok-4,x-ai_grok-4,x-ai_grok-4
+,precision,recall,f1-score,support,pred_count,precision,recall,f1-score,support,pred_count,precision,recall,f1-score,support,pred_count,precision,recall,f1-score,support,pred_count,precision,recall,f1-score,support,pred_count,precision,recall,f1-score,support,pred_count
+label,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0a: Well-matched,1.0,1.0,1.0,2,2,1.0,1.0,1.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,1.0,0.5,0.67,2.0,1.0,1.0,1.0,1.0,2.0,2.0,1.0,0.5,0.67,2.0,1.0
+0b: Well-matched with harmless information,0.5,0.5,0.5,8,8,0.56,0.62,0.59,8.0,9.0,0.62,0.62,0.62,8.0,8.0,1.0,0.75,0.86,8.0,6.0,0.67,0.75,0.71,8.0,9.0,0.6,0.75,0.67,8.0,10.0
+1a: Output too weak,1.0,1.0,1.0,2,2,0.25,1.0,0.4,2.0,8.0,1.0,0.5,0.67,2.0,1.0,1.0,1.0,1.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,1.0,0.5,0.67,2.0,1.0
+1b: Output too weak with harmless information,1.0,0.38,0.55,8,3,0.0,0.0,0.0,8.0,1.0,1.0,0.25,0.4,8.0,2.0,1.0,0.38,0.55,8.0,3.0,0.75,0.38,0.5,8.0,4.0,1.0,0.38,0.55,8.0,3.0
+2a: Output too strong,0.5,0.75,0.6,4,6,0.67,0.5,0.57,4.0,3.0,0.67,0.5,0.57,4.0,3.0,0.6,0.75,0.67,4.0,5.0,0.67,0.5,0.57,4.0,3.0,0.67,0.5,0.57,4.0,3.0
+2b: Output contradictory,0.0,0.0,0.0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,
+3a: Input and Output independent,1.0,0.38,0.55,8,3,1.0,0.25,0.4,8.0,2.0,0.62,0.62,0.62,8.0,8.0,0.62,0.62,0.62,8.0,8.0,0.8,0.5,0.62,8.0,5.0,0.83,0.62,0.71,8.0,6.0
+3b: Input and Output contradictory,0.0,0.0,0.0,1,0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0
+macro avg,0.62,0.5,0.52,33,25,0.5,0.48,0.42,33.0,25.0,0.7,0.5,0.56,33.0,25.0,0.75,0.57,0.62,33.0,25.0,0.7,0.59,0.63,33.0,25.0,0.73,0.46,0.55,33.0,25.0

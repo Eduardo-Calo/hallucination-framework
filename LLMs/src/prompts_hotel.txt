@@ -1,0 +1,619 @@
+####################################################
+#################### BINARY ########################
+####################################################
+
+You are participating in an experiment.
+You will see an Input that is a set of structured facts and an Output that is its natural language description.
+Your task is to CLASSIFY the nature of the logical relationship between Input and Output.
+
+LOGICAL CONSEQUENCE:
+- Input entails Output if and only if by reading Input, you can infer that Output is true.
+- Output entails Input if and only if by reading Output, you can infer that Input is true.
+
+Ignore typos or grammar mistakes in Output.
+
+Answer YES if Input entails Output and Output entails Input. Otherwise, answer NO. Do not add explanations.
+
+Examples:
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+
+Output:
+Luna Blanca is a 5-star hotel in Mexico.
+
+ANSWER: YES
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+
+Output:
+Luna Blanca is an incredibly charming 5-star hotel in Mexico.
+
+ANSWER: NO
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+
+Output:
+Luna Blanca is a hotel in Mexico.
+
+ANSWER: NO
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+
+Output:
+Luna Blanca is an incredibly charming hotel in Mexico.
+
+ANSWER: NO
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Lockers
+
+Output:
+Luna Blanca is a 5-star hotel in Mexico that provides lockers and a swimming pool.
+
+ANSWER: NO
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+
+Output:
+Luna Blanca is a 5-star hotel in New York, Mexico.
+
+ANSWER: NO
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Lockers
+
+Output:
+Luna Blanca is a 5-star hotel in Mexico that provides a swimming pool.
+
+ANSWER: NO
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+
+Output:
+Luna Blanca is a 5-star hotel in the USA.
+
+ANSWER: NO
+
+------------------------------
+
+Now CLASSIFY the following:
+
+Input:
+Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking
+
+Output:
+The Hotel Fahari Gardens is a 3-star hotel in Nairobi, Kenya.
+It offers a 24-hour reception, a breakfast buffet, a pool table and a playground for children.
+The hotel also provides body treatments and accessible parking.
+
+ANSWER (YES or NO):
+
+####################################################
+#################### 0-SHOT ########################
+####################################################
+
+You are participating in an experiment.
+You will see an Input that is a set of structured facts and an Output that is its natural language description.
+Your task is to CLASSIFY the nature of the logical relationship between Input and Output.
+
+Ignore typos or grammar mistakes in Output.
+
+Only return the capital letter corresponding to the correct category. Do not add explanations.
+
+Possible Categories:
+A: Input and Output are well-matched
+B: Input and Output are well-matched, with Output containing harmless additions
+C: Output is too weak with respect to Input
+D: Output is too weak with respect to Input, with Output containing harmless additions
+E: Output is too strong with respect to Input
+F: Output is self-contradictory
+G: Input and Output are logically independent of each other
+H: Input and Output contradict each other
+
+------------------------------
+
+Now CLASSIFY the following:
+
+Input:
+Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking
+
+Output:
+The Hotel Fahari Gardens is a 3-star hotel in Nairobi, Kenya.
+It offers a 24-hour reception, a breakfast buffet, a pool table and a playground for children.
+The hotel also provides body treatments and accessible parking.
+
+CATEGORY (write ONLY the letter):
+
+####################################################
+#################### FEW-SHOT ######################
+####################################################
+
+You are participating in an experiment.
+You will see an Input that is a set of structured facts and an Output that is its natural language description.
+Your task is to CLASSIFY the nature of the logical relationship between Input and Output.
+
+Ignore typos or grammar mistakes in Output.
+
+Only return the capital letter corresponding to the correct category. Do not add explanations.
+
+Possible Categories:
+A: Input and Output are well-matched
+B: Input and Output are well-matched, with Output containing harmless additions
+C: Output is too weak with respect to Input
+D: Output is too weak with respect to Input, with Output containing harmless additions
+E: Output is too strong with respect to Input
+F: Output is self-contradictory
+G: Input and Output are logically independent of each other
+H: Input and Output contradict each other
+
+Examples:
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+
+Output:
+Luna Blanca is a 5-star hotel in Mexico.
+
+CATEGORY: A
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+
+Output:
+Luna Blanca is an incredibly charming 5-star hotel in Mexico.
+
+CATEGORY: B
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+
+Output:
+Luna Blanca is a hotel in Mexico.
+
+CATEGORY: C
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+
+Output:
+Luna Blanca is an incredibly charming hotel in Mexico.
+
+CATEGORY: D
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Lockers
+
+Output:
+Luna Blanca is a 5-star hotel in Mexico that provides lockers and a swimming pool.
+
+CATEGORY: E
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+
+Output:
+Luna Blanca is a 5-star hotel in New York, Mexico.
+
+CATEGORY: F
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Lockers
+
+Output:
+Luna Blanca is a 5-star hotel in Mexico that provides a swimming pool.
+
+CATEGORY: G
+
+------------------------------
+
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+
+Output:
+Luna Blanca is a 5-star hotel in the USA.
+
+CATEGORY: H
+
+------------------------------
+
+Now CLASSIFY the following:
+
+Input:
+Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking
+
+Output:
+The Hotel Fahari Gardens is a 3-star hotel in Nairobi, Kenya.
+It offers a 24-hour reception, a breakfast buffet, a pool table and a playground for children.
+The hotel also provides body treatments and accessible parking.
+
+CATEGORY (write ONLY the letter):
+
+####################################################
+#################### CoT ###########################
+####################################################
+
+You are participating in an experiment.
+You will see an Input that is a set of structured facts and an Output that is its natural language description.
+Your task is to analyze Output in light of Input based on the relation of LOGICAL CONSEQUENCE, and to CLASSIFY the nature of the logical relationship between them.
+
+----------------------------------------------------
+
+DEFINITIONS:
+
+LOGICAL CONSEQUENCE:
+- Input entails Output if and only if by reading Input, you can infer that Output is true.
+- Output entails Input if and only if by reading Output, you can infer that Input is true.
+
+FACTUALLY WRONG INFORMATION:
+When Input does not entail Output, Output contains information that is not in Input.
+This information in Output may or may not be factually wrong.
+We define as factually wrong any information in Output that conveys facts that could well turn out to be wrong, given the information in Input.
+Factually wrong information does NOT comprise: (i) subjective opinions, (ii) vague or ambiguous statements, (iii) information that is unverifiable, (iv) information that can be inferred from Input to hold in most (but not all) cases.
+
+----------------------------------------------------
+
+Following are EXAMPLES for each CATEGORY along with the REASONING:
+
+Example:
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+Output:
+Luna Blanca is a 5-star hotel in Mexico.
+REASONING: Input entails Output, and Output entails Input.
+CATEGORY A: Input and Output are well-matched
+
+Example:
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+Output:
+Luna Blanca is an incredibly charming 5-star hotel in Mexico.
+REASONING: Input does not entail Output, and Output entails Input, but the additional information in Output is not factually wrong.
+CATEGORY B: Input and Output are well-matched, with Output containing harmless additions
+
+Example:
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+Output:
+Luna Blanca is a hotel in Mexico.
+REASONING: Input entails Output, and Output does not entail Input.
+CATEGORY C: Output is too weak with respect to Input
+
+Example:
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+Output:
+Luna Blanca is an incredibly charming hotel in Mexico.
+REASONING: Input does not entail Output, and Output does not entail Input, and the additional information in Output is not factually wrong.
+CATEGORY D: Output is too weak with respect to Input, with Output containing harmless additions
+
+Example:
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Lockers
+Output:
+Luna Blanca is a 5-star hotel in Mexico that provides lockers and a swimming pool.
+REASONING: Input does not entail Output, Output entails Input, and the additional information in Output is factually wrong.
+CATEGORY E: Output is too strong with respect to Input
+
+Example:
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+Output:
+Luna Blanca is a 5-star hotel in New York, Mexico.
+REASONING: Output contradicts itself, i.e., it contains statements that cannot be true at the same time.
+CATEGORY F: Output is self-contradictory
+
+Example:
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Lockers
+Output:
+Luna Blanca is a 5-star hotel in Mexico that provides a swimming pool.
+REASONING: Input does not entail Output, and Output does not entail Input, and the additional information in Output is factually wrong, but Output does not contradict Input.
+CATEGORY G: Input and Output are logically independent of each other
+
+Example:
+Input:
+Name: Luna Blanca
+Star rating: 5
+Country: Mexico
+Accommodation type: Hotel
+Output:
+Luna Blanca is a 5-star hotel in the USA.
+REASONING: Input does not entail Output, Output does not entail Input, and the additional information in Output is factually wrong, and Output contradicts Input.
+CATEGORY H: Input and Output contradict each other
+
+----------------------------------------------------
+
+Now analyze the following new Input - Output pair.
+Think step-by-step with the REASONING as shown in the examples, then provide your final classification.
+The final line of your response must contain ONLY the CATEGORY letter (A, B, C, ...).
+
+Input:
+Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking
+
+Output:
+The Hotel Fahari Gardens is a 3-star hotel in Nairobi, Kenya.
+It offers a 24-hour reception, a breakfast buffet, a pool table and a playground for children.
+The hotel also provides body treatments and accessible parking.
+
+REASONING:
+CATEGORY (write ONLY the letter):
+
+####################################################
+#################### ToT ###########################
+####################################################
+
+You are participating in an experiment.
+You will see an Input that is a set of structured facts and an Output that is its natural language description.
+Your task is to analyze the pair by answering a series of specific questions.
+
+Here are definitions and examples for the concepts you will be asked about:
+
+----------------------------------------------------
+
+LOGICAL CONSEQUENCE:
+Input entails Output if and only if by reading Input, you can infer that Output is true.
+Output entails Input if and only if by reading Output, you can infer that Input is true.
+
+Examples:
+
+Input:
+Name: Hotel Torre Azul
+City: El Arenal
+Star rating: 4
+Output:
+Hotel Torre Azul, a 4-star hotel, is located in El Arenal, Spain.
+Explanation:
+Output entails Input, because Output contains all the information in Input. Input does not entail Output, because Output contains some extra information (Spain).
+
+Input:
+Name: Hotel Torre Azul
+City: El Arenal
+Star rating: 4
+Hotel facilities: Lockers
+Output:
+Hotel Torre Azul, a 4-star hotel, is located in El Arenal.
+Explanation:
+Output does not entail Input, because Input contains some extra information (Hotel facilities: Lockers). Input entails Output, because Output does not contain any extra information.
+
+Input:
+Name: Hotel Torre Azul
+City: El Arenal
+Room amenities: Balcony
+Output:
+Hotel Torre Azul is a charming hotel located in El Arenal.
+Explanation:
+Output does not entail Input, because Input contains some extra information (Room amenities: Balcony). Input does not entail Output, because Output contains some extra information (charming).
+
+----------------------------------------------------
+
+FACTUALLY WRONG INFORMATION:
+When Input does not entail Output, Output contains information that is not in Input.
+This information in Output may or may not be factually wrong.
+We define as factually wrong any information in Output that conveys facts that could well turn out to be wrong, given the information in Input.
+Factually wrong information does not comprise: (i) subjective opinions, (ii) vague or ambiguous statements, (iii) information that is unverifiable, (iv) information that can be inferred from Input to hold in most (but not all) cases.
+
+Example:
+
+Input:
+Name: Hotel Torre Azul
+City: El Arenal
+Country: Spain
+Star rating: 4
+Hotel facilities: Housekeeping
+Room amenities: Balcony
+Output:
+Hotel Torre Azul is an incredibly charming 3-star hotel located in the center of El Arenal, Mexico.
+The hotel facilities include free housekeeping and lockers. All rooms have a balcony.
+Explanation:
+The values 3, Mexico, and lockers are pieces of factually wrong information. The expressions incredibly charming (i), the center of (ii), All (iii), free (iv) are not pieces of factually wrong information.
+
+----------------------------------------------------
+
+CONTRADICTION:
+Input and Output contradict each other if they contain information that cannot be true simultaneously.
+
+Example:
+
+Input:
+Name: Hotel Torre Azul
+City: El Arenal
+Star rating: 4
+Output:
+Hotel Torre Azul, a 3-star hotel, is located in El Arenal.
+Explanation:
+Input and Output contradict each other, since Input states that the hotel has 4 stars, while Output states that the hotel has 3 stars.
+
+----------------------------------------------------
+
+SELF-CONTRADICTION:
+Output contradicts itself if it contains pieces of information that cannot be true simultaneously.
+
+Example:
+
+Input:
+Name: Hotel Torre Azul
+City: El Arenal
+Star rating: 4
+Hotel facilities: Lockers
+Output:
+Hotel Torre Azul, a 4-star hotel, is located in El Arenal. The hotel facilities include lockers. The hotel does not provide lockers.
+Explanation:
+Output contradicts itself, since Output states that the hotel provides lockers and at the same time states that it does not provide them.
+
+----------------------------------------------------
+
+This is a new Input - Output pair. Please answer the question based on the definitions and examples above.
+
+Input:
+Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking
+
+Output:
+The Hotel Fahari Gardens is a 3-star hotel in Nairobi, Kenya.
+It offers a 24-hour reception, a breakfast buffet, a pool table and a playground for children.
+The hotel also provides body treatments and accessible parking.
+
+Based on all the above, answer the following question. The final line of your response must contain ONLY YES or NO.
+
+Question: Does Output contradict itself?
+

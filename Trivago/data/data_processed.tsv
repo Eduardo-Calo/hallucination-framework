@@ -1,0 +1,835 @@
+input	output	model	block_name	block_Q	item
+"Name: Aktiv Panoramahotel Daniel
+Star rating: 4
+City: Sautens
+Country: Austria
+Accommodation type: Hotel
+Hotel facilities: Hotel safe
+Room amenities: Fridge, Cable TV
+Sport: Volleyball, Pool table
+Childcare services: Childcare
+Wellness: Beauty salon, Steam room, Body treatments
+Accessibility: Wheelchair accessible"	"The 4-star Aktiv Panoramahotel Daniel is located in the Austrian city of Sautens.
+It offers a fitness centre, a sauna, a beauty salon and a steam room.
+The hotel also provides childcare services and a children's playground.
+All rooms come with a fridge and a cable TV."	google/flan-t5-xxl			
+"Name: Aktiv Panoramahotel Daniel
+Star rating: 4
+City: Sautens
+Country: Austria
+Accommodation type: Hotel
+Hotel facilities: Hotel safe
+Room amenities: Fridge, Cable TV
+Sport: Volleyball, Pool table
+Childcare services: Childcare
+Wellness: Beauty salon, Steam room, Body treatments
+Accessibility: Wheelchair accessible"	"The Aktiv Panoramahotel Daniel is a 4-star hotel located in the charming town of Sautens, Austria.
+This hotel offers a variety of amenities and facilities to ensure a comfortable and enjoyable stay for all guests.
+The hotel features a hotel safe, providing a secure place for guests to store their valuables during their stay.
+The rooms are equipped with a fridge and cable TV, allowing guests to store and enjoy their favorite drinks and snacks while watching their favorite shows.
+For sports enthusiasts, the hotel offers volleyball and a pool table, providing opportunities for guests to stay active and have fun during their stay.
+For those traveling with children, the hotel offers childcare services, giving parents the opportunity to relax and enjoy some alone time.
+The hotel also has a wellness area, where guests can indulge in beauty treatments, relax in the steam room, and take advantage of various body treatments.
+The hotel is wheelchair accessible, ensuring that all guests can easily move around and enjoy all that the hotel has to offer."	mistralai/Mixtral-8x7B-Instruct-v0.1			
+"Name: Aktiv Panoramahotel Daniel
+Star rating: 4
+City: Sautens
+Country: Austria
+Accommodation type: Hotel
+Hotel facilities: Hotel safe
+Room amenities: Fridge, Cable TV
+Sport: Volleyball, Pool table
+Childcare services: Childcare
+Wellness: Beauty salon, Steam room, Body treatments
+Accessibility: Wheelchair accessible"	"The Aktiv Panoramahotel Daniel is a 4-star hotel located in Sautens, Austria.
+It offers a range of hotel facilities, including a hotel safe to keep your valuables secure.
+The rooms come equipped with a fridge and cable TV, providing guests with all the amenities they need for a comfortable stay.
+The hotel also offers a variety of sports and leisure activities, such as volleyball and pool table, as well as childcare services for families traveling with young children.
+For guests looking to relax and unwind, the hotel features a beauty salon, steam room, and body treatments, providing a range of wellness options.
+Additionally, the hotel is wheelchair accessible, making it a great option for guests with mobility needs."	tiiuae/falcon-180b-demo			
+"Name: Aktiv Panoramahotel Daniel
+Star rating: 4
+City: Sautens
+Country: Austria
+Accommodation type: Hotel
+Hotel facilities: Hotel safe
+Room amenities: Fridge, Cable TV
+Sport: Volleyball, Pool table
+Childcare services: Childcare
+Wellness: Beauty salon, Steam room, Body treatments
+Accessibility: Wheelchair accessible"	"Welcome to Aktiv Panoramahotel Daniel, a 4-star hotel nestled in the charming city of Sautens, Austria.
+Our hotel offers a panoramic view of the picturesque surroundings.
+Guests can enjoy a comfortable stay with amenities such as a fridge and cable TV in each room.
+For recreation, we provide facilities for volleyball and pool table enthusiasts.
+Families can avail themselves of childcare services, while those seeking relaxation can indulge in our wellness offerings including a beauty salon, steam room, and body treatments.
+Additionally, we ensure accessibility for all guests with wheelchair-accessible features.
+Rest assured, your stay with us will be both relaxing and memorable."	ChatGPT/feb-20			
+"Name: Aktiv Panoramahotel Daniel
+Star rating: 4
+City: Sautens
+Country: Austria
+Accommodation type: Hotel
+Hotel facilities: Hotel safe
+Room amenities: Fridge, Cable TV
+Sport: Volleyball, Pool table
+Childcare services: Childcare
+Wellness: Beauty salon, Steam room, Body treatments
+Accessibility: Wheelchair accessible"	"4-star Aktiv Panoramahotel Daniel in Sautens, Austria offers accessible hotel accommodations with a safe.
+Rooms include a fridge and cable TV.
+Guests have access to volleyball, a pool table, childcare services, and wellness amenities such as a beauty salon, steam room, and body treatments."	gemini-1.0-pro			
+"Name: DoubleTree by Hilton Bodrum Isil Club Resort
+Star rating: 5
+City: Bodrum
+Country: Türkiye
+Accommodation type: Hotel
+Hotel facilities: Nightclub, Temperature screening
+Room amenities: Central heating
+Sport: Table tennis
+Childcare services: Organised activities for kids, Kids' club, Playground
+Wellness: Body treatments
+Accessibility: Wheelchair accessible, Accessible bathroom, Accessible hotel"	"DoubleTree by Hilton Bodrum Isil Club Resort is a 5 star hotel in Bodrum, Turkey.
+It has a nightclub, temperature screening, central heating, table tennis, childcare services, a kids club, playground and body treatments."	google/flan-t5-xxl			
+"Name: DoubleTree by Hilton Bodrum Isil Club Resort
+Star rating: 5
+City: Bodrum
+Country: Türkiye
+Accommodation type: Hotel
+Hotel facilities: Nightclub, Temperature screening
+Room amenities: Central heating
+Sport: Table tennis
+Childcare services: Organised activities for kids, Kids' club, Playground
+Wellness: Body treatments
+Accessibility: Wheelchair accessible, Accessible bathroom, Accessible hotel"	"The DoubleTree by Hilton Bodrum Isil Club Resort is a luxurious 5-star hotel located in the beautiful city of Bodrum, Türkiye.
+This stunning accommodation offers a wide range of facilities and amenities to ensure a comfortable and enjoyable stay for all guests.
+As a hotel, the DoubleTree by Hilton Bodrum Isil Club Resort boasts a range of facilities including a nightclub, perfect for those looking to let their hair down and enjoy a lively evening.
+The hotel also features temperature screening, providing an added layer of safety and security for all guests.
+Each of the hotel's rooms comes equipped with central heating, ensuring a cozy and comfortable stay no matter the time of year.
+Guests can also enjoy a range of sporting activities during their stay, including table tennis.
+For families traveling with children, the hotel offers a range of childcare services including organized activities for kids, a kids' club, and a playground.
+These services are designed to keep children entertained and engaged while parents enjoy some well-deserved relaxation time.
+The hotel also offers a range of wellness services, including body treatments."	mistralai/Mixtral-8x7B-Instruct-v0.1			
+"Name: DoubleTree by Hilton Bodrum Isil Club Resort
+Star rating: 5
+City: Bodrum
+Country: Türkiye
+Accommodation type: Hotel
+Hotel facilities: Nightclub, Temperature screening
+Room amenities: Central heating
+Sport: Table tennis
+Childcare services: Organised activities for kids, Kids' club, Playground
+Wellness: Body treatments
+Accessibility: Wheelchair accessible, Accessible bathroom, Accessible hotel"	"The DoubleTree by Hilton Bodrum Isil Club Resort is a luxurious 5-star hotel located in the charming city of Bodrum, Türkiye.
+This hotel offers a range of accommodation options, including rooms with central heating, and a variety of amenities to make your stay as comfortable as possible.
+One of the standout features of this hotel is its nightclub, where you can dance the night away to your favorite tunes.
+Additionally, the hotel offers temperature screening to ensure the safety of all guests.
+For those who enjoy sports, there is a table tennis table available for use.
+For families, there are childcare services such as organised activities for kids, a kids' club, and a playground.
+If you're looking for a relaxing getaway, the hotel offers wellness facilities such as body treatments to help you unwind.
+Accessibility is a priority at the DoubleTree by Hilton Bodrum Isil Club Resort, with wheelchair accessible rooms, an accessible bathroom, and an accessible hotel to ensure that all guests can enjoy their stay."	tiiuae/falcon-180b-demo			
+"Name: DoubleTree by Hilton Bodrum Isil Club Resort
+Star rating: 5
+City: Bodrum
+Country: Türkiye
+Accommodation type: Hotel
+Hotel facilities: Nightclub, Temperature screening
+Room amenities: Central heating
+Sport: Table tennis
+Childcare services: Organised activities for kids, Kids' club, Playground
+Wellness: Body treatments
+Accessibility: Wheelchair accessible, Accessible bathroom, Accessible hotel"	"Located in Bodrum, Türkiye, the DoubleTree by Hilton Bodrum Isil Club Resort is a luxurious 5-star hotel offering unparalleled comfort and accessibility.
+This elegant hotel boasts a range of amenities including a nightclub and temperature screening for guest safety.
+Guests can enjoy central heating in their rooms for cozy comfort, while sport enthusiasts can engage in table tennis.
+Families will appreciate the childcare services available, including organized activities for kids, a kids' club, and a playground.
+For relaxation, guests can indulge in rejuvenating body treatments at the wellness center.
+Additionally, the hotel is wheelchair accessible with facilities such as accessible bathrooms, making it a welcoming destination for all guests."	ChatGPT/feb-20			
+"Name: DoubleTree by Hilton Bodrum Isil Club Resort
+Star rating: 5
+City: Bodrum
+Country: Türkiye
+Accommodation type: Hotel
+Hotel facilities: Nightclub, Temperature screening
+Room amenities: Central heating
+Sport: Table tennis
+Childcare services: Organised activities for kids, Kids' club, Playground
+Wellness: Body treatments
+Accessibility: Wheelchair accessible, Accessible bathroom, Accessible hotel"	"Escape to the alluring DoubleTree by Hilton Bodrum Isil Club Resort, a 5-star haven in Bodrum, Türkiye.
+Indulge in a luxurious stay with a pulsating nightclub and temperature screening for enhanced safety.
+Unwind in cozy rooms boasting central heating.
+Stay active with table tennis, while kids relish organized activities, a kids' club, and a playground.
+Pamper yourself with invigorating body treatments in the wellness center.
+The resort ensures accessibility for all with wheelchair access, accessible bathrooms, and an accessible hotel."	gemini-1.0-pro			
+"Name: Four Seasons Resort Sharm El Sheikh
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Pets allowed, Conference rooms, Luggage storage
+Room amenities: Balcony (upon inquiry)
+Sport: Table tennis, Tennis court
+Childcare services: Organised activities for kids
+Wellness: Steam room
+Accessibility: Accessible parking"	"The Four Seasons Resort Sharm El Sheikh is a 5 star hotel in Sharm el-Sheikh, Egypt.
+It has a conference room, luggage storage, and pets are allowed.
+The hotel has a tennis court and table tennis.
+It also has a steam room and organised activities for kids."	google/flan-t5-xxl			
+"Name: Four Seasons Resort Sharm El Sheikh
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Pets allowed, Conference rooms, Luggage storage
+Room amenities: Balcony (upon inquiry)
+Sport: Table tennis, Tennis court
+Childcare services: Organised activities for kids
+Wellness: Steam room
+Accessibility: Accessible parking"	"The Four Seasons Resort Sharm El Sheikh is a luxurious 5-star hotel located in the beautiful city of Sharm el-Sheikh, Egypt.
+This stunning accommodation offers a wide range of facilities and amenities to ensure a comfortable and enjoyable stay for all guests.
+One of the standout features of the Four Seasons Resort Sharm El Sheikh is its pet-friendly policy, allowing guests to bring their furry friends along on their travels.
+The hotel also boasts several conference rooms, making it an ideal location for business meetings and events.
+For those looking to explore the local area, the hotel offers luggage storage, so guests can leave their bags behind and set off on their adventures.
+The rooms at the Four Seasons Resort Sharm El Sheikh are spacious and well-appointed, with many offering private balconies upon request.
+Guests can enjoy a range of sporting activities during their stay, including table tennis and tennis on the hotel's courts.
+Families are well catered for at the Four Seasons Resort Sharm El Sheikh, with a range of childcare services available."	mistralai/Mixtral-8x7B-Instruct-v0.1			
+"Name: Four Seasons Resort Sharm El Sheikh
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Pets allowed, Conference rooms, Luggage storage
+Room amenities: Balcony (upon inquiry)
+Sport: Table tennis, Tennis court
+Childcare services: Organised activities for kids
+Wellness: Steam room
+Accessibility: Accessible parking"	"The Four Seasons Resort Sharm El Sheikh is a luxurious 5-star hotel located in the heart of the charming city of Sharm el-Sheikh, Egypt.
+This hotel offers a wide range of facilities and services that are sure to make your stay comfortable and memorable.
+The hotel features spacious and well-appointed rooms, equipped with all the modern amenities and conveniences to ensure a comfortable stay.
+Many of the rooms offer stunning views of the surrounding area, and some even have balconies that can be requested upon inquiry.
+The hotel also has a range of dining options, including several restaurants and bars, where you can indulge in a variety of delicious cuisines and refreshing drinks.
+For those who like to stay active, the hotel has a range of sport facilities, including a tennis court, table tennis, and a steam room.
+If you are traveling with children, the hotel has organized activities for kids to keep them entertained and engaged.
+The hotel also offers childcare services, so you can enjoy some time to yourself while your little ones are taken care of.
+In addition, the hotel has a range of conference rooms, making it an ideal choice for business travelers who need to host meetings or events.
+There is also luggage storage available for those who need to store their bags before or after check-in.
+For those with accessibility needs, the hotel offers accessible parking to make it easier to get around.
+And if you are traveling with pets, the hotel is pet-friendly, so you can bring your furry friends along for the trip.
+Overall, the Four Seasons Resort Sharm El Sheikh is an excellent choice for those looking for a luxurious and comfortable stay in this beautiful city.
+With its range of facilities and services, you are sure to have an unforgettable experience."	tiiuae/falcon-180b-demo			
+"Name: Four Seasons Resort Sharm El Sheikh
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Pets allowed, Conference rooms, Luggage storage
+Room amenities: Balcony (upon inquiry)
+Sport: Table tennis, Tennis court
+Childcare services: Organised activities for kids
+Wellness: Steam room
+Accessibility: Accessible parking"	"Experience luxury at the Five-star Four Seasons Resort Sharm El Sheikh, nestled in the vibrant city of Sharm el-Sheikh, Egypt.
+This exquisite hotel offers an array of facilities including pet-friendly accommodation, conference rooms, and luggage storage.
+Indulge in spacious rooms with optional balconies, while enjoying sports amenities like table tennis and tennis courts.
+Families can benefit from organized activities for kids, while guests seeking relaxation can unwind in the steam room.
+Accessibility features include convenient parking options."	ChatGPT/feb-20			
+"Name: Four Seasons Resort Sharm El Sheikh
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Pets allowed, Conference rooms, Luggage storage
+Room amenities: Balcony (upon inquiry)
+Sport: Table tennis, Tennis court
+Childcare services: Organised activities for kids
+Wellness: Steam room
+Accessibility: Accessible parking"	"Escape to the 5-star Four Seasons Resort in Sharm el-Sheikh, Egypt.
+This luxurious hotel offers pet-friendly accommodations with exceptional amenities like conference rooms and luggage storage.
+Relax on private balconies (upon inquiry) or engage in sports like table tennis and tennis.
+Kids are entertained with organized activities, while the steam room provides wellness seekers with relaxation.
+Accessible parking ensures ease of access for all guests."	gemini-1.0-pro			
+"Name: Horus Paradise Luxury Resort
+Star rating: 5
+City: Side
+Country: Türkiye
+Accommodation type: Hotel
+Hotel facilities: On-site boutique shopping, Doctor on site
+Room amenities: Air conditioning, Central heating
+Sport: Diving, Surfing
+Childcare services: Organised activities for kids, Kids' club
+Wellness: Sauna, Steam room
+Accessibility: Wheelchair accessible, Accessible parking, Accessible bathroom"	"The Horus Paradise Luxury Resort is a 5 star hotel located in Side, Turkey.
+It has a doctor on site, on-site boutique shopping, air conditioning and central heating in the rooms, and a kids club.
+The hotel also has a sauna and steam room for its guests."	google/flan-t5-xxl			
+"Name: Horus Paradise Luxury Resort
+Star rating: 5
+City: Side
+Country: Türkiye
+Accommodation type: Hotel
+Hotel facilities: On-site boutique shopping, Doctor on site
+Room amenities: Air conditioning, Central heating
+Sport: Diving, Surfing
+Childcare services: Organised activities for kids, Kids' club
+Wellness: Sauna, Steam room
+Accessibility: Wheelchair accessible, Accessible parking, Accessible bathroom"	"Horus Paradise Luxury Resort is a 5-star hotel located in the beautiful city of Side, Türkiye.
+This stunning accommodation offers a wide range of facilities and amenities to ensure a comfortable and unforgettable stay for all guests.
+The hotel features an on-site boutique shopping area, where guests can enjoy a unique shopping experience and purchase souvenirs, clothing, and other items.
+For added convenience, a doctor is available on-site to attend to any medical needs that may arise during your stay.
+Each room at Horus Paradise Luxury Resort is equipped with air conditioning and central heating, ensuring a comfortable temperature year-round.
+Guests can also enjoy a variety of sports and activities, including diving and surfing, making it an ideal destination for adventure seekers.
+Families with children will appreciate the hotel's childcare services, which include organized activities for kids and a kids' club.
+The hotel also offers a range of wellness facilities, including a sauna and steam room, perfect for unwinding and relaxing after a long day of sightseeing or activities."	mistralai/Mixtral-8x7B-Instruct-v0.1			
+"Name: Horus Paradise Luxury Resort
+Star rating: 5
+City: Side
+Country: Türkiye
+Accommodation type: Hotel
+Hotel facilities: On-site boutique shopping, Doctor on site
+Room amenities: Air conditioning, Central heating
+Sport: Diving, Surfing
+Childcare services: Organised activities for kids, Kids' club
+Wellness: Sauna, Steam room
+Accessibility: Wheelchair accessible, Accessible parking, Accessible bathroom"	"The Horus Paradise Luxury Resort is a five-star hotel located in the beautiful city of Side in Türkiye.
+This luxurious accommodation is designed to offer guests an exceptional experience, combining comfort, style, and sophistication.
+Upon arrival, guests are welcomed by the friendly and professional staff, who ensure a smooth check-in process.
+The hotel's elegant lobby area features comfortable seating, stylish decor, and a 24-hour reception desk.
+The accommodation offers a range of room types to suit every guest's needs, including standard rooms, suites, and family rooms.
+All rooms are tastefully decorated and equipped with modern amenities, such as air conditioning, central heating, and a flat-screen TV.
+The hotel's on-site boutique shopping area is perfect for guests who love to shop.
+Here, guests can browse a range of local and international brands, including fashion, jewelry, and souvenirs.
+For guests who require medical attention, the hotel has a doctor on-site, providing peace of mind and convenience.
+The hotel's dining options are sure to delight guests, with a range of international and local cuisine served in the hotel's restaurants.
+The hotel's bars offer a selection of drinks, including cocktails, wines, and beers.
+For guests who enjoy sports, the hotel offers a range of activities, including diving and surfing.
+The hotel's childcare services include organized activities for kids and a kids' club, providing parents with a chance to relax and unwind.
+The hotel's wellness facilities include a sauna and steam room, providing guests with the perfect opportunity to relax and rejuvenate.
+The hotel also offers accessible facilities, including wheelchair accessible rooms, accessible parking, and accessible bathrooms.
+Overall, the Horus Paradise Luxury Resort is an ideal destination for guests looking for a luxurious and comfortable stay in Türkiye.
+With its range of facilities and services, this hotel is sure to provide guests with an unforgettable experience."	tiiuae/falcon-180b-demo			
+"Name: Horus Paradise Luxury Resort
+Star rating: 5
+City: Side
+Country: Türkiye
+Accommodation type: Hotel
+Hotel facilities: On-site boutique shopping, Doctor on site
+Room amenities: Air conditioning, Central heating
+Sport: Diving, Surfing
+Childcare services: Organised activities for kids, Kids' club
+Wellness: Sauna, Steam room
+Accessibility: Wheelchair accessible, Accessible parking, Accessible bathroom"	"Experience luxury at the Horus Paradise Luxury Resort in Side, Türkiye.
+This 5-star hotel offers impeccable service and top-notch facilities.
+Located in the vibrant city of Side, guests can indulge in on-site boutique shopping and have access to a doctor when needed.
+The rooms are equipped with modern amenities including air conditioning and central heating.
+For sports enthusiasts, diving and surfing are available activities.
+Families will appreciate the organized activities for kids and the dedicated kids' club.
+Relax and rejuvenate in the sauna and steam room, or take advantage of the accessibility features including wheelchair accessibility, accessible parking, and bathrooms."	ChatGPT/feb-20			
+"Name: Horus Paradise Luxury Resort
+Star rating: 5
+City: Side
+Country: Türkiye
+Accommodation type: Hotel
+Hotel facilities: On-site boutique shopping, Doctor on site
+Room amenities: Air conditioning, Central heating
+Sport: Diving, Surfing
+Childcare services: Organised activities for kids, Kids' club
+Wellness: Sauna, Steam room
+Accessibility: Wheelchair accessible, Accessible parking, Accessible bathroom"	"Indulge in the luxurious embrace of Horus Luxury Resort, a 5-star haven in Side, Türkiye.
+This hotel boasts on-site shopping and a doctor, ensuring comfort and convenience.
+Relax in rooms equipped with air conditioning and central heating, while indulging in exciting activities like diving and surfing.
+Keep the young ones entertained with organized activities and a kids' club.
+Rejuvenate in the sauna or steam room, and rest easy knowing that your needs are met, thanks to wheelchair accessibility, accessible parking, and accessible bathrooms."	gemini-1.0-pro			
+"Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking"	"The Hotel Fahari Gardens is a 3-star hotel in Nairobi, Kenya.
+It offers a 24-hour reception, a breakfast buffet, a pool table and a playground for children.
+The hotel also provides body treatments and accessible parking."	google/flan-t5-xxl	1	5	1
+"Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking"	"Hotel Fahari Gardens is a charming 3-star hotel located in the heart of Nairobi, Kenya.
+This hotel offers a range of facilities and amenities to ensure a comfortable and enjoyable stay for all guests.
+The hotel's accommodation type is a hotel, and it boasts a variety of room amenities such as a coffee machine and a sitting area, providing guests with a comfortable and relaxing space to unwind after a long day of exploring the city.
+Hotel Fahari Gardens offers a range of hotel facilities, including a 24-hour reception, ensuring that guests have access to assistance and support at all times.
+The hotel also offers a delicious breakfast, providing guests with the energy they need to start their day off right.
+For sports enthusiasts, the hotel offers a golf course and a pool table, providing guests with the opportunity to enjoy some leisurely activities during their stay.
+The hotel also offers childcare services, including a playground and childcare, ensuring that families with young children are well catered for.
+Guests looking to relax and unwind can take advantage of the hotel's wellness facilities, which include body treatments."	mistralai/Mixtral-8x7B-Instruct-v0.1	2	10	6
+"Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking"	"The Hotel Fahari Gardens is a 3-star hotel located in Nairobi, Kenya.
+It is an accommodation of the hotel type.
+The hotel offers a 24-hour reception and breakfast.
+Guests can enjoy a golf course, pool table, and a playground for children.
+Childcare services are also available.
+The hotel also offers body treatments as part of its wellness facilities.
+The hotel is accessible and wheelchair accessible with accessible parking.
+The rooms feature a coffee machine and a sitting area."	tiiuae/falcon-180b-demo	3	15	11
+"Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking"	"Hotel Fahari Gardens is a charming 3-star hotel located in Nairobi, Kenya.
+This hotel offers comfortable accommodations with amenities including a coffee machine and sitting area in each room.
+Guests can enjoy a complimentary breakfast and access to a 24-hour reception for convenience.
+The hotel features recreational facilities such as a golf course and pool table for entertainment.
+Families with children will appreciate the playground and childcare services available.
+Additionally, guests can indulge in relaxing body treatments at the wellness center.
+Hotel Fahari Gardens is accessible for all guests with features like accessible rooms, wheelchair accessibility, and convenient parking options."	ChatGPT/feb-20	4	20	16
+"Name: Hotel Fahari Gardens
+Star rating: 3
+City: Nairobi
+Country: Kenya
+Accommodation type: Hotel
+Hotel facilities: Breakfast, 24-hour reception
+Room amenities: Coffee machine, Sitting area
+Sport: Golf course, Pool table
+Childcare services: Playground, Childcare
+Wellness: Body treatments
+Accessibility: Accessible hotel, Wheelchair accessible, Accessible parking"	"Hotel Fahari Gardens, a cozy 3-star hotel in Nairobi, Kenya, welcomes guests with a warm and inviting atmosphere.
+The hotel offers a convenient 24-hour reception for your assistance.
+Enjoy a delicious breakfast to start your day and indulge in body treatments for relaxation and rejuvenation.
+For entertainment, the hotel boasts a golf course and pool table.
+Families will appreciate the playground and childcare services, while guests with disabilities can enjoy the accessible amenities and parking.
+The comfortable rooms feature coffee machines and sitting areas for your comfort."	gemini-1.0-pro	5	25	21
+"Name: Hotel The St Regis Punta Mita Resort
+Star rating: 5
+City: Bahía de Banderas
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Laundry service
+Room amenities: Free WiFi (rooms)
+Sport: Horse riding, Diving
+Childcare services: Organised activities for kids, Playground
+Wellness: Beauty salon, Massage, Hydrotherapy
+Accessibility: Accessible bathroom, Accessible hotel"	"The St Regis Punta Mita Resort is a 5-star hotel in Baha de Banderas, Mexico.
+It offers a beauty salon, massage, hydrotherapy, and a playground for children.
+The hotel has free Wi-Fi and a laundry service.
+The hotel is accessible for the disabled."	google/flan-t5-xxl	6	11	7
+"Name: Hotel The St Regis Punta Mita Resort
+Star rating: 5
+City: Bahía de Banderas
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Laundry service
+Room amenities: Free WiFi (rooms)
+Sport: Horse riding, Diving
+Childcare services: Organised activities for kids, Playground
+Wellness: Beauty salon, Massage, Hydrotherapy
+Accessibility: Accessible bathroom, Accessible hotel"	"Hotel The St Regis Punta Mita Resort is a luxurious 5-star accommodation located in the beautiful city of Bahía de Banderas, Mexico.
+This stunning hotel offers a wide range of facilities and amenities to ensure a comfortable and unforgettable stay for all guests.
+The hotel features a laundry service, ensuring that guests can have their clothes cleaned and pressed during their stay.
+The rooms are equipped with free WiFi, allowing guests to stay connected with their loved ones or work remotely.
+For sports enthusiasts, the hotel offers a variety of activities, including horse riding and diving.
+Guests can explore the beautiful surroundings of Bahía de Banderas while enjoying their favorite sports.
+The hotel also offers childcare services, including organized activities for kids and a playground.
+Parents can relax and enjoy their stay while their children are well taken care of and entertained.
+For those seeking relaxation and rejuvenation, the hotel features a beauty salon, massage, and hydrotherapy services.
+Guests can indulge in a variety of treatments and therapies to unwind and recharge."	mistralai/Mixtral-8x7B-Instruct-v0.1	7	16	12
+"Name: Hotel The St Regis Punta Mita Resort
+Star rating: 5
+City: Bahía de Banderas
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Laundry service
+Room amenities: Free WiFi (rooms)
+Sport: Horse riding, Diving
+Childcare services: Organised activities for kids, Playground
+Wellness: Beauty salon, Massage, Hydrotherapy
+Accessibility: Accessible bathroom, Accessible hotel"	"The Hotel The St Regis Punta Mita Resort is a luxurious 5-star hotel located in Bahía de Banderas, Mexico.
+This hotel offers world-class accommodations and amenities, making it the perfect place for a relaxing and comfortable stay.
+The hotel offers a range of facilities including laundry services, free WiFi in rooms, horse riding, diving, organised activities for kids, playground, beauty salon, massage, hydrotherapy, and accessible bathroom and hotel.
+The Hotel The St Regis Punta Mita Resort offers a range of room amenities including free WiFi, which means you can stay connected throughout your stay.
+The hotel also offers a range of sport and wellness activities to keep you active and relaxed during your stay.
+The hotel is located in a beautiful area of Mexico, and offers stunning views of the surrounding countryside.
+The hotel is also accessible, making it an ideal choice for those with mobility issues.
+Overall, the Hotel The St Regis Punta Mita Resort is the perfect choice for anyone looking for a luxurious and comfortable stay in Mexico."	tiiuae/falcon-180b-demo	8	21	17
+"Name: Hotel The St Regis Punta Mita Resort
+Star rating: 5
+City: Bahía de Banderas
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Laundry service
+Room amenities: Free WiFi (rooms)
+Sport: Horse riding, Diving
+Childcare services: Organised activities for kids, Playground
+Wellness: Beauty salon, Massage, Hydrotherapy
+Accessibility: Accessible bathroom, Accessible hotel"	"Experience luxury at its finest at the 5-star Hotel The St Regis Punta Mita Resort located in Bahía de Banderas, Mexico.
+This prestigious hotel offers unparalleled hospitality with a range of amenities and services to ensure a memorable stay.
+Enjoy the convenience of laundry service and stay connected with free WiFi in rooms.
+Indulge in exciting activities such as horse riding and diving, or relax at the beauty salon, indulge in a massage, or rejuvenate with hydrotherapy sessions.
+Families will appreciate the organized activities for kids and playground, while accessibility features including accessible bathrooms and hotel facilities cater to all guests' needs."	ChatGPT/feb-20	9	26	22
+"Name: Hotel The St Regis Punta Mita Resort
+Star rating: 5
+City: Bahía de Banderas
+Country: Mexico
+Accommodation type: Hotel
+Hotel facilities: Laundry service
+Room amenities: Free WiFi (rooms)
+Sport: Horse riding, Diving
+Childcare services: Organised activities for kids, Playground
+Wellness: Beauty salon, Massage, Hydrotherapy
+Accessibility: Accessible bathroom, Accessible hotel"	"Indulge in luxury at the 5-star Hotel The St Regis Punta Mita Resort in Bahía de Banderas, Mexico.
+This hotel offers a serene escape with its accessible accommodations and soothing wellness amenities, including a beauty salon, massage treatments, and hydrotherapy.
+Keep entertained with thrilling sports like horse riding and diving.
+Families can enjoy organized activities and a playground for kids.
+The hotel also provides convenient laundry services and ensures a comfortable stay with free in-room WiFi."	gemini-1.0-pro	10	6	2
+"Name: Piscina Rei
+Star rating: 4
+City: Muravera
+Country: Italy
+Accommodation type: Resort
+Hotel facilities: Hotel bar
+Room amenities: Balcony (upon inquiry)
+Sport: Volleyball, Surfing, Bike rental
+Childcare services: Kids stay for free, Childcare, Organised activities for kids
+Wellness: Massage, Hot tub, Beauty salon
+Accessibility: Accessible bathroom, Wheelchair accessible, Accessible parking"	"The Piscina Rei is a 4-star resort located in Muravera, Italy.
+It offers a variety of sports and wellness facilities, including a hot tub, massage and beauty salon.
+The resort is also family-friendly, with free childcare and organised activities for kids."	google/flan-t5-xxl	11	17	13
+"Name: Piscina Rei
+Star rating: 4
+City: Muravera
+Country: Italy
+Accommodation type: Resort
+Hotel facilities: Hotel bar
+Room amenities: Balcony (upon inquiry)
+Sport: Volleyball, Surfing, Bike rental
+Childcare services: Kids stay for free, Childcare, Organised activities for kids
+Wellness: Massage, Hot tub, Beauty salon
+Accessibility: Accessible bathroom, Wheelchair accessible, Accessible parking"	"Piscina Rei is a 4-star resort located in the charming city of Muravera, Italy.
+This beautiful accommodation offers a wide range of facilities and services to ensure a comfortable and enjoyable stay for all guests.
+The resort features a hotel bar where guests can enjoy a refreshing drink or a light snack.
+The rooms at Piscina Rei are equipped with a balcony, upon inquiry, offering stunning views of the surrounding area.
+For sports enthusiasts, the resort offers a variety of activities including volleyball, surfing, and bike rental.
+Guests can also take advantage of the childcare services available at the resort, including kids stay for free, childcare, and organized activities for kids.
+In addition to sports and childcare services, Piscina Rei also offers wellness facilities such as massage, hot tub, and a beauty salon.
+The resort is fully accessible, with accessible bathrooms, wheelchair accessibility, and accessible parking available for guests with disabilities.
+Overall, Piscina Rei is an excellent choice for travelers seeking a comfortable and enjoyable stay in Muravera, Italy."	mistralai/Mixtral-8x7B-Instruct-v0.1	12	22	18
+"Name: Piscina Rei
+Star rating: 4
+City: Muravera
+Country: Italy
+Accommodation type: Resort
+Hotel facilities: Hotel bar
+Room amenities: Balcony (upon inquiry)
+Sport: Volleyball, Surfing, Bike rental
+Childcare services: Kids stay for free, Childcare, Organised activities for kids
+Wellness: Massage, Hot tub, Beauty salon
+Accessibility: Accessible bathroom, Wheelchair accessible, Accessible parking"	"The Piscina Rei Resort is a stunning four-star accommodation located in the beautiful city of Muravera, Italy.
+It offers guests an exceptional experience with a variety of facilities and amenities.
+The resort is perfect for those who want to enjoy a comfortable and relaxing stay while exploring the city.
+The hotel has a bar where you can enjoy a drink or two with friends or family.
+The room amenities include a balcony, which can be requested upon inquiry, and a flat-screen TV for your entertainment.
+The resort also offers bike rentals, volleyball, surfing, and other sports activities for guests to enjoy.
+For families, the Piscina Rei Resort provides childcare services, including kids' stay for free, childcare, and organized activities for kids.
+The hotel also has a hot tub, beauty salon, and massage services for guests who want to indulge in some pampering during their stay.
+The hotel's accessibility features include an accessible bathroom, wheelchair accessibility, and accessible parking, making it suitable for guests with disabilities.
+Overall, the Piscina Rei Resort is a perfect destination for those seeking a luxurious and relaxing stay in Italy."	tiiuae/falcon-180b-demo	13	27	23
+"Name: Piscina Rei
+Star rating: 4
+City: Muravera
+Country: Italy
+Accommodation type: Resort
+Hotel facilities: Hotel bar
+Room amenities: Balcony (upon inquiry)
+Sport: Volleyball, Surfing, Bike rental
+Childcare services: Kids stay for free, Childcare, Organised activities for kids
+Wellness: Massage, Hot tub, Beauty salon
+Accessibility: Accessible bathroom, Wheelchair accessible, Accessible parking"	"""Piscina Rei"" is a luxurious 4-star resort located in Muravera, Italy.
+This elegant accommodation offers a range of facilities and amenities for a relaxing stay.
+Guests can enjoy the hotel bar, indulge in massages and beauty treatments at the wellness center, and unwind in the hot tub.
+For active guests, the resort provides opportunities for volleyball, surfing, and bike rental.
+Families are catered to with complimentary stays for kids, childcare services, and organized activities.
+Accessibility features include wheelchair access, accessible parking, and bathrooms.
+Rooms may feature balconies, subject to availability."	ChatGPT/feb-20	14	7	3
+"Name: Piscina Rei
+Star rating: 4
+City: Muravera
+Country: Italy
+Accommodation type: Resort
+Hotel facilities: Hotel bar
+Room amenities: Balcony (upon inquiry)
+Sport: Volleyball, Surfing, Bike rental
+Childcare services: Kids stay for free, Childcare, Organised activities for kids
+Wellness: Massage, Hot tub, Beauty salon
+Accessibility: Accessible bathroom, Wheelchair accessible, Accessible parking"	"Indulge in coastal bliss at Piscina Rei Resort, a 4-star retreat in Muravera, Italy.
+This resort offers a tranquil haven with Hotel bar, while rooms may feature balconies (upon request).
+Stay active with Volleyball, Surfing, and Bike rentals.
+Cater to your little ones with Kids stay free, Childcare, and organized activities.
+Rejuvenate in style with Massage, Hot tub, and Beauty salon services.
+The resort prioritizes accessibility, boasting Accessible bathrooms, Wheelchair access, and Accessible parking."	gemini-1.0-pro	15	12	8
+"Name: Renaissance Sharm El Sheikh Golden View Beach Resort
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Beach bar, WiFi in public areas, Free WiFi
+Room amenities: Cable TV, Shower
+Sport: Diving
+Childcare services: Cot, Kids stay for free, Kids' club
+Wellness: Body treatments, Hot tub
+Accessibility: Accessible parking"	"Renaissance Sharm El Sheikh Golden View Beach Resort is a 5-star hotel in Sharm el-Sheikh, Egypt.
+It has a beach bar, free WiFi, and a hot tub.
+Rooms have a cable TV and a shower.
+The hotel has a kids' club and cots are available.
+It also has a fitness centre and body treatments."	google/flan-t5-xxl	16	23	19
+"Name: Renaissance Sharm El Sheikh Golden View Beach Resort
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Beach bar, WiFi in public areas, Free WiFi
+Room amenities: Cable TV, Shower
+Sport: Diving
+Childcare services: Cot, Kids stay for free, Kids' club
+Wellness: Body treatments, Hot tub
+Accessibility: Accessible parking"	"The Renaissance Sharm El Sheikh Golden View Beach Resort is a luxurious 5-star hotel located in the beautiful city of Sharm el-Sheikh, Egypt.
+This stunning accommodation offers breathtaking views of the Red Sea and provides guests with a wide range of facilities and amenities to ensure a comfortable and enjoyable stay.
+As a guest of the hotel, you can enjoy access to a private beach, where you can soak up the sun and take a refreshing dip in the crystal-clear waters of the Red Sea.
+The hotel also features a beach bar, where you can enjoy a refreshing drink or a light snack while taking in the stunning views.
+The hotel offers free WiFi in public areas, so you can stay connected with your loved ones or work while on the go.
+The rooms are equipped with cable TV and a shower, providing you with all the comforts and conveniences you need for a relaxing stay.
+If you're looking for adventure, the hotel offers a range of sports activities, including diving, so you can explore the underwater world of the Red Sea.
+The hotel also offers childcare services, including a cot and a kids' club."	mistralai/Mixtral-8x7B-Instruct-v0.1	17	28	24
+"Name: Renaissance Sharm El Sheikh Golden View Beach Resort
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Beach bar, WiFi in public areas, Free WiFi
+Room amenities: Cable TV, Shower
+Sport: Diving
+Childcare services: Cot, Kids stay for free, Kids' club
+Wellness: Body treatments, Hot tub
+Accessibility: Accessible parking"	"The Renaissance Sharm El Sheikh Golden View Beach Resort is a luxurious 5-star hotel located in the sunny city of Sharm el-Sheikh in Egypt.
+This beachfront accommodation boasts a variety of amenities, including a beach bar, free WiFi in public areas, and cable TV in all rooms.
+Guests can enjoy a relaxing shower after a long day of exploring the city or diving in the crystal-clear waters of the Red Sea.
+Families traveling with children can take advantage of the hotel's childcare services, such as cots, kids' club, and kids stay for free.
+The hotel also offers a variety of wellness options, including body treatments and hot tub, perfect for unwinding and rejuvenating.
+The Renaissance Sharm El Sheikh Golden View Beach Resort is committed to accessibility, offering accessible parking for guests with disabilities."	tiiuae/falcon-180b-demo	18	8	4
+"Name: Renaissance Sharm El Sheikh Golden View Beach Resort
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Beach bar, WiFi in public areas, Free WiFi
+Room amenities: Cable TV, Shower
+Sport: Diving
+Childcare services: Cot, Kids stay for free, Kids' club
+Wellness: Body treatments, Hot tub
+Accessibility: Accessible parking"	"Experience luxury at the Renaissance Sharm El Sheikh Golden View Beach Resort, a 5-star hotel located in Sharm el-Sheikh, Egypt.
+Nestled along the picturesque coastline, this resort offers a range of amenities including a beach bar, free WiFi in public areas, and accessible parking.
+Indulge in comfort with room amenities such as cable TV and a refreshing shower.
+Dive into adventure with diving excursions, while childcare services including cots and a kids' club cater to families.
+Relax and rejuvenate with body treatments and a soothing hot tub, making your stay a memorable blend of leisure and indulgence."	ChatGPT/feb-20	19	13	9
+"Name: Renaissance Sharm El Sheikh Golden View Beach Resort
+Star rating: 5
+City: Sharm el-Sheikh
+Country: Egypt
+Accommodation type: Hotel
+Hotel facilities: Beach bar, WiFi in public areas, Free WiFi
+Room amenities: Cable TV, Shower
+Sport: Diving
+Childcare services: Cot, Kids stay for free, Kids' club
+Wellness: Body treatments, Hot tub
+Accessibility: Accessible parking"	"Escape to paradise at the 5-star Renaissance Sharm El Sheikh Golden View Beach Resort in Egypt.
+Relax on the idyllic beach with a drink from the beach bar.
+The elegant rooms feature cable TV and showers.
+Indulge in a rejuvenating spa with body treatments and unwind in the hot tub.
+Stay connected with free WiFi in public areas.
+Keep active with diving, and younger guests will delight in the kids' club and stay for free.
+The hotel also offers accessible parking for added convenience."	gemini-1.0-pro	20	18	14
+"Name: Resort at Squaw Creek a Destination by Hyatt Residence
+Star rating: 4
+City: Tahoe City
+Country: USA
+Accommodation type: Hotel
+Hotel facilities: Cashless payment, Car hire
+Room amenities: Television, Cosmetic mirror, Fireplace
+Sport: Tennis court, Golf course
+Childcare services: Organised activities for kids, Childcare, Kids' club
+Wellness: Sauna, Massage, Hot stone massage
+Accessibility: Wheelchair accessible"	"The Resort at Squaw Creek a Destination by Hyatt Residence is a 4-star hotel in Tahoe City, USA.
+It has a tennis court and a golf course, and offers a kids' club, a sauna, massage and hot stone massage.
+The rooms have a TV, a cosmetic mirror and a fireplace."	google/flan-t5-xxl	21	29	25
+"Name: Resort at Squaw Creek a Destination by Hyatt Residence
+Star rating: 4
+City: Tahoe City
+Country: USA
+Accommodation type: Hotel
+Hotel facilities: Cashless payment, Car hire
+Room amenities: Television, Cosmetic mirror, Fireplace
+Sport: Tennis court, Golf course
+Childcare services: Organised activities for kids, Childcare, Kids' club
+Wellness: Sauna, Massage, Hot stone massage
+Accessibility: Wheelchair accessible"	"The Resort at Squaw Creek a Destination by Hyatt Residence is a 4-star hotel located in the heart of Tahoe City, USA.
+This stunning accommodation offers a range of facilities and amenities to ensure a comfortable and enjoyable stay for all guests.
+As a Destination by Hyatt Residence, the hotel offers cashless payment options and car hire services, making it easy for guests to explore the local area.
+The hotel's accommodation type is a hotel, and it boasts a range of room amenities including a television, cosmetic mirror, and fireplace.
+For sports enthusiasts, the hotel offers a tennis court and golf course, providing plenty of opportunities to stay active during your stay.
+The hotel also offers a range of childcare services, including organised activities for kids, childcare, and a kids' club, making it an ideal choice for families.
+The hotel's wellness facilities are also top-notch, with a sauna, massage, and hot stone massage available to help guests relax and unwind.
+The hotel is also wheelchair accessible, ensuring that all guests can enjoy a comfortable and accessible stay."	mistralai/Mixtral-8x7B-Instruct-v0.1	22	9	5
+"Name: Resort at Squaw Creek a Destination by Hyatt Residence
+Star rating: 4
+City: Tahoe City
+Country: USA
+Accommodation type: Hotel
+Hotel facilities: Cashless payment, Car hire
+Room amenities: Television, Cosmetic mirror, Fireplace
+Sport: Tennis court, Golf course
+Childcare services: Organised activities for kids, Childcare, Kids' club
+Wellness: Sauna, Massage, Hot stone massage
+Accessibility: Wheelchair accessible"	"The Resort at Squaw Creek, a Destination by Hyatt Residence is a 4-star hotel located in Tahoe City, USA.
+It is a hotel accommodation with cashless payment and car hire facilities.
+The rooms are equipped with amenities such as a television, cosmetic mirror, and fireplace.
+For sports enthusiasts, the hotel has a tennis court and golf course.
+Families traveling with children can benefit from childcare services such as organized activities for kids, childcare, and a kids' club.
+For those seeking relaxation, the hotel also offers wellness facilities such as a sauna, massage, and hot stone massage.
+Furthermore, the hotel is wheelchair accessible, making it suitable for guests with disabilities."	tiiuae/falcon-180b-demo	23	14	10
+"Name: Resort at Squaw Creek a Destination by Hyatt Residence
+Star rating: 4
+City: Tahoe City
+Country: USA
+Accommodation type: Hotel
+Hotel facilities: Cashless payment, Car hire
+Room amenities: Television, Cosmetic mirror, Fireplace
+Sport: Tennis court, Golf course
+Childcare services: Organised activities for kids, Childcare, Kids' club
+Wellness: Sauna, Massage, Hot stone massage
+Accessibility: Wheelchair accessible"	"The Resort at Squaw Creek, a Destination by Hyatt Residence, is a 4-star hotel located in Tahoe City, USA.
+This luxurious accommodation offers a variety of amenities and facilities for a comfortable stay.
+Guests can enjoy cashless payment options and car hire services for convenience.
+Rooms are equipped with amenities such as television, cosmetic mirror, and fireplace.
+For sports enthusiasts, the resort features tennis courts and a golf course.
+Families traveling with children can take advantage of organized activities, childcare services, and a kids' club.
+Wellness amenities include a sauna, massage services, and hot stone massages.
+The resort is also wheelchair accessible, ensuring inclusivity for all guests."	ChatGPT/feb-20	24	19	15
+"Name: Resort at Squaw Creek a Destination by Hyatt Residence
+Star rating: 4
+City: Tahoe City
+Country: USA
+Accommodation type: Hotel
+Hotel facilities: Cashless payment, Car hire
+Room amenities: Television, Cosmetic mirror, Fireplace
+Sport: Tennis court, Golf course
+Childcare services: Organised activities for kids, Childcare, Kids' club
+Wellness: Sauna, Massage, Hot stone massage
+Accessibility: Wheelchair accessible"	"Nestled in Tahoe City, Resort at Squaw Creek is a 4-star haven offering tranquility.
+Its well-equipped rooms feature amenities like TVs and fireplaces.
+Indulge in a relaxing sauna session or rejuvenate with a massage.
+Let your kids join organized activities while you enjoy organized activities while you enjoy tennis or golf.
+Accessibility options ensure comfort for all.
+Cashless payment and car hire services add convenience, while the hotel's childcare offerings provide peace of mind for parents."	gemini-1.0-pro	25	24	20
+"Name: Ziegler Cottage
+Star rating: 3
+City: Negombo
+Country: Sri Lanka
+Accommodation type: Hotel
+Hotel facilities: Car hire, Spa
+Room amenities: Free WiFi (rooms), Minibar, Hairdryer
+Sport: Bike rental
+Childcare services: Playground, Childcare
+Wellness: Hydrotherapy
+Accessibility: Wheelchair accessible"	"Ziegler Cottage is a 3 star hotel in Negombo, Sri Lanka.
+It has a playground and childcare services.
+It has a spa and car hire.
+Rooms have free Wi-Fi, minibars and hairdryers.
+It is wheelchair accessible."	google/flan-t5-xxl			
+"Name: Ziegler Cottage
+Star rating: 3
+City: Negombo
+Country: Sri Lanka
+Accommodation type: Hotel
+Hotel facilities: Car hire, Spa
+Room amenities: Free WiFi (rooms), Minibar, Hairdryer
+Sport: Bike rental
+Childcare services: Playground, Childcare
+Wellness: Hydrotherapy
+Accessibility: Wheelchair accessible"	"Ziegler Cottage is a charming 3-star hotel located in the vibrant coastal city of Negombo, Sri Lanka.
+This accommodation type is perfect for travelers seeking a comfortable and convenient place to stay while exploring the beautiful country.
+The hotel offers a range of facilities to enhance guests' stay, including car hire and a spa.
+Guests can easily rent a car to explore the surrounding areas or unwind and rejuvenate at the hotel's spa.
+Each room at Ziegler Cottage is equipped with modern amenities, including free WiFi, a minibar, and a hairdryer.
+Guests can stay connected with their loved ones or work remotely while enjoying a refreshing drink from the minibar.
+For those who enjoy outdoor activities, the hotel offers bike rental services.
+Guests can explore the scenic beauty of Negombo and its surroundings on two wheels.
+Ziegler Cottage is also a family-friendly hotel, offering childcare services such as a playground and childcare.
+Parents can relax and enjoy their stay while their children are well taken care of."	mistralai/Mixtral-8x7B-Instruct-v0.1			
+"Name: Ziegler Cottage
+Star rating: 3
+City: Negombo
+Country: Sri Lanka
+Accommodation type: Hotel
+Hotel facilities: Car hire, Spa
+Room amenities: Free WiFi (rooms), Minibar, Hairdryer
+Sport: Bike rental
+Childcare services: Playground, Childcare
+Wellness: Hydrotherapy
+Accessibility: Wheelchair accessible"	"Ziegler Cottage is a charming 3-star hotel located in the beautiful coastal city of Negombo, Sri Lanka.
+The hotel features a range of amenities designed to make your stay as comfortable and enjoyable as possible.
+Whether you're traveling alone or with your family, you'll find everything you need at Ziegler Cottage.
+For those looking to explore the local area, the hotel offers car hire and bike rental services, so you can easily get around and see all the sights.
+And if you're looking to relax and unwind, the hotel's spa offers a range of treatments, including hydrotherapy, to help you feel refreshed and rejuvenated.
+The rooms at Ziegler Cottage are spacious and well-appointed, with modern furnishings and all the amenities you need for a comfortable stay.
+Each room comes equipped with free WiFi, a minibar, and a hairdryer, so you can stay connected and comfortable throughout your stay.
+For families with children, the hotel offers a range of childcare services, including a playground and childcare services, so you can relax and enjoy your vacation while your kids have fun.
+And for those with mobility needs, the hotel is wheelchair accessible, making it easy for everyone to enjoy all the amenities and services on offer.
+Whether you're looking for a romantic getaway or a family vacation, Ziegler Cottage is the perfect choice for your next trip to Sri Lanka.
+Book your stay today and experience the beauty and charm of this stunning coastal city for yourself!."	tiiuae/falcon-180b-demo			
+"Name: Ziegler Cottage
+Star rating: 3
+City: Negombo
+Country: Sri Lanka
+Accommodation type: Hotel
+Hotel facilities: Car hire, Spa
+Room amenities: Free WiFi (rooms), Minibar, Hairdryer
+Sport: Bike rental
+Childcare services: Playground, Childcare
+Wellness: Hydrotherapy
+Accessibility: Wheelchair accessible"	"Ziegler Cottage is a charming 3-star hotel nestled in Negombo, Sri Lanka.
+Offering a tranquil escape, this hotel boasts convenient amenities such as car hire and a spa.
+Guests can enjoy comfortable rooms equipped with free WiFi, a minibar, and a hairdryer.
+The hotel also offers bike rentals for exploration and childcare services including a playground.
+For relaxation, guests can indulge in hydrotherapy, and the accommodation is wheelchair accessible, ensuring comfort for all visitors."	ChatGPT/feb-20			
+"Name: Ziegler Cottage
+Star rating: 3
+City: Negombo
+Country: Sri Lanka
+Accommodation type: Hotel
+Hotel facilities: Car hire, Spa
+Room amenities: Free WiFi (rooms), Minibar, Hairdryer
+Sport: Bike rental
+Childcare services: Playground, Childcare
+Wellness: Hydrotherapy
+Accessibility: Wheelchair accessible"	"Ziegler Cottage is a 3-star hotel in Negombo, Sri Lanka.
+It offers hotel facilities such as car hire and a spa.
+Guest rooms feature free WiFi, minibars, and hairdryers.
+Sport options include bike rental.
+Childcare services include a playground and childcare.
+Wellness facilities include hydrotherapy, while wheelchair accessibility is available for guests with disabilities."	gemini-1.0-pro			

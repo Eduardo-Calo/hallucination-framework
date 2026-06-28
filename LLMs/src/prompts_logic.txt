@@ -1,0 +1,395 @@
+####################################################
+#################### BINARY ########################
+####################################################
+
+You are participating in an experiment.
+You will see an Input that is a first-order logic formula, and an Output that is its natural language translation.
+Your task is to CLASSIFY the nature of the logical relationship between Input and Output.
+
+LOGICAL CONSEQUENCE:
+- Input entails Output if and only if by reading Input, you can infer that Output is true.
+- Output entails Input if and only if by reading Output, you can infer that Input is true.
+
+Ignore typos or grammar mistakes in Output.
+
+Answer YES if Input entails Output and Output entails Input. Otherwise, answer NO. Do not add explanations.
+
+Examples:
+
+------------------------------
+
+Input:
+∀x(Cube(x) → Large(x))
+
+Output:
+All cubes are large.
+
+ANSWER: YES
+
+------------------------------
+
+Input:
+∀x(Cube(x) → Large(x))
+
+Output:
+All red cubes are large.
+
+ANSWER: NO
+
+------------------------------
+
+Input:
+∀x((Cube(x) ∧ Green(x)) → Large(x))
+
+Output:
+All cubes are large.
+
+ANSWER: NO
+
+------------------------------
+
+Input:
+∀x(Cube(x) → Large(x))
+
+Output:
+All large cubes are not large.
+
+ANSWER: NO
+
+------------------------------
+
+Input:
+∀x((Cube(x) ∧ Green(x)) → Large(x))
+
+Output:
+All red cubes are large.
+
+ANSWER: NO
+
+------------------------------
+
+Input:
+∀x(Cube(x) → Large(x))
+
+Output:
+All cubes are not large.
+
+ANSWER: NO
+
+------------------------------
+
+Now CLASSIFY the following:
+
+Input:
+∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )
+
+Output:
+There is a cube and a cube and a dodecahedron and a dodecahedron such that for all cubes, they are either the first cube or the second cube, and for all dodecahedrons, they are either the first dodecahedron or the second dodecahedron, and the first cube is not the second cube, and the first dodecahedron is not the second dodecahedron, and the first cube is not the first dodecahedron, and the first cube is not the second dodecahedron, and the second cube is not the first dodecahedron, and the second cube is not the second dodecahedron, and the first cube is not behind the first dodecahedron, and the first cube is not behind the second dodecahedron, and the second cube is not behind the first dodecahedron, and the second cube is not behind the second dodecahedron.
+
+ANSWER (YES or NO):
+
+####################################################
+#################### 0-SHOT ########################
+####################################################
+
+You are participating in an experiment.
+You will see an Input that is a first-order logic formula, and an Output that is its natural language translation.
+Your task is to CLASSIFY the nature of the logical relationship between Input and Output.
+
+Ignore typos or grammar mistakes in Output.
+
+Only return the capital letter corresponding to the correct category. Do not add explanations.
+
+Possible Categories:
+A: Input and Output are well-matched
+B: Output is too weak with respect to Input
+C: Output is too strong with respect to Input
+D: Output is self-contradictory
+E: Input and Output are logically independent of each other
+F: Input and Output contradict each other
+
+------------------------------
+
+Now CLASSIFY the following:
+
+Input:
+∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )
+
+Output:
+There is a cube and a cube and a dodecahedron and a dodecahedron such that for all cubes, they are either the first cube or the second cube, and for all dodecahedrons, they are either the first dodecahedron or the second dodecahedron, and the first cube is not the second cube, and the first dodecahedron is not the second dodecahedron, and the first cube is not the first dodecahedron, and the first cube is not the second dodecahedron, and the second cube is not the first dodecahedron, and the second cube is not the second dodecahedron, and the first cube is not behind the first dodecahedron, and the first cube is not behind the second dodecahedron, and the second cube is not behind the first dodecahedron, and the second cube is not behind the second dodecahedron.
+
+CATEGORY (write ONLY the letter):
+
+####################################################
+#################### FEW-SHOT ######################
+####################################################
+
+You are participating in an experiment.
+You will see an Input that is a first-order logic formula, and an Output that is its natural language translation.
+Your task is to CLASSIFY the nature of the logical relationship between Input and Output.
+
+Ignore typos or grammar mistakes in Output.
+
+Only return the capital letter corresponding to the correct category. Do not add explanations.
+
+Possible Categories:
+A: Input and Output are well-matched
+B: Output is too weak with respect to Input
+C: Output is too strong with respect to Input
+D: Output is self-contradictory
+E: Input and Output are logically independent of each other
+F: Input and Output contradict each other
+
+Examples:
+
+------------------------------
+
+Input:
+∀x(Cube(x) → Large(x))
+
+Output:
+All cubes are large.
+
+CATEGORY: A
+
+------------------------------
+
+Input:
+∀x(Cube(x) → Large(x))
+
+Output:
+All red cubes are large.
+
+CATEGORY: B
+
+------------------------------
+
+Input:
+∀x((Cube(x) ∧ Green(x)) → Large(x))
+
+Output:
+All cubes are large.
+
+CATEGORY: C
+
+------------------------------
+
+Input:
+∀x(Cube(x) → Large(x))
+
+Output:
+All large cubes are not large.
+
+CATEGORY: D
+
+------------------------------
+
+Input:
+∀x((Cube(x) ∧ Green(x)) → Large(x))
+
+Output:
+All red cubes are large.
+
+CATEGORY: E
+
+------------------------------
+
+Input:
+∀x(Cube(x) → Large(x))
+
+Output:
+All cubes are not large.
+
+CATEGORY: F
+
+------------------------------
+
+Now CLASSIFY the following:
+
+Input:
+∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )
+
+Output:
+There is a cube and a cube and a dodecahedron and a dodecahedron such that for all cubes, they are either the first cube or the second cube, and for all dodecahedrons, they are either the first dodecahedron or the second dodecahedron, and the first cube is not the second cube, and the first dodecahedron is not the second dodecahedron, and the first cube is not the first dodecahedron, and the first cube is not the second dodecahedron, and the second cube is not the first dodecahedron, and the second cube is not the second dodecahedron, and the first cube is not behind the first dodecahedron, and the first cube is not behind the second dodecahedron, and the second cube is not behind the first dodecahedron, and the second cube is not behind the second dodecahedron.
+
+CATEGORY (write ONLY the letter):
+
+####################################################
+#################### CoT ###########################
+####################################################
+
+You are participating in an experiment.
+You will see an Input that is a first-order logic formula, and an Output that is its natural language translation.
+Your task is to analyze Output in light of Input based on the relation of LOGICAL CONSEQUENCE, and to CLASSIFY the nature of the logical relationship between them.
+
+----------------------------------------------------
+
+DEFINITIONS:
+
+LOGICAL CONSEQUENCE:
+- Input entails Output if and only if by reading Input, you can infer that Output is true.
+- Output entails Input if and only if by reading Output, you can infer that Input is true.
+
+----------------------------------------------------
+
+Following are EXAMPLES for each CATEGORY along with the REASONING:
+
+Example:
+Input:
+∀x(Cube(x) → Large(x))
+Output:
+All cubes are large.
+REASONING: Input entails Output, and Output entails Input.
+CATEGORY A: Input and Output are well-matched
+
+Example:
+Input:
+∀x(Cube(x) → Large(x))
+Output:
+All red cubes are large.
+REASONING: Input entails Output, and Output does not entail Input.
+CATEGORY B: Output is too weak with respect to Input
+
+Example:
+Input:
+∀x((Cube(x) ∧ Green(x)) → Large(x))
+Output:
+All cubes are large.
+REASONING: Input does not entail Output, Output entails Input.
+CATEGORY C: Output is too strong with respect to Input
+
+Example:
+Input:
+∀x(Cube(x) → Large(x))
+Output:
+All large cubes are not large.
+REASONING: Output contradicts itself, i.e., it contains statements that cannot be true at the same time.
+CATEGORY D: Output is self-contradictory
+
+Example:
+Input:
+∀x((Cube(x) ∧ Green(x)) → Large(x))
+Output:
+All red cubes are large.
+REASONING: Input does not entail Output, and Output does not entail Input, but Output does not contradict Input.
+CATEGORY E: Input and Output are logically independent of each other
+
+Example:
+Input:
+∀x(Cube(x) → Large(x))
+Output:
+All cubes are not large.
+REASONING: Input does not entail Output, Output does not entail Input, and Output contradicts Input.
+CATEGORY F: Input and Output contradict each other
+
+----------------------------------------------------
+
+Now analyze the following new Input - Output pair.
+Think step-by-step with the REASONING as shown in the examples, then provide your final classification.
+The final line of your response must contain ONLY the CATEGORY letter (A, B, C, ...).
+
+Input:
+∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )
+
+Output:
+There is a cube and a cube and a dodecahedron and a dodecahedron such that for all cubes, they are either the first cube or the second cube, and for all dodecahedrons, they are either the first dodecahedron or the second dodecahedron, and the first cube is not the second cube, and the first dodecahedron is not the second dodecahedron, and the first cube is not the first dodecahedron, and the first cube is not the second dodecahedron, and the second cube is not the first dodecahedron, and the second cube is not the second dodecahedron, and the first cube is not behind the first dodecahedron, and the first cube is not behind the second dodecahedron, and the second cube is not behind the first dodecahedron, and the second cube is not behind the second dodecahedron.
+
+REASONING:
+CATEGORY (write ONLY the letter):
+
+####################################################
+#################### ToT ###########################
+####################################################
+
+You are participating in an experiment.
+You will see an Input that is a first-order logic formula, and an Output that is its natural language translation.
+Your task is to analyze the pair by answering a series of specific questions.
+
+Here are definitions and examples for the concepts you will be asked about:
+
+----------------------------------------------------
+
+LOGICAL CONSEQUENCE:
+- Input entails Output if and only if by reading Input, you can infer that Output is true.
+- Output entails Input if and only if by reading Output, you can infer that Input is true.
+
+Examples:
+
+Input:
+∀x(Cube(x) → Large(x))
+Output:
+All red cubes are large.
+Explanation:
+Input entails Output, because if all cubes are large, then all red cubes are large too. Output does not entail Input, because even if all red cubes are large, it may well be the case that there are other cubes that are not large.
+
+Input:
+∀x((Cube(x) ∧ Green(x)) → Large(x))
+Output:
+All cubes are large.
+Explanation:
+Input does not entail Output, because even if all green cubes are large, it may well be the case that there are other cubes that are not large. Output entails Input, because if all cubes are large, then all green cubes are large too.
+
+Input:
+∀x((Cube(x) ∧ Green(x)) → Large(x))
+Output:
+All red cubes are large.
+Explanation:
+Input does not entail Output, because even if all green cubes are large, that does not say anything about red cubes. Output does not entail Input, because even if all red cubes are large, that does not say anything about green cubes.
+
+----------------------------------------------------
+
+CONTRADICTION:
+Input and Output contradict each other if they contain information that cannot be true simultaneously.
+
+Example:
+
+Input:
+∀x(Cube(x) → Large(x))
+Output:
+All cubes are not large.
+Explanation:
+Input and Output contradict each other, since Input states that all cubes are large, while Output states that all cubes are not large.
+
+----------------------------------------------------
+
+SELF-CONTRADICTION:
+Output contradicts itself if it contains pieces of information that cannot be true simultaneously.
+
+Example:
+
+Input:
+∀x(Cube(x) → Large(x))
+Output:
+All large cubes are not large.
+Explanation:
+Output contradicts itself, since Output states that, at the same time, all cubes are large and not large.
+
+----------------------------------------------------
+
+AMBIGUITY:
+Output is ambiguous, if by reading Output, you perceive distinct interpretations for Output.
+
+Example:
+
+Input:
+∀x(Cube(x) → ∃y(Tetrahedron(y) ∧ Behind(x, y)))
+Output:
+Every cube is behind a tetrahedron.
+Explanation:
+Output is ambiguous, because you could perceive (at least) two distinct interpretations: (i) each cube is behind a (possibly different) tetrahedron, or (ii) there is some tetrahedron that is in front of all cubes.
+
+
+----------------------------------------------------
+
+This is a new Input - Output pair. Please answer the question based on the definitions and examples above.
+
+Input:
+∃ x ∃ y ∃ z ∃ u ( Cube ( x ) ∧ Cube ( y ) ∧ Dodec ( z ) ∧ Dodec ( u ) ∧ ∀ v ( Cube ( v ) → ( x = v ∨ y = v ) ) ∧ ∀ w ( Dodec ( w ) → ( z = w ∨ u = w ) ) ∧ ¬ x = y ∧ ¬ z = u ∧ ¬ x = z ∧ ¬ x = u ∧ ¬ y = z ∧ ¬ y = u ∧ ¬ BackOf ( x , z ) ∧ ¬ BackOf ( x , u ) ∧ ¬ BackOf ( y , z ) ∧ ¬ BackOf ( y , u ) )
+
+Output:
+There is a cube and a cube and a dodecahedron and a dodecahedron such that for all cubes, they are either the first cube or the second cube, and for all dodecahedrons, they are either the first dodecahedron or the second dodecahedron, and the first cube is not the second cube, and the first dodecahedron is not the second dodecahedron, and the first cube is not the first dodecahedron, and the first cube is not the second dodecahedron, and the second cube is not the first dodecahedron, and the second cube is not the second dodecahedron, and the first cube is not behind the first dodecahedron, and the first cube is not behind the second dodecahedron, and the second cube is not behind the first dodecahedron, and the second cube is not behind the second dodecahedron.
+
+Based on all the above, answer the following question. The final line of your response must contain ONLY YES or NO.
+
+Question: Is Output ambiguous?
+
