@@ -1,0 +1,7 @@
+no possible to release ggc
+removed sensitive code from trivago
+api keys to be added
+anonymized
+some path may need to be adjusted
+(conda?): try at least to put main libraries
+logic/trivago/llms. first two same structure more or less
