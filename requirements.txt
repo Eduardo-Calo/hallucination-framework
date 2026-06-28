@@ -1,0 +1,9 @@
+pandas
+numpy
+krippendorff
+plotly
+scipy
+scikit-learn
+spacy
+collatex
+requests
