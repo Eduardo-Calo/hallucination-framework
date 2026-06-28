@@ -16,15 +16,15 @@ conda create --name hallucination-framework --file requirements.txt python=3.13.
 
 The repo is divided into three main subfolders, each of which has a similar internal structure.
 
-`LLMs` contains the code and data used to perform annotation with LLMs in both domains, and the resulting annotations.
-`Logic` contains the code and data used to perform annotation with humans in the logic domain, and the resulting annotations. For the logic domain, we leveraged a subset of data deriving from the [Grade Grinder Corpus](https://www.semanticscholar.org/paper/Student-Translations-of-Natural-Language-into-The-Barker-Plummer-Cox/28e805aae41255b8515173669ea19faa61e7cb87).
-`Trivago` contains the code and data used to perform annotation with humans in the hotel domain, and the resulting annotations.
+`LLMs` contains the code (`src`) and data (`data`, including gold annotations, copied here from `Logic` and `Trivago` folders) used to perform annotation with LLMs in both domains, and the resulting annotations and code to analyze them (`results`).  
+`Logic` contains the data (`data`) used to perform annotation with humans in the logic domain, and the resulting annotations (crowdsourced in `evaluation/annotations` and gold in `evaluation/gold_label`) and code to analyze them (`evaluation`). For the logic domain, we leveraged a subset of data deriving from the [Grade Grinder Corpus](https://www.semanticscholar.org/paper/Student-Translations-of-Natural-Language-into-The-Barker-Plummer-Cox/28e805aae41255b8515173669ea19faa61e7cb87), preprocessed using the file in `evaluation/utils`.  
+`Trivago` contains the data (`data`) used to perform annotation with humans in the hotel domain, and the resulting annotations (crowdsourced in `experiment/crowdsourcing` (Prolific crowdworkers) and `experiment/trivago annotations` (trivago employees), and gold in `experiment/gold_label`), and code to analyze them (`experiment/analysis`). For the hotel domain, we leveraged data from the internal trivago database.
 
 Note that:
 - We cannot share the original Grade Grinder Corpus.
-- We redacted part of the code, sensitive as belonging to trivago.
+- We redacted part of the code, sensitive as belonging to trivago (e.g., data fetching and output generation for the hotel domain).
 - Crowdworkers' information cannot be shared. We release the raw annotations anonymized, without IDs and demographic information.
-- We redacted API keys. You need to acquire your own to run part of the code.
+- We redacted API keys. You need to acquire your own keys to run part of the code.
 - You may need to adjust some paths.
 
 # Citation
