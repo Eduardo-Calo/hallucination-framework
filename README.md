@@ -36,7 +36,25 @@ Note that:
 If you find this work helpful or use any artifact coming from it, please cite our paper as follows:
 
 ```bibtext
-TBA
+@inproceedings{calo-etal-2026-logic,
+    title = "A Logic-Based Approach to Hallucinations in Data-to-Text {NLG}: Experiments with Human and {LLM} Annotators",
+    author = "Cal{\`o}, Eduardo  and
+      Mahamood, Saad  and
+      Gatt, Albert  and
+      Van Deemter, Kees",
+    editor = "Mohammad, Saif M.  and
+      Ousidhoum, Nedjma",
+    booktitle = "Proceedings of the 15th Joint Conference on Lexical and Computational Semantics (*{SEM} 2026)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.starsem-conference.3/",
+    doi = "10.18653/v1/2026.starsem-conference.3",
+    pages = "28--62",
+    ISBN = "979-8-89176-413-2",
+    abstract = "Hallucinations are a persistent challenge in natural language generation, including data-to-text. van Deemter (2024) introduced a framework based on the relation of logical consequence ({''}follows from''), which divides all data-to-text hallucinations into seven disjoint categories. We examine whether human annotators and large language models are able to apply the framework, in two data-to-text domains. Results suggest that the framework is applicable, although there are significant domain-dependent variations, as well as discrepancies between human and model judgments. We also uncover several issues that should inform future work on hallucination."
+}
 ```
 
 # License
